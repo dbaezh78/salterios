@@ -1,0 +1,33 @@
+<!-- ****************************************************************** -->
+<!-- Este nos pone la fecha del sistema -->
+<!-- ****************************************************************** -->
+
+<!-- Este nos lleva una carpeta atras -->
+<a href="./"><FONT COLOR="#FF0000"><STRONG>COMPLETAS</STRONG><BR></a>
+
+<!-- ****************************************************************** -->
+<!-- Este nos pone la fecha del sistema -->
+<!-- ****************************************************************** -->
+
+<I><span id="fecha"></span></I>
+	  <script>
+    // Obtener la fecha actual
+    var fechaActual = new Date();
+    
+    // Obtener el día del mes y el mes actual
+    var dia = fechaActual.getDate();
+    var mes = fechaActual.toLocaleString('es', { month: 'long' });
+
+    // Mostrar la fecha en el formato deseado
+    document.getElementById('fecha').innerHTML = dia + ' de ' + mes;
+  </script>
+
+<!-- ****************************************************************** -->
+<!-- Este nos pone 3 diferentes fuentes -->
+<!-- ****************************************************************** -->
+
+<select id="tamanioFuente" onchange="document.getElementById('cuerpo').style.fontSize = this.value + 'em';">
+  <option value="1.1">Pequeño</option>
+  <option value="1.3">Mediano</option>
+  <option value="1.5">Grande</option>
+</select>
