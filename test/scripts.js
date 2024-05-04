@@ -1,57 +1,88 @@
-// Función para generar un list box con enlaces específicos para Tiempo de Adviento
-function generarListBoxConEnlacesAdviento() {
-    return generarListBoxConEnlaces([
-        { numero: 1, url: 'https://adviento.com/ejemplo1' },
-        { numero: 2, url: 'https://adviento.com/ejemplo2' },
-        { numero: 3, url: 'https://adviento.com/ejemplo3' },
-        { numero: 4, url: 'https://adviento.com/ejemplo4' }
-    ]);
+function mostrarPanel() {
+    const select = document.getElementById('tiempoLiturgico');
+    const panel = document.getElementById('panel');
+
+    // Obtener el valor seleccionado
+    const selectedValue = select.value;
+
+    // Contenido del panel según la selección
+    let panelContent = '';
+
+    switch (selectedValue) {
+        case 'adviento':
+            panelContent = generarListBox([1, 2, 3, 4]);
+            break;
+        case 'ordinario':
+            panelContent = generarListBoxConEnlaceTiempoOrdinario();
+            break;
+        case 'cuaresma':
+            panelContent = generarListBox([1, 2, 3, 4, 5, 6, 7]);
+            break;
+        case 'pascual':
+            panelContent = generarListBox([1, 2, 3, 4, 5, 6, 7]);
+            break;
+        default:
+            panelContent = ''; // No se seleccionó nada
+            break;
+    }
+
+    // Mostrar el panel y actualizar su contenido
+    if (selectedValue !== '') {
+        panel.style.display = 'block';
+        panel.innerHTML = panelContent;
+
+        // Agregar un listener para el evento de cambio en el list box
+        const numeroListBox = document.getElementById('numeroListBox');
+        if (numeroListBox) {
+            numeroListBox.addEventListener('change', function() {
+                const selectedNumber = parseInt(this.value); // Obtener el número seleccionado como entero
+
+                // Redirigir a la URL correspondiente al número seleccionado
+                switch (selectedNumber) {
+                    case 1:
+                        window.location.href = 'https://1.com';
+                        break;
+                    case 2:
+                        window.location.href = 'https://2.com';
+                        break;
+                    // Agregar más casos para otros números si es necesario
+                    default:
+                        break;
+                }
+            });
+        }
+    } else {
+        panel.style.display = 'none';
+    }
 }
 
 // Función para generar un list box con enlaces específicos para Tiempo Ordinario
-function generarListBoxConEnlacesOrdinario() {
-    return generarListBoxConEnlaces([
-        { numero: 1, url: 'https://ordinario.com/ejemplo1' },
-        { numero: 2, url: 'https://ordinario.com/ejemplo2' },
-        { numero: 3, url: 'https://ordinario.com/ejemplo3' },
-        { numero: 4, url: 'https://ordinario.com/ejemplo4' }
-        // Agregar más enlaces para otros números del Tiempo Ordinario si es necesario
-    ]);
-}
-
-// Función para generar un list box con enlaces específicos para Tiempo de Cuaresma
-function generarListBoxConEnlacesCuaresma() {
-    return generarListBoxConEnlaces([
-        { numero: 1, url: 'https://cuaresma.com/ejemplo1' },
-        { numero: 2, url: 'https://cuaresma.com/ejemplo2' },
-        { numero: 3, url: 'https://cuaresma.com/ejemplo3' },
-        { numero: 4, url: 'https://cuaresma.com/ejemplo4' },
-        { numero: 5, url: 'https://cuaresma.com/ejemplo5' },
-        { numero: 6, url: 'https://cuaresma.com/ejemplo6' },
-        { numero: 7, url: 'https://cuaresma.com/ejemplo7' }
-    ]);
-}
-
-// Función para generar un list box con enlaces específicos para Tiempo Pascual
-function generarListBoxConEnlacesPascual() {
-    return generarListBoxConEnlaces([
-        { numero: 1, url: 'https://pascual.com/ejemplo1' },
-        { numero: 2, url: 'https://pascual.com/ejemplo2' },
-        { numero: 3, url: 'https://pascual.com/ejemplo3' },
-        { numero: 4, url: 'https://pascual.com/ejemplo4' },
-        { numero: 5, url: 'https://pascual.com/ejemplo5' },
-        { numero: 6, url: 'https://pascual.com/ejemplo6' },
-        { numero: 7, url: 'https://pascual.com/ejemplo7' }
-    ]);
-}
-
-// Función genérica para generar un list box con enlaces específicos
-function generarListBoxConEnlaces(enlaces) {
+function generarListBoxConEnlaceTiempoOrdinario() {
     let listBoxHTML = '<select id="numeroListBox">';
 
-    enlaces.forEach(enlace => {
-        listBoxHTML += `<option value="${enlace.numero}">${enlace.numero}</option>`;
-    });
+    for (let i = 1; i <= 34; i++) {
+        let enlace = ''; // Variable para almacenar el enlace correspondiente
+
+        // Asignar el enlace según el número
+        switch (i) {
+            case 1:
+                enlace = 'https://1.com';
+                break;
+            case 2:
+                enlace = 'https://2.com';
+                break;
+            default:
+                enlace = ''; // No hay enlace para otros números
+                break;
+        }
+
+        // Generar la opción con enlace (si hay enlace)
+        if (enlace !== '') {
+            listBoxHTML += `<option value="${i}">${i}</option>`;
+        } else {
+            listBoxHTML += `<option value="${i}">${i}</option>`;
+        }
+    }
 
     listBoxHTML += '</select>';
 
