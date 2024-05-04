@@ -79,8 +79,6 @@ function generarListBoxConEnlacesOrdinario() {
         { numero: 2, url: 'https://ordinario.com/ejemplo2' },
         { numero: 3, url: 'https://ordinario.com/ejemplo3' },
         { numero: 4, url: 'https://dbaezh78.github.io/salterios/blob/main/sync/2019/abr/01/laudes.htm' },
-        
-        
         // Agregar más enlaces para otros números del Tiempo Ordinario si es necesario
     ]);
 }
