@@ -32,28 +32,25 @@ function mostrarPanel() {
         panel.innerHTML = panelContent;
 
         // Agregar un listener para el evento de cambio en el list box
-        select.addEventListener('change', function() {
-            const selectedNumber = parseInt(this.value); // Obtener el número seleccionado como entero
+        const numeroListBox = document.getElementById('numeroListBox');
+        if (numeroListBox) {
+            numeroListBox.addEventListener('change', function() {
+                const selectedNumber = parseInt(this.value); // Obtener el número seleccionado como entero
 
-            // Redirigir a la URL correspondiente al número seleccionado
-            switch (selectedValue) {
-                case 'ordinario':
-                    switch (selectedNumber) {
-                        case 1:
-                            window.location.href = 'https://1.com';
-                            break;
-                        case 2:
-                            window.location.href = 'https://2.com';
-                            break;
-                        // Agregar más casos para otros números si es necesario
-                        default:
-                            break;
-                    }
-                    break;
-                default:
-                    break;
-            }
-        });
+                // Redirigir a la URL correspondiente al número seleccionado
+                switch (selectedNumber) {
+                    case 1:
+                        window.location.href = 'https://1.com';
+                        break;
+                    case 2:
+                        window.location.href = 'https://2.com';
+                        break;
+                    // Agregar más casos para otros números si es necesario
+                    default:
+                        break;
+                }
+            });
+        }
     } else {
         panel.style.display = 'none';
     }
