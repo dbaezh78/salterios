@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fecha actual</title>
+</head>
+<body>
+  <p>La fecha de hoy es: <I><span id="fecha"></span></I></p>
+
+  <script>
+    // Obtener la fecha actual
+    var fechaActual = new Date();
+    
+    // Obtener el día del mes y el mes actual
+    var dia = fechaActual.getDate();
+    var mes = fechaActual.toLocaleString('es', { month: 'long' });
+
+    // Mostrar la fecha en el formato deseado
+    document.getElementById('fecha').innerHTML = dia + ' de ' + mes;
+  </script>
+</body>
+</html>
