@@ -10,16 +10,16 @@ function mostrarPanel() {
 
     switch (selectedValue) {
         case 'adviento':
-            panelContent = generarListBox([1, 2, 3, 4]);
+            panelContent = generarListBoxConEnlacesAdviento();
             break;
         case 'ordinario':
-            panelContent = generarListBoxConEnlaceTiempoOrdinario();
+            panelContent = generarListBoxConEnlacesOrdinario();
             break;
         case 'cuaresma':
-            panelContent = generarListBox([1, 2, 3, 4, 5, 6, 7]);
+            panelContent = generarListBoxConEnlacesCuaresma();
             break;
         case 'pascual':
-            panelContent = generarListBox([1, 2, 3, 4, 5, 6, 7]);
+            panelContent = generarListBoxConEnlacesPascual();
             break;
         default:
             panelContent = ''; // No se seleccionó nada
@@ -38,14 +38,19 @@ function mostrarPanel() {
                 const selectedNumber = parseInt(this.value); // Obtener el número seleccionado como entero
 
                 // Redirigir a la URL correspondiente al número seleccionado
-                switch (selectedNumber) {
-                    case 1:
-                        window.location.href = 'https://1.com';
+                switch (selectedValue) {
+                    case 'adviento':
+                        redirigirAdviento(selectedNumber);
                         break;
-                    case 2:
-                        window.location.href = 'https://2.com';
+                    case 'ordinario':
+                        redirigirOrdinario(selectedNumber);
                         break;
-                    // Agregar más casos para otros números si es necesario
+                    case 'cuaresma':
+                        redirigirCuaresma(selectedNumber);
+                        break;
+                    case 'pascual':
+                        redirigirPascual(selectedNumber);
+                        break;
                     default:
                         break;
                 }
@@ -56,35 +61,103 @@ function mostrarPanel() {
     }
 }
 
+// Función para generar un list box con enlaces específicos para Tiempo de Adviento
+function generarListBoxConEnlacesAdviento() {
+    return generarListBoxConEnlaces([
+        { numero: 1, url: 'https://adviento.com/ejemplo1' },
+        { numero: 2, url: 'https://adviento.com/ejemplo2' },
+        { numero: 3, url: 'https://adviento.com/ejemplo3' },
+        { numero: 4, url: 'https://adviento.com/ejemplo4' }
+    ]);
+}
+
 // Función para generar un list box con enlaces específicos para Tiempo Ordinario
-function generarListBoxConEnlaceTiempoOrdinario() {
+function generarListBoxConEnlacesOrdinario() {
+    return generarListBoxConEnlaces([
+        { numero: 1, url: 'https://ordinario.com/ejemplo1' },
+        { numero: 2, url: 'https://ordinario.com/ejemplo2' },
+        // Agregar más enlaces para otros números del Tiempo Ordinario si es necesario
+    ]);
+}
+
+// Función para generar un list box con enlaces específicos para Tiempo de Cuaresma
+function generarListBoxConEnlacesCuaresma() {
+    return generarListBoxConEnlaces([
+        { numero: 1, url: 'https://cuaresma.com/ejemplo1' },
+        { numero: 2, url: 'https://cuaresma.com/ejemplo2' },
+        { numero: 3, url: 'https://cuaresma.com/ejemplo3' },
+        { numero: 4, url: 'https://cuaresma.com/ejemplo4' },
+        { numero: 5, url: 'https://cuaresma.com/ejemplo5' },
+        { numero: 6, url: 'https://cuaresma.com/ejemplo6' },
+        { numero: 7, url: 'https://cuaresma.com/ejemplo7' }
+    ]);
+}
+
+// Función para generar un list box con enlaces específicos para Tiempo Pascual
+function generarListBoxConEnlacesPascual() {
+    return generarListBoxConEnlaces([
+        { numero: 1, url: 'https://pascual.com/ejemplo1' },
+        { numero: 2, url: 'https://pascual.com/ejemplo2' },
+        { numero: 3, url: 'https://pascual.com/ejemplo3' },
+        { numero: 4, url: 'https://pascual.com/ejemplo4' },
+        { numero: 5, url: 'https://pascual.com/ejemplo5' },
+        { numero: 6, url: 'https://pascual.com/ejemplo6' },
+        { numero: 7, url: 'https://pascual.com/ejemplo7' }
+    ]);
+}
+
+// Función genérica para generar un list box con enlaces específicos
+function generarListBoxConEnlaces(enlaces) {
     let listBoxHTML = '<select id="numeroListBox">';
 
-    for (let i = 1; i <= 34; i++) {
-        let enlace = ''; // Variable para almacenar el enlace correspondiente
-
-        // Asignar el enlace según el número
-        switch (i) {
-            case 1:
-                enlace = 'https://1.com';
-                break;
-            case 2:
-                enlace = 'https://2.com';
-                break;
-            default:
-                enlace = ''; // No hay enlace para otros números
-                break;
-        }
-
-        // Generar la opción con enlace (si hay enlace)
-        if (enlace !== '') {
-            listBoxHTML += `<option value="${i}">${i}</option>`;
-        } else {
-            listBoxHTML += `<option value="${i}">${i}</option>`;
-        }
-    }
+    enlaces.forEach(enlace => {
+        listBoxHTML += `<option value="${enlace.numero}">${enlace.numero}</option>`;
+    });
 
     listBoxHTML += '</select>';
 
     return listBoxHTML;
 }
+
+// Funciones específicas de redirección para cada Tiempo Litúrgico y número
+function redirigirAdviento(numero) {
+    switch (numero) {
+        case 1:
+            window.location.href = 'https://adviento.com/ejemplo1';
+            break;
+        case 2:
+            window.location.href = 'https://adviento.com/ejemplo2';
+            break;
+        case 3:
+            window.location.href = 'https://adviento.com/ejemplo3';
+            break;
+        case 4:
+            window.location.href = 'https://adviento.com/ejemplo4';
+            break;
+        default:
+            break;
+    }
+}
+
+function redirigirOrdinario(numero) {
+    switch (numero) {
+        case 1:
+            window.location.href = 'https://ordinario.com/ejemplo1';
+            break;
+        case 2:
+            window.location.href = 'https://ordinario.com/ejemplo2';
+            break;
+        // Agregar más casos para otros números del Tiempo Ordinario si es necesario
+        default:
+            break;
+    }
+}
+
+function redirigirCuaresma(numero) {
+    // Implementar la lógica de redirección para Tiempo de Cuaresma según el número seleccionado
+    switch (numero) {
+        case 1:
+            window.location.href = 'https://cuaresma.com/ejemplo1';
+            break;
+        case 2:
+            window.location.href
