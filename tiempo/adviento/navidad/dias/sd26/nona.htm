@@ -12,17 +12,15 @@
   <div align="right">
     <font color="#CC9933">
       tama&ntilde;o: </font>
-    <a href="#" onclick="document.getElementById('cuerpo').style.fontSize='1.1em'; return false;">
-      <font color="#CC9933" size="3">A</font>
-    </a>
-    <a href="#" onclick="document.getElementById('cuerpo').style.fontSize='1.3em'; return false;">
-      <font color="#CC9933" size="5">A</font>
-    </a>
-    <a href="#" onclick="document.getElementById('cuerpo').style.fontSize='1.5em'; return false;">
-      <font color="#CC9933" size="6">A</font>
-    </a>
+	<select id="tamanioFuente" onchange="document.getElementById('cuerpo').style.fontSize = this.value + 'em';">
+	  <option value="1.1">Pequeño</option>
+	  <option value="1.3">Mediano</option>
+	  <option value="1.5">Grande</option>
+	</select>
+
   </div>
   <div id="cuerpo" class="normal">
+<a href="./">
 
     <FONT COLOR="#FF0000"><STRONG>HORA NONA</STRONG><BR><BR>
       INVOCACI&Oacute;N INICIAL<BR><BR>
