@@ -26,7 +26,21 @@
       <FONT COLOR="#FF0000">
         <FONT COLOR="#FF0000"><STRONG>TIEMPO DE CUARESMA</STRONG><BR><STRONG>VIERNES SANTO DE LA PASI&Oacute;N DEL SE&Ntilde;OR</STRONG><BR>Del Propio. <BR></FONT><BR>
         <FONT COLOR="#9E5806">Es conveniente que hoy, el Oficio de Lecturas y Laudes, sean celebrados solemnemente con el pueblo (ver I.G.L.H. 210)<BR>Ayuno y abstinencia<BR></FONT><BR>
-        <FONT COLOR="#FF0000"><I>10 de abril</I>
+        <FONT COLOR="#FF0000">
+		
+		<I><span id="fecha"></span></I>
+	  <script>
+    // Obtener la fecha actual
+    var fechaActual = new Date();
+    
+    // Obtener el día del mes y el mes actual
+    var dia = fechaActual.getDate();
+    var mes = fechaActual.toLocaleString('es', { month: 'long' });
+
+    // Mostrar la fecha en el formato deseado
+    document.getElementById('fecha').innerHTML = dia + ' de ' + mes;
+  </script>  
+
     </CENTER>
     <BR><BR>
     <TABLE WIDTH="100%" BORDER="1">

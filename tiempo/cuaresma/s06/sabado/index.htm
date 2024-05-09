@@ -24,7 +24,21 @@
 
     <CENTER></a>
       <FONT COLOR="#FF0000">
-        <FONT COLOR="#FF0000"><STRONG>TIEMPO DE CUARESMA</STRONG><BR><STRONG>TRIDUO PASCUAL - S&Aacute;BADO SANTO</STRONG><BR>Del Propio.<BR><BR><I>11 de abril</I>
+        <FONT COLOR="#FF0000"><STRONG>TIEMPO DE CUARESMA</STRONG><BR><STRONG>TRIDUO PASCUAL - S&Aacute;BADO SANTO</STRONG><BR>Del Propio.<BR><BR>
+		
+		<I><span id="fecha"></span></I>
+	  <script>
+    // Obtener la fecha actual
+    var fechaActual = new Date();
+    
+    // Obtener el día del mes y el mes actual
+    var dia = fechaActual.getDate();
+    var mes = fechaActual.toLocaleString('es', { month: 'long' });
+
+    // Mostrar la fecha en el formato deseado
+    document.getElementById('fecha').innerHTML = dia + ' de ' + mes;
+  </script>  
+
     </CENTER>
     <BR><BR>
     <TABLE WIDTH="100%" BORDER="1">
