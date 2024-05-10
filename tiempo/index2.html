@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccionar Tiempo Litúrgico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Seleccionar Tiempo Litúrgico</h1>
+    
+    <select id="tiempoLiturgico" onchange="mostrarPanel()">
+        <option value="">Selecciona un tiempo litúrgico</option>
+        <option value="adviento">Tiempo Adviento</option>
+        <option value="ordinario">Tiempo Ordinario</option>
+        <option value="cuaresma">Tiempo Cuaresma</option>
+        <option value="pascual">Tiempo Pascual</option>
+    </select>
+
+    <div id="panel">
+        <!-- Aquí se mostrará el panel según la selección -->
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
