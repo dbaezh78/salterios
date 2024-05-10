@@ -9,9 +9,11 @@
 	  <option value="1.5">Grande</option>
 	</select>
 
-
+  </div>
+  <div id="cuerpo" class="normal">
 <a href="./">
 
+</a>
 
 <I><span id="fecha"></span></I>
 	  <script>
