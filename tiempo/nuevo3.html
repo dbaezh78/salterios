@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Litúrgico</title>
+    <style>
+        #opciones {
+            margin-top: 20px;
+        }
+        .semana {
+            font-weight: bold;
+            color: red;
+            display: inline-block; /* Para que la semana esté en la misma línea que los botones */
+            margin-bottom: 10px;
+        }
+        .dias-buttons {
+            margin-top: 5px;
+        }
+        .dias-buttons button {
+            margin-right: 5px;
+            margin-bottom: 5px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calendario Litúrgico</h1>
+
+    <!-- Botones por Tiempo Litúrgico -->
+    <button onclick="mostrarTiempoLiturgico('Adviento')">Adviento</button>
+    <button onclick="mostrarTiempoLiturgico('Cuaresma')">Cuaresma</button>
+    <button onclick="mostrarTiempoLiturgico('Tiempo Ordinario')">Tiempo Ordinario</button>
+    <button onclick="mostrarTiempoLiturgico('Tiempo Pascual')">Tiempo Pascual</button>
+
+    <!-- Contenedor dinámico para mostrar las opciones -->
+    <div id="opciones"></div>
+
+    <script>
+        let currentWeek = null;
+
+        // Función para mostrar las opciones de cada Tiempo Litúrgico
+        function mostrarTiempoLiturgico(tiempo) {
+            const opciones = document.getElementById('opciones');
+            if (tiempo === 'Adviento') {
+                opciones.innerHTML = `
+                    <div class="semana-buttons">
+                        <button onclick="mostrarSemana('Semana 1')">Semana 1</button>
+                        <button onclick="mostrarSemana('Semana 2')">Semana 2</button>
+                        <button onclick="mostrarSemana('Semana 3')">Semana 3</button>
+                        <button onclick="mostrarSemana('Semana 4')">Semana 4</button>
+                        <button onclick="mostrarNavidad()">Navidad</button>
+                    </div>
+                    <div class="dias-buttons" id="diasSemana"></div>
+                `;
+            } else if (tiempo === 'Cuaresma') {
+                opciones.innerHTML = `
+                    <!-- Agregar las opciones para Cuaresma -->
+                `;
+            } else if (tiempo === 'Tiempo Ordinario') {
+                opciones.innerHTML = `
+                    <!-- Agregar las opciones para Tiempo Ordinario -->
+                `;
+            } else if (tiempo === 'Tiempo Pascual') {
+                opciones.innerHTML = `
+                    <!-- Agregar las opciones para Tiempo Pascual -->
+                `;
+            }
+        }
+
+        // Función para mostrar las semanas de Adviento
+        function mostrarSemana(semana) {
+            currentWeek = semana;
+            const diasSemana = `
+                <div class="semana">${semana}</div>
+                <div>
+                    <button onclick="mostrarDia('Domingo')">Domingo</button>
+                    <button onclick="mostrarDia('Lunes')">Lunes</button>
+                    <button onclick="mostrarDia('Martes')">Martes</button>
+                    <button onclick="mostrarDia('Miércoles')">Miércoles</button>
+                    <button onclick="mostrarDia('Jueves')">Jueves</button>
+                    <button onclick="mostrarDia('Viernes')">Viernes</button>
+                    <button onclick="mostrarDia('Sábado')">Sábado</button>
+                </div>
+            `;
+            document.getElementById('diasSemana').innerHTML = diasSemana;
+        }
+
+        // Función para mostrar los días de Navidad
+        function mostrarNavidad() {
+            const opciones = document.getElementById('opciones');
+            opciones.innerHTML = `
+                <div class="semana">Navidad</div>
+                <div>
+                    <button onclick="mostrarDia('Domingo')">Domingo de Navidad</button>
+                    <button onclick="mostrarDia('Lunes')">Lunes de Navidad</button>
+                    <button onclick="mostrarDia('Martes')">Martes de Navidad</button>
+                    <button onclick="mostrarDia('Miércoles')">Miércoles de Navidad</button>
+                    <button onclick="mostrarDia('Jueves')">Jueves de Navidad</button>
+                    <button onclick="mostrarDia('Viernes')">Viernes de Navidad</button>
+                    <button onclick="mostrarDia('Sábado')">Sábado de Navidad</button>
+                </div>
+            `;
+        }
+
+        // Función para abrir el enlace del día seleccionado
+        function mostrarDia(dia) {
+            if (currentWeek) {
+                const nombreDia = dia.toLowerCase();
+                const nombreSemana = currentWeek.toLowerCase().replace(' ', '_');
+                window.location.href = `enlace_del_${nombreSemana}_${nombreDia}.html`;
+            }
+        }
+    </script>
+</body>
+</html>

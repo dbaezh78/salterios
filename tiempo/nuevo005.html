@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semanas</title>
+    <style>
+        /* Estilo para el contenedor de los números */
+        .number-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        /* Estilo para los enlaces de los números */
+        .number-link {
+            text-decoration: none;
+            color: #333;
+            margin: 0 5px;
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        /* Estilo para los días de la semana */
+        .day-container {
+            display: none;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        /* Mostrar el contenedor de días cuando el enlace específico es seleccionado */
+        .number-link:target + .day-container {
+            display: flex;
+        }
+        
+        /* Estilo para los enlaces de los días de la semana */
+        .day-link {
+            text-decoration: none;
+            color: #333;
+            margin: 5px;
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Semanas</h1>
+
+<!-- Contenedor principal de los números -->
+<div class="number-container">
+    <!-- Enlaces para las semanas -->
+    <a class="number-link" href="#days1">1</a>
+    <a class="number-link" href="#days2">2</a>
+</div>
+
+<!-- Contenedor de días de la semana para la semana 1 -->
+<div class="day-container" id="days1">
+    <a class="day-link" href="#">Domingo</a>
+    <a class="day-link" href="#">Lunes</a>
+    <a class="day-link" href="#">Martes</a>
+    <a class="day-link" href="#">Miércoles</a>
+    <a class="day-link" href="#">Jueves</a>
+    <a class="day-link" href="#">Viernes</a>
+    <a class="day-link" href="#">Sábado</a>
+</div>
+
+<!-- Contenedor de días de la semana para la semana 2 -->
+<div class="day-container" id="days2">
+    <a class="day-link" href="#">Domingo</a>
+    <a class="day-link" href="#">Lunes</a>
+    <a class="day-link" href="#">Martes</a>
+    <a class="day-link" href="#">Miércoles</a>
+    <a class="day-link" href="#">Jueves</a>
+    <a class="day-link" href="#">Viernes</a>
+    <a class="day-link" href="#">Sábado</a>
+</div>
+
+<!-- JavaScript opcional para activar el primer enlace al cargar la página -->
+<script>
+    // Activar el primer enlace al cargar la página (opcional)
+    window.onload = function() {
+        document.querySelector('.number-link').click();
+    };
+</script>
+
+</body>
+</html>

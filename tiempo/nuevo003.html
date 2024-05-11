@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números del 1 al 34 con Enlaces</title>
+    <style>
+        /* Estilo para el contenedor de los números */
+        .number-container {
+            display: flex; /* Utilizar Flexbox para disposición flexible */
+            justify-content: center; /* Centrar los elementos horizontalmente */
+            align-items: center; /* Centrar los elementos verticalmente */
+            font-size: 18px; /* Tamaño de fuente */
+            margin-bottom: 10px; /* Margen inferior entre contenedores */
+        }
+        
+        /* Estilo para los enlaces de los números como botones */
+        .number-link {
+            text-decoration: none; /* Sin subrayado */
+            color: #888; /* Color gris */
+            margin: 5px; /* Margen alrededor de cada número */
+            padding: 8px 12px; /* Padding interno */
+            border: 1px solid #ccc; /* Borde gris */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s, color 0.3s; /* Transición suave */
+            text-align: center; /* Centrar el texto */
+            width: 50px; /* Ancho fijo para cada botón */
+        }
+        
+        /* Estilo para los enlaces de números cuando están seleccionados */
+        .number-link:hover, .number-link:active, .number-link:focus {
+            color: #fff; /* Texto blanco al interactuar */
+            background-color: skyblue; /* Fondo azul cielo al interactuar */
+            border-color: skyblue; /* Borde azul cielo al interactuar */
+        }
+        
+        /* Estilo para los días de la semana */
+        .day-container {
+            display: none; /* Ocultar por defecto */
+            justify-content: center; /* Centrar los elementos horizontalmente */
+            margin-top: 20px; /* Margen superior */
+        }
+        
+        /* Mostrar el contenedor de días cuando el enlace específico es seleccionado */
+        .number-link:target + .day-container {
+            display: flex; /* Mostrar cuando el enlace es seleccionado */
+        }
+        
+        /* Estilo para los enlaces de los días de la semana */
+        .day-link {
+            text-decoration: none; /* Sin subrayado */
+            color: #333; /* Color de texto oscuro */
+            margin: 5px; /* Margen alrededor de cada día */
+            padding: 8px 12px; /* Padding interno */
+            border: 1px solid #ccc; /* Borde gris */
+            border-radius: 5px; /* Bordes redondeados */
+            text-align: center; /* Centrar el texto */
+            cursor: pointer; /* Cambiar el cursor al interactuar */
+        }
+        
+        /* Estilo para los enlaces de los días de la semana cuando están seleccionados */
+        .day-link:hover, .day-link:active, .day-link:focus {
+            color: #fff; /* Texto blanco al interactuar */
+            background-color: #007bff; /* Fondo azul al interactuar */
+            border-color: #007bff; /* Borde azul al interactuar */
+        }
+    </style>
+</head>
+<body>
+
+<h1>Tiempo Ordinario</h1>
+
+<!-- Contenedor principal de los números -->
+<div class="number-container">
+    <!-- Mostrar números del 1 al 34 con enlaces -->
+    <a class="number-link" href="#1">1</a>
+    <a class="number-link" href="#2">2</a>
+    <a class="number-link" href="#3">3</a>
+    <a class="number-link" href="#4">4</a>
+    <a class="number-link" href="#5">5</a>
+    <a class="number-link" href="#6">6</a>
+    <a class="number-link" href="#7">7w</a>
+</div>
+
+<!-- Contenedor de días de la semana para el número 1 -->
+<div class="day-container" id="days1">
+    <!-- Mostrar los días de la semana -->
+    <a class="day-link" href="#">Domingo</a>
+    <a class="day-link" href="#">Lunes</a>
+    <a class="day-link" href="#">Martes</a>
+    <a class="day-link" href="#">Miércoles</a>
+    <a class="day-link" href="#">Jueves</a>
+    <a class="day-link" href="#">Viernes</a>
+    <a class="day-link" href="#">Sábado</a>
+</div>
+
+<!-- Agregar más contenedores de días de la semana para otros números si es necesario -->
+
+<div class="day-container" id="days2">
+    <!-- Mostrar los días de la semana -->
+    <a class="day-link" href="#">Domingo</a>
+    <a class="day-link" href="#">Lunes</a>
+    <a class="day-link" href="#">Martes</a>
+    <a class="day-link" href="#">Miércoles</a>
+    <a class="day-link" href="#">Jueves</a>
+    <a class="day-link" href="#">Viernes</a>
+    <a class="day-link" href="#">Sábado</a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Litúrgico</title>
+    <style>
+        .matrix {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr); /* Define 6 columnas en la cuadrícula */
+            gap: 10px; /* Espacio entre las celdas */
+        }
+
+        .cell {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px; /* Ancho de cada celda */
+            height: 50px; /* Altura de cada celda */
+            background-color: lightblue; /* Color de fondo de las celdas */
+            cursor: pointer; /* Cambia el cursor al pasar sobre las celdas */
+        }
+    </style>
+</head>
+<body>
+    <h1>Calendario Litúrgico</h1>
+    
+    <div id="categorias">
+        <h2>Selecciona una categoría:</h2>
+        <label><input type="checkbox" name="categoria" value="adviento"> Adviento</label><br>
+        <label><input type="checkbox" name="categoria" value="navidad"> Navidad</label><br>
+        <label><input type="checkbox" name="categoria" value="ordinario"> Ordinario</label><br>
+        <label><input type="checkbox" name="categoria" value="cuaresma"> Cuaresma</label><br>
+        <label><input type="checkbox" name="categoria" value="pascua"> Pascua</label><br>
+        <label><input type="checkbox" name="categoria" value="santos"> Santos</label><br>
+    </div>
+
+    <div id="contenido">
+        <!-- Aquí se mostrará el contenido dinámico -->
+    </div>
+
+    <script src="s1.js"></script>
+</body>
+</html>

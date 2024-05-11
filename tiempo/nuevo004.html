@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiempo Ordinario</title>
+    <style>
+        /* Estilos para los contenedores y enlaces */
+		
+		.Tiempos-liturgicos{
+			display: flex; /* Utilizar Flexbox para disposición flexible */
+            justify-content: center; /* Centrar los elementos horizontalmente */
+            align-items: center; /* Centrar los elementos verticalmente */
+            font-size: 18px; /* Tamaño de fuente */
+            margin-bottom: 10px; /* Margen inferior entre contenedores */
+        }
+
+        .number-container {
+			display: none; /* Utilizar Flexbox para disposición flexible */
+            justify-content: center; /* Centrar los elementos horizontalmente */
+            align-items: center; /* Centrar los elementos verticalmente */
+            font-size: 18px; /* Tamaño de fuente */
+            margin-bottom: 10px; /* Margen inferior entre contenedores */
+        }
+
+		.week-link {
+            text-decoration: none; /* Sin subrayado */
+            color: white; /* Color gris */
+			font-weight: bold;
+			background-color: #2F365F;
+            margin: 5px; /* Margen alrededor de cada número */
+            padding: 8px 12px; /* Padding interno */
+            border: 1px solid #ccc; /* Borde gris */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s, color 0.3s; /* Transición suave */
+            text-align: center; /* Centrar el texto */
+			font-family: "Old English Text MT", Monaco, monospace;
+            width: 99px; /* Ancho fijo para cada botón */
+			font-size: 1.2em;
+        }
+
+		.day-link {
+            text-decoration: none; /* Sin subrayado */
+            color: #888; /* Color gris */
+            margin: 5px; /* Margen alrededor de cada número */
+            padding: 8px 12px; /* Padding interno */
+            border: 1px solid #ccc; /* Borde gris */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s, color 0.3s; /* Transición suave */
+            text-align: center; /* Centrar el texto */
+            width: 50px; /* Ancho fijo para cada botón */
+        }
+
+		
+		.tiempo-link {
+            text-decoration: none; /* Sin subrayado */
+            color: #888; /* Color gris */
+            margin: 5px; /* Margen alrededor de cada número */
+            padding: 8px 12px; /* Padding interno */
+            border: 1px solid #ccc; /* Borde gris */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s, color 0.3s; /* Transición suave */
+            text-align: center; /* Centrar el texto */
+            width: 60px; /* Ancho fijo para cada botón */
+        }
+
+		
+        .number-link {
+            text-decoration: none; /* Sin subrayado */
+            color: #888; /* Color gris */
+            margin: 5px; /* Margen alrededor de cada número */
+            padding: 8px 12px; /* Padding interno */
+            border: 1px solid #ccc; /* Borde gris */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s, color 0.3s; /* Transición suave */
+            text-align: center; /* Centrar el texto */
+            width: 50px; /* Ancho fijo para cada botón */
+        }
+        
+        .day-container {
+            display: none;
+			cursor: pointer;
+			border: 1px solid #ccc;
+			border-radius: 5px; /* Bordes redondeados */
+			text-align: center;
+            justify-content: center;
+            margin-top: 20px;
+			}
+        
+        /* Mostrar el contenedor de días cuando el enlace específico es seleccionado */
+        :target {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="Tiempos-liturgicos">
+<h1>Tiempos Liturjicos</h1>
+</div>
+
+<div class="Tiempos-liturgicos">
+    <!-- Enlaces para las semanas -->
+    <a class="tiempo-link" href="#Adviento">Adviento</a>
+    <a class="tiempo-link" href="#Navidad">Navidad</a>
+    <a class="tiempo-link" href="#Ordinario">Ordinario</a>
+    <a class="tiempo-link" href="#Cuaresma">Cuaresma</a>
+    <a class="tiempo-link" href="#Pascual">Pascual</a>
+</div>
+
+<!-- ****************************************************************************
+	Abajo Session de Tiempo de Adviento
+****************************************************************************-->
+
+<div class="number-container" id="Adviento">
+    <a class="number-link" href="#WeekAdviento1">1</a>
+    <a class="number-link" href="#WeekAdviento2">2</a>
+    <a class="number-link" href="#WeekAdviento3">3</a>
+    <a class="number-link" href="#WeekAdviento4">4</a>
+</div>
+
+<!-- ****************************************************************************
+	Abajo Session de Tiempo de Navidad
+****************************************************************************-->
+<div class="number-container" id="Navidad">
+    <!-- Enlaces para las semanas -->
+	<div>
+	<!-- por el momento la clase de abajo no deja que valla a la pagina >>>>class="number-link"<<<< -->
+    <a class="number-link" href="https://dbaezh78.github.io/salterios/tiempo/adviento/navidad/dias/sd25/index.htm">25 Diciembre</a>
+    <a class="number-link" href="#WeekNavidad2">26 Diciembre</a>
+    <a class="number-link" href="#WeekNavidad3">27 Diciembre</a>
+    <a class="number-link" href="#WeekNavidad4">28 Diciembre</a>
+	</div>
+	<BR>
+	<div>
+	<a class="week-link" href="#Navidad">InfraOctava de Navidad</a>
+    <a class="number-link" href="#WeekNavidad6">DIA V</a>
+    <a class="number-link" href="#WeekNavidad7">DIA VI</a>
+	<a class="number-link" href="#WeekNavidad8">DIA VI</a>
+	</div>
+	<BR>
+	<div>
+	<a class="week-link" href="#Navidad">Semanas</a>
+	<a class="number-link" href="#WeekNavidad9">1</a>
+	<a class="number-link" href="#WeekNavidad10">2</a>
+	<a class="number-link" href="#WeekNavidad11">3</a>	
+	</div>
+</div>
+
+<!-- ****************************************************************************
+	Abajo Session de Tiempo de Navidad
+****************************************************************************-->
+
+<!-- Contenedor principal de los números -->
+<div class="day-container" id="WeekNavidad9">
+    <a class="week-link" href="#">Semana 1</a>
+    <a class="day-link" href="#">Domingo</a>
+    <a class="day-link" href="#">Lunes</a>
+    <a class="day-link" href="#">Martes</a>
+    <a class="day-link" href="#">Miércoles</a>
+    <a class="day-link" href="#">Jueves</a>
+    <a class="day-link" href="#">Viernes</a>
+    <a class="day-link" href="#">Sábado</a>
+</div>
+
+<!-- Contenedor principal de los números -->
+<div class="day-container" id="WeekNavidad10">
+    <a class="week-link" href="#">Semana 2</a>
+    <a class="day-link" href="#">Domingo</a>
+    <a class="day-link" href="#">Lunes</a>
+    <a class="day-link" href="#">Martes</a>
+    <a class="day-link" href="#">Miércoles</a>
+    <a class="day-link" href="#">Jueves</a>
+    <a class="day-link" href="#">Viernes</a>
+    <a class="day-link" href="#">Sábado</a>
+</div>
+
+<!-- Contenedor principal de los números -->
+<div class="day-container" id="WeekNavidad11">
+    <a class="week-link" href="#">Semana 3</a>
+    <a class="day-link" href="#">Domingo</a>
+    <a class="day-link" href="#">Lunes</a>
+    <a class="day-link" href="#">Martes</a>
+    <a class="day-link" href="#">Miércoles</a>
+    <a class="day-link" href="#">Jueves</a>
+    <a class="day-link" href="#">Viernes</a>
+    <a class="day-link" href="#">Sábado</a>
+</div>
+
+<!-- ****************************************************************************
+	Abajo Session de Tiempo de Adviento
+****************************************************************************-->
+<div class="day-container" id="WeekAdviento1">
+    <a class="week-link" href="#">Semana 1</a>
+    <a class="day-link" href="#">Domingo</a>
+    <a class="day-link" href="#">Lunes</a>
+    <a class="day-link" href="#">Martes</a>
+    <a class="day-link" href="#">Miércoles</a>
+    <a class="day-link" href="#">Jueves</a>
+    <a class="day-link" href="#">Viernes</a>
+    <a class="day-link" href="#">Sábado</a>
+</div>
+
+<!-- Contenedor de días de la semana para la semana 2 -->
+<div class="day-container" id="WeekAdviento2">
+    <a class="week-link" href="#">Semana 2</a>
+    <a class="day-link" href="#">Domingo</a>
+    <a class="day-link" href="#">Lunes</a>
+    <a class="day-link" href="#">Martes</a>
+    <a class="day-link" href="#">Miércoles</a>
+    <a class="day-link" href="#">Jueves</a>
+    <a class="day-link" href="#">Viernes</a>
+    <a class="day-link" href="#">Sábado</a>
+</div>
+
+<!-- Contenedor de días de la semana para la semana 3 -->
+<div class="day-container" id="WeekAdviento3">
+    <a class="week-link" href="#">Semana 3</a>
+    <a class="day-link" href="#">Domingo</a>
+    <a class="day-link" href="#">Lunes</a>
+    <a class="day-link" href="#">Martes</a>
+    <a class="day-link" href="#">Miércoles</a>
+    <a class="day-link" href="#">Jueves</a>
+    <a class="day-link" href="#">Viernes</a>
+    <a class="day-link" href="#">Sábado</a>
+</div>
+
+<!-- Contenedor de días de la semana para la semana 3 -->
+<div class="day-container" id="WeekAdviento4">
+    <a class="week-link" href="#">Semana 4</a>
+    <a class="day-link" href="#">Domingo</a>
+    <a class="day-link" href="#">Lunes</a>
+    <a class="day-link" href="#">Martes</a>
+    <a class="day-link" href="#">Miércoles</a>
+    <a class="day-link" href="#">Jueves</a>
+    <a class="day-link" href="#">Viernes</a>
+    <a class="day-link" href="#">Sábado</a>
+</div>
+
+<!-- ****************************************************************************
+	Arriba Session de Tiempo de Adviento
+****************************************************************************-->
+<script>
+    // JavaScript para manejar los clics en los enlaces de semanas
+    const numberLinks = document.querySelectorAll('.number-link');
+    numberLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
+            const targetId = link.getAttribute('href'); // Obtener el ID del contenedor objetivo
+            const targetContainer = document.querySelector(targetId); // Seleccionar el contenedor objetivo
+            // Ocultar todos los contenedores de días
+            document.querySelectorAll('.day-container').forEach(container => {
+                container.style.display = 'none';
+            });
+            // Mostrar el contenedor de días correspondiente al enlace clicado
+            targetContainer.style.display = 'flex';
+        });
+    });
+</script>
+
+</body>
+</html>
