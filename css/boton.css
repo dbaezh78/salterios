@@ -16,6 +16,7 @@
             font-size: 18px; /* Tamaño de fuente */
             margin-bottom: 10px; /* Margen inferior entre contenedores */
 			text-align: center;
+
         }
 
 		.week-link {
@@ -56,7 +57,7 @@
             border-radius: 5px; /* Bordes redondeados */
             transition: background-color 0.3s, color 0.3s; /* Transición suave */
             text-align: center; /* Centrar el texto */
-            width: 5%; /* Ancho fijo para cada botón */
+            width: auto; /* Ancho fijo para cada botón */
         }
 
 		.tiempo-link {
@@ -68,7 +69,7 @@
             border-radius: 5px; /* Bordes redondeados */
             transition: background-color 0.3s, color 0.3s; /* Transición suave */
             text-align: center; /* Centrar el texto */
-            width: 60px; /* Ancho fijo para cada botón */
+            width: auto; /* Ancho fijo para cada botón */
         }
 
 		.adviento-css{
@@ -81,7 +82,7 @@
             border-radius: 5px; /* Bordes redondeados */
             transition: background-color 0.3s, color 0.3s; /* Transición suave */
             text-align: center; /* Centrar el texto */
-            width: 6%; /* Ancho fijo para cada botón */
+            width: auto; /* Ancho fijo para cada botón */
 			font-family: "Comic Sans MS";
 		}
 		.navidad-css{
@@ -94,7 +95,7 @@
             border-radius: 5px; /* Bordes redondeados */
             transition: background-color 0.3s, color 0.3s; /* Transición suave */
             text-align: center; /* Centrar el texto */
-            width: 6%; /* Ancho fijo para cada botón */
+            width: auto; /* Ancho fijo para cada botón */
 			font-family: "Comic Sans MS";
 		}
 		
@@ -108,7 +109,7 @@
             border-radius: 5px; /* Bordes redondeados */
             transition: background-color 0.3s, color 0.3s; /* Transición suave */
             text-align: center; /* Centrar el texto */
-            width: 6%; /* Ancho fijo para cada botón */
+            width: auto; /* Ancho fijo para cada botón */
 			font-family: "Comic Sans MS";
 		}
 
@@ -122,7 +123,7 @@
             border-radius: 5px; /* Bordes redondeados */
             transition: background-color 0.3s, color 0.3s; /* Transición suave */
             text-align: center; /* Centrar el texto */
-            width: 6%; /* Ancho fijo para cada botón */
+            width: auto; /* Ancho fijo para cada botón */
 			font-family: "Comic Sans MS";
 		}
 
@@ -136,7 +137,7 @@
             border-radius: 5px; /* Bordes redondeados */
             transition: background-color 0.3s, color 0.3s; /* Transición suave */
             text-align: center; /* Centrar el texto */
-            width: 6%; /* Ancho fijo para cada botón */
+            width: auto; /* Ancho fijo para cada botón */
 			font-family: "Comic Sans MS";
 		}
 
@@ -149,7 +150,7 @@
             border-radius: 5px; /* Bordes redondeados */
             transition: background-color 0.3s, color 0.3s; /* Transición suave */
             text-align: center; /* Centrar el texto */
-            width: 50px; /* Ancho fijo para cada botón */
+            width: auto; /* Ancho fijo para cada botón */
         }
 
         .boton-link {
@@ -161,7 +162,7 @@
             border-radius: 5px; /* Bordes redondeados */
             transition: background-color 0.3s, color 0.3s; /* Transición suave */
             text-align: center; /* Centrar el texto */
-            width: 50px; /* Ancho fijo para cada botón */
+            width: auto; /* Ancho fijo para cada botón */
         }
         
         .day-container {
