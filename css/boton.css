@@ -30,7 +30,7 @@
             transition: background-color 0.3s, color 0.3s; /* Transición suave */
             text-align: center; /* Centrar el texto */
 			font-family: "Comic Sans MS";
-            width: 99px; /* Ancho fijo para cada botón */
+            width: 8%; /* Ancho fijo para cada botón */
 			font-size: 1.2em;
         }
 
@@ -56,7 +56,7 @@
             border-radius: 5px; /* Bordes redondeados */
             transition: background-color 0.3s, color 0.3s; /* Transición suave */
             text-align: center; /* Centrar el texto */
-            width: 6%; /* Ancho fijo para cada botón */
+            width: 60px; /* Ancho fijo para cada botón */
         }
 
 		.tiempo-link {
