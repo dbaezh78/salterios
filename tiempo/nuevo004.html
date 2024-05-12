@@ -9,6 +9,7 @@
 		
 		.Tiempos-liturgicos{
 			display: flex; /* Utilizar Flexbox para disposición flexible */
+			color: black;
             justify-content: center; /* Centrar los elementos horizontalmente */
             align-items: center; /* Centrar los elementos verticalmente */
             font-size: 18px; /* Tamaño de fuente */
@@ -34,14 +35,27 @@
             border-radius: 5px; /* Bordes redondeados */
             transition: background-color 0.3s, color 0.3s; /* Transición suave */
             text-align: center; /* Centrar el texto */
-			font-family: "Old English Text MT", Monaco, monospace;
+			font-family: "Comic Sans MS";
             width: 99px; /* Ancho fijo para cada botón */
 			font-size: 1.2em;
         }
 
+		.disabled-link	{
+            text-decoration: none; /* Sin subrayado */
+            color: gray; /* Color gris */
+            margin: 5px; /* Margen alrededor de cada número */
+            padding: 8px 12px; /* Padding interno */
+            border: 1px solid #ccc; /* Borde gris */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s, color 0.3s; /* Transición suave */
+            text-align: center; /* Centrar el texto */
+            width: 50px; /* Ancho fijo para cada botón */
+        }
+
+
 		.day-link {
             text-decoration: none; /* Sin subrayado */
-            color: #888; /* Color gris */
+            color: black; /* Color gris */
             margin: 5px; /* Margen alrededor de cada número */
             padding: 8px 12px; /* Padding interno */
             border: 1px solid #ccc; /* Borde gris */
@@ -64,10 +78,93 @@
             width: 60px; /* Ancho fijo para cada botón */
         }
 
+		.adviento-css{
+			text-decoration: none; /* Sin subrayado */
+            background-color: purple;
+			color: white; /* Color gris */
+            margin: 5px; /* Margen alrededor de cada número */
+            padding: 8px 12px; /* Padding interno */
+            border: 1px solid #ccc; /* Borde gris */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s, color 0.3s; /* Transición suave */
+            text-align: center; /* Centrar el texto */
+            width: 6%; /* Ancho fijo para cada botón */
+			font-family: "Comic Sans MS";
+		}
+		.navidad-css{
+			text-decoration: none; /* Sin subrayado */
+            background-color: red;
+			color: white; /* Color gris */
+            margin: 5px; /* Margen alrededor de cada número */
+            padding: 8px 12px; /* Padding interno */
+            border: 1px solid #ccc; /* Borde gris */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s, color 0.3s; /* Transición suave */
+            text-align: center; /* Centrar el texto */
+            width: 6%; /* Ancho fijo para cada botón */
+			font-family: "Comic Sans MS";
+		}
 		
+		.ordinario-css{
+			text-decoration: none; /* Sin subrayado */
+            background-color: green;
+			color: white; /* Color gris */
+            margin: 5px; /* Margen alrededor de cada número */
+            padding: 8px 12px; /* Padding interno */
+            border: 1px solid #ccc; /* Borde gris */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s, color 0.3s; /* Transición suave */
+            text-align: center; /* Centrar el texto */
+            width: 6%; /* Ancho fijo para cada botón */
+			font-family: "Comic Sans MS";
+		}
+
+		.cuaresma-css{
+			text-decoration: none; /* Sin subrayado */
+            background-color: purple;
+			color: white; /* Color gris */
+            margin: 5px; /* Margen alrededor de cada número */
+            padding: 8px 12px; /* Padding interno */
+            border: 1px solid #ccc; /* Borde gris */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s, color 0.3s; /* Transición suave */
+            text-align: center; /* Centrar el texto */
+            width: 6%; /* Ancho fijo para cada botón */
+			font-family: "Comic Sans MS";
+		}
+
+		.pascual-css{
+			text-decoration: none; /* Sin subrayado */
+            background-color: white;
+			color: black; /* Color gris */
+            margin: 5px; /* Margen alrededor de cada número */
+            padding: 8px 12px; /* Padding interno */
+            border: 1px solid #ccc; /* Borde gris */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s, color 0.3s; /* Transición suave */
+            text-align: center; /* Centrar el texto */
+            width: 6%; /* Ancho fijo para cada botón */
+			font-family: "Comic Sans MS";
+		}
+		
+		
+		
+
         .number-link {
             text-decoration: none; /* Sin subrayado */
-            color: #888; /* Color gris */
+            color: black; /* Color gris */
+            margin: 5px; /* Margen alrededor de cada número */
+            padding: 8px 12px; /* Padding interno */
+            border: 1px solid #ccc; /* Borde gris */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s, color 0.3s; /* Transición suave */
+            text-align: center; /* Centrar el texto */
+            width: 50px; /* Ancho fijo para cada botón */
+        }
+
+        .boton-link {
+            text-decoration: none; /* Sin subrayado */
+            color: Black; /* Color gris */
             margin: 5px; /* Margen alrededor de cada número */
             padding: 8px 12px; /* Padding interno */
             border: 1px solid #ccc; /* Borde gris */
@@ -101,11 +198,11 @@
 
 <div class="Tiempos-liturgicos">
     <!-- Enlaces para las semanas -->
-    <a class="tiempo-link" href="#Adviento">Adviento</a>
-    <a class="tiempo-link" href="#Navidad">Navidad</a>
-    <a class="tiempo-link" href="#Ordinario">Ordinario</a>
-    <a class="tiempo-link" href="#Cuaresma">Cuaresma</a>
-    <a class="tiempo-link" href="#Pascual">Pascual</a>
+    <a class="adviento-css" href="#Adviento">Adviento</a>
+    <a class="navidad-css" href="#Navidad">Navidad</a>
+    <a class="ordinario-css" href="#Ordinario">Ordinario</a>
+    <a class="cuaresma-css" href="#Cuaresma">Cuaresma</a>
+    <a class="pascual-css" href="#Pascual">Pascual</a>
 </div>
 
 <!-- ****************************************************************************
@@ -126,26 +223,61 @@
     <!-- Enlaces para las semanas -->
 	<div>
 	<!-- por el momento la clase de abajo no deja que valla a la pagina >>>>class="number-link"<<<< -->
-    <a class="number-link" href="adviento/navidad/dias/sd25/index.htm">25 Diciembre</a>
-    <a class="number-link" href="#WeekNavidad2">26 Diciembre</a>
-    <a class="number-link" href="#WeekNavidad3">27 Diciembre</a>
-    <a class="number-link" href="#WeekNavidad4">28 Diciembre</a>
-	</div>
-	<BR>
-	<div>
+	
+	<a class="boton-link" href="adviento/navidad/dias/sd25/index.htm">25 Diciembre</a>
+    <a class="boton-link" href="adviento/navidad/dias/sd26/index.htm">26 Diciembre</a>
+    <a class="boton-link" href="adviento/navidad/dias/sd27/index.htm">27 Diciembre</a>
+    <a class="boton-link" href="adviento/navidad/dias/sd28/index.htm">28 Diciembre</a>
+	</div>		<BR>		<div>
+	<a class="boton-link" href="adviento/navidad/dias/sd28/index.htm">28 Diciembre</a>
+	
 	<a class="week-link" href="#Navidad">InfraOctava de Navidad</a>
-    <a class="number-link" href="#WeekNavidad6">DIA V</a>
+	<a class="number-link" href="#WeekNavidad6">DIA V</a>
     <a class="number-link" href="#WeekNavidad7">DIA VI</a>
-	<a class="number-link" href="#WeekNavidad8">DIA VI</a>
-	</div>
-	<BR>
-	<div>
+	<a class="number-link" href="#WeekNavidad8">DIA VII</a>
+	</div>		<BR>		<div>
 	<a class="week-link" href="#Navidad">Semanas</a>
 	<a class="number-link" href="#WeekNavidad9">1</a>
 	<a class="number-link" href="#WeekNavidad10">2</a>
 	<a class="number-link" href="#WeekNavidad11">3</a>	
 	</div>
 </div>
+<!-- Contenedor de Quinto  dias después de Navidad -->
+<div class="day-container" id="WeekNavidad6">
+    <a class="week-link" href="">DIA V</a>
+    <a class="day-link" href="">Domingo</a>
+	<a class="day-link" href="">Lunes</a>
+    <a class="day-link" href="adviento/navidad/dias/Infra - DIA V - Martes - INFRAOCTAVA DE NAVIDAD/index.htm">Martes</a>
+	<a class="day-link" href="adviento/navidad/dias/Infra - DIA V - Miercoles - INFRAOCTAVA DE NAVIDAD/index.htm">Miércoles</a>
+    <a class="day-link" href="adviento/navidad/dias/Infra - DIA V - Jueves - INFRAOCTAVA DE NAVIDAD/index.htm">Jueves</a>
+	<a class="day-link" href="adviento/navidad/dias/Infra - DIA V - Viernes - INFRAOCTAVA DE NAVIDAD/index.htm">Viernes</a>
+	<a class="day-link" href="">Sabado</a>
+</div>
+
+<!-- Contenedor de Sexto dias después de Navidad -->
+<div class="day-container" id="WeekNavidad7">
+	<a class="week-link" href="#">DIA VI</a>
+	<a class="disabled-link" href="#">Domingo</a>
+    <a class="day-link" href="adviento/navidad/dias/Infra - DIA VI - Lunes - INFRAOCTAVA DE NAVIDAD/index.htm">Lunes</a>
+	<a class="disabled-link" href="#">Martes</a>
+    <a class="day-link" href="adviento/navidad/dias/Infra - DIA VI - Miercoles - INFRAOCTAVA DE NAVIDAD/index.htm">Miércoles</a>
+    <a class="day-link" href="adviento/navidad/dias/Infra - DIA VI - Jueves - INFRAOCTAVA DE NAVIDAD/index.htm">Jueves</a>
+    <a class="disabled-link" href="#">Viernes</a>
+    <a class="day-link" href="adviento/navidad/dias/Infra - DIA VI - sabado - INFRAOCTAVA DE NAVIDAD/index.htm">Sábado</a>
+</div>
+
+<!-- Contenedor de Sexto dias después de Navidad -->
+<div class="day-container" id="WeekNavidad8">
+	<a class="week-link" href="#">DIA VII</a>
+    <a class="day-link" href="#">Domingo</a>
+	<a class="day-link" href="#">Lunes</a>
+    <a class="day-link" href="adviento/navidad/dias/Infra - DIA VII - Martes - INFRAOCTAVA DE NAVIDAD/index.htm">Martes</a>
+    <a class="day-link" href="#">Miércoles</a>
+    <a class="day-link" href="adviento/navidad/dias/Infra - DIA VII - Jueves - INFRAOCTAVA DE NAVIDAD/index.htm">Jueves</a>
+    <a class="day-link" href="adviento/navidad/dias/Infra - DIA VII - Viernes - INFRAOCTAVA DE NAVIDAD/index.htm">Viernes</a>
+    <a class="day-link" href="adviento/navidad/dias/Infra - DIA VII - Sabado - INFRAOCTAVA DE NAVIDAD/index.htm">Sábado</a>
+</div>
+
 
 <!-- ****************************************************************************
 	Abajo Session de Tiempo de Navidad
