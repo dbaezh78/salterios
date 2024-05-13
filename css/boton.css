@@ -179,7 +179,10 @@
             margin-top: 20px;
             width: auto; /* Ancho fijo para cada botón */
 			}
-        
+
+		.noDisplay {
+			display: none;
+		}     
         /* Mostrar el contenedor de días cuando el enlace específico es seleccionado */
         :target {
             display: block;
