@@ -1,11 +1,11 @@
         /* Estilos para los contenedores y enlaces */
 		
 		.Tiempos-liturgicos{
-			display: flex; /* Utilizar Flexbox para disposición flexible */
+			 display: flex; /*Utilizar Flexbox para disposición flexible */
 			color: black;
             justify-content: center; /* Centrar los elementos horizontalmente */
             align-items: center; /* Centrar los elementos verticalmente */
-            font-size: 18px; /* Tamaño de fuente */
+           /* font-size: 1.0em; /* Tamaño de fuente */
             margin-bottom: 10px; /* Margen inferior entre contenedores */
         }
 
@@ -13,10 +13,9 @@
 			display: none; /* Utilizar Flexbox para disposición flexible */
             justify-content: center; /* Centrar los elementos horizontalmente */
             align-items: center; /* Centrar los elementos verticalmente */
-            font-size: 18px; /* Tamaño de fuente */
+           /* font-size: 18px; /* Tamaño de fuente */
             margin-bottom: 10px; /* Margen inferior entre contenedores */
 			text-align: center;
-
         }
 
 		.week-link {
@@ -31,8 +30,8 @@
             transition: background-color 0.3s, color 0.3s; /* Transición suave */
             text-align: center; /* Centrar el texto */
 			font-family: "Comic Sans MS";
-            width: 8%; /* Ancho fijo para cada botón */
-			font-size: 1.2em;
+            width: auto; /* Ancho fijo para cada botón */
+			/*font-size: 1.2em; */
         }
 
 		.disabled-link	{
@@ -97,6 +96,11 @@
             text-align: center; /* Centrar el texto */
             width: auto; /* Ancho fijo para cada botón */
 			font-family: "Comic Sans MS";
+		}
+		
+		.boton-margin-left-5
+		{
+			margin-left:5px;			
 		}
 		
 		.ordinario-css{
@@ -168,11 +172,12 @@
         .day-container {
             display: none;
 			cursor: pointer;
-			border: 1px solid #ccc;
+			border: 1px solid #ccc; /* */
 			border-radius: 5px; /* Bordes redondeados */
 			text-align: center;
             justify-content: center;
             margin-top: 20px;
+            width: auto; /* Ancho fijo para cada botón */
 			}
         
         /* Mostrar el contenedor de días cuando el enlace específico es seleccionado */
@@ -181,6 +186,6 @@
         }
 		
 /* Estilos para pantallas pequeñas (móviles) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: auto) {
   /* Agrega estilos específicos para dispositivos móviles aquí */
 }
