@@ -179,3 +179,8 @@
         :target {
             display: block;
         }
+		
+/* Estilos para pantallas pequeñas (móviles) */
+@media only screen and (max-width: 600px) {
+  /* Agrega estilos específicos para dispositivos móviles aquí */
+}
