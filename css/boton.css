@@ -57,11 +57,15 @@
             transition: background-color 0.3s, color 0.3s; /* Transición suave */
             text-align: center; /* Centrar el texto */
 			cursor: pointer;
-            width: auto; /* Ancho fijo para cada botón */			
+            width: auto; /* Ancho fijo para cada botón */
+			text-decoration: none; 
         }
 		
 		.day-link:hover {
-		background-color:blue;}
+		background-color:#01B7EF;
+		text-decoration: none; 
+		
+		}
 
 		.tiempo-link {
             text-decoration: none; /* Sin subrayado */
