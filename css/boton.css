@@ -56,8 +56,12 @@
             border-radius: 5px; /* Bordes redondeados */
             transition: background-color 0.3s, color 0.3s; /* Transición suave */
             text-align: center; /* Centrar el texto */
-            width: auto; /* Ancho fijo para cada botón */
+			cursor: pointer;
+            width: auto; /* Ancho fijo para cada botón */			
         }
+		
+		.day-link:hover {
+		background-color:blue;}
 
 		.tiempo-link {
             text-decoration: none; /* Sin subrayado */
