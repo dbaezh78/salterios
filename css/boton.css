@@ -33,6 +33,11 @@
             width: auto; /* Ancho fijo para cada botón */
 			/*font-size: 1.2em; */
         }
+			.week-link:hover {
+				background-color:#01B7EF;
+				text-decoration: none; 	
+	
+				}
 
 		.disabled-link	{
             text-decoration: none; /* Sin subrayado */
@@ -45,6 +50,10 @@
             text-align: center; /* Centrar el texto */
             width: auto; /* Ancho fijo para cada botón */
         }
+		.disabled-link:hover{
+		background-color:#01B7EF;
+		text-decoration: none; 	
+		}
 
 
 		.day-link {
