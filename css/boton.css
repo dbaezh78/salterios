@@ -1,5 +1,10 @@
         /* Estilos para los contenedores y enlaces */
-		
+
+		.centrar{
+			justify-content: center;
+			align-items:center;
+			text-align: center;
+		}
 		.Tiempos-liturgicos{
 			 display: flex; /*Utilizar Flexbox para disposición flexible */
 			color: black;
