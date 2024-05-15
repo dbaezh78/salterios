@@ -6,6 +6,7 @@ body {
 
 a:link {
   text-decoration: none;
+  <link rel="icon" href="../../../../css/ico-laudes.ico" type="image/x-icon">
   color: blue;
 }
 
