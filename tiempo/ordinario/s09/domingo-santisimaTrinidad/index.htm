@@ -23,7 +23,23 @@
 
     <CENTER>
       <FONT COLOR="#FF0000">
-        <FONT COLOR="#FF0000"><STRONG>TIEMPO ORDINARIO</STRONG><BR><STRONG>DOMINGO DE LA SANT&Iacute;SIMA TRINIDAD</STRONG><BR>De la Solemnidad.<BR><BR><I>4 de junio</I><BR></FONT><BR>
+        <FONT COLOR="#FF0000"><STRONG>TIEMPO ORDINARIO</STRONG><BR><STRONG>DOMINGO DE LA SANT&Iacute;SIMA TRINIDAD</STRONG><BR>De la Solemnidad.<BR><BR>
+		
+			<I><span id="fecha"></span></I>
+	  <script>
+    // Obtener la fecha actual
+    var fechaActual = new Date();
+    
+    // Obtener el día del mes y el mes actual
+    var dia = fechaActual.getDate();
+    var mes = fechaActual.toLocaleString('es', { month: 'long' });
+
+    // Mostrar la fecha en el formato deseado
+    document.getElementById('fecha').innerHTML = dia + ' de ' + mes;
+  </script>  
+
+		
+		<BR></FONT><BR>
         <FONT COLOR="#9E5806"><STRONG>LA SANT&Iacute;SIMA TRINIDAD. </STRONG><I>(SOLEMNIDAD)</I>
     </CENTER>
     <BR><BR>

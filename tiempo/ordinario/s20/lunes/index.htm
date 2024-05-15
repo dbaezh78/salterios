@@ -23,7 +23,21 @@
 
     <CENTER>
       <FONT COLOR="#FF0000">
-        <FONT COLOR="#FF0000"><STRONG>TIEMPO ORDINARIO</STRONG><BR><STRONG>LUNES DE LA SEMANA XX</STRONG><BR>De la Feria. Salterio IV<BR><BR><I>17 de agosto</I>
+        <FONT COLOR="#FF0000"><STRONG>TIEMPO ORDINARIO</STRONG><BR><STRONG>LUNES DE LA SEMANA XX</STRONG><BR>De la Feria. Salterio IV<BR><BR>
+
+	<I><span id="fecha"></span></I>
+	  <script>
+    // Obtener la fecha actual
+    var fechaActual = new Date();
+    
+    // Obtener el día del mes y el mes actual
+    var dia = fechaActual.getDate();
+    var mes = fechaActual.toLocaleString('es', { month: 'long' });
+
+    // Mostrar la fecha en el formato deseado
+    document.getElementById('fecha').innerHTML = dia + ' de ' + mes;
+  </script>  
+
     </CENTER>
     <BR><BR>
     <TABLE WIDTH="100%" BORDER="1">
