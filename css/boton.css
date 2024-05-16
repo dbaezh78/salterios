@@ -6,12 +6,12 @@
 			text-align: center;
 		}
 		.Tiempos-liturgicos{
-			 display: flex; /*Utilizar Flexbox para disposición flexible */
+			display: flex; /*Utilizar Flexbox para disposición flexible */
 			color: black;
             justify-content: center; /* Centrar los elementos horizontalmente */
             align-items: center; /* Centrar los elementos verticalmente */
            /* font-size: 1.0em; /* Tamaño de fuente */
-            margin-bottom: 10px; /* Margen inferior entre contenedores */
+            /* margin-bottom: 1%; /* Margen inferior entre contenedores */
         }
 
         .number-container {
