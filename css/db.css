@@ -8,16 +8,15 @@
 			color: #1ea6ef;
 			font-family: Bradley Hand ITC;
         }
-	b{
-		color:red;
-	}
 	right1{
 		text-align: right;
 	}
 	left1{
 		text-align:left;
 		color:blue;
+		color:red;
 	}
 	a:hover{
 		text-decoration: none;
 	}
+		
