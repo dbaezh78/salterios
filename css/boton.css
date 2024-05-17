@@ -1,5 +1,9 @@
         /* Estilos para los contenedores y enlaces */
 
+
+		a p{
+			text-decoration: none;
+		}
 		.centrar{
 			justify-content: center;
 			align-items:center;
