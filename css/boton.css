@@ -215,6 +215,10 @@
             display: block;
         }
 		
+/* Estilos para pantallas pequeñas (móviles) */
+@media only screen and (max-width: auto) {
+  /* Agrega estilos específicos para dispositivos móviles aquí */
+}
 
  .footnote {
             font-size: 1.0em;
