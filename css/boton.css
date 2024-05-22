@@ -111,9 +111,13 @@
             width: auto; /* Ancho fijo para cada botón */
 			font-family: "Comic Sans MS";
 		}
+		.adviento-css:hover{
+			background:white;
+			Color:purple;
+		}
 		.navidad-css{
 			text-decoration: none; /* Sin subrayado */
-            background-color: red;
+            background-color: #AD0000;
 			color: white; /* Color gris */
             margin: 5px; /* Margen alrededor de cada número */
             padding: 8px 12px; /* Padding interno */
@@ -124,6 +128,11 @@
             width: auto; /* Ancho fijo para cada botón */
 			font-family: "Comic Sans MS";
 		}
+		.navidad-css:hover{
+			background:white;
+			Color:#AD0000;
+		}
+
 		
 		.boton-margin-left-5
 		{
@@ -143,6 +152,11 @@
             width: auto; /* Ancho fijo para cada botón */
 			font-family: "Comic Sans MS";
 		}
+		.ordinario-css:hover{
+			background:white;
+			Color:green;
+		}
+
 
 		.cuaresma-css{
 			text-decoration: none; /* Sin subrayado */
@@ -157,10 +171,15 @@
             width: auto; /* Ancho fijo para cada botón */
 			font-family: "Comic Sans MS";
 		}
+		.cuaresma-css:hover{
+			background:white;
+			Color:purple;
+		}
+
 
 		.pascual-css{
 			text-decoration: none; /* Sin subrayado */
-            background-color: white;
+            background-color: #00A2E8;
 			color: black; /* Color gris */
             margin: 5px; /* Margen alrededor de cada número */
             padding: 8px 12px; /* Padding interno */
@@ -170,6 +189,9 @@
             text-align: center; /* Centrar el texto */
             width: auto; /* Ancho fijo para cada botón */
 			font-family: "Comic Sans MS";
+		}
+		.pascual-css:hover{
+			background:white;
 		}
 
         .number-link {
@@ -229,4 +251,20 @@
         }
 	a {
 		text-decoration: none;
+	}
+	
+	.t-adviento{
+            text-decoration: none; /* Sin subrayado */
+            color: black; /* Color gris */
+			font-weight: bold;
+			background-color: white;
+            margin: 5px; /* Margen alrededor de cada número */
+            padding: 8px 12px; /* Padding interno */
+            border: 1px solid #ccc; /* Borde gris */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s, color 0.3s; /* Transición suave */
+            text-align: center; /* Centrar el texto */
+			font-family: "Comic Sans MS";
+            width: auto; /* Ancho fijo para cada botón */
+			/*font-size: 1.2em; */	
 	}
