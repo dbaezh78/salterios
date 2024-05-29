@@ -100,13 +100,13 @@
 <!-- Reproductor de Audio para lecturas -->
 <i><span style="color: #FF0000; font-size: 12px;">Escuchar Lecturas</span></i>
 
-	<audio id="myAudio" controls style="display: inline-block; width: 100%; aspect-ratio: 1/1;">
+	<audio id="MyAudio" controls style="display: inline-block; width: 100%; aspect-ratio: 1/1;">
 	<source src="lecturas.mp3" type="audio/mpeg">
 	</audio>
 
     <script>
 		function toggleAudio(button) {
-		  var audio = document.getElementById("myAudio");
+		  var audio = document.getElementById("MyAudio");
 
 		  if (audio.paused) {
 			audio.play();
