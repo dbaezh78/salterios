@@ -1,0 +1,281 @@
+/* todo el contenido va dentro de body y wrap */
+
+body {
+background:#fff;
+color:#000;
+margin:0px;
+padding:0px;
+text-align:center;
+}
+
+div.wrap {
+width:830px;
+font: 12px/14px Verdana, Arial, sans-serif; /* todos los tamaños de tipografia son relativos a este*/
+padding:0px;
+margin: -2px auto 10px auto;
+border-top:1px solid white;  /*hack para firefox */
+}
+
+div.separador {
+	margin:5px 100px 15px;
+	padding: 0px 12px 5px;
+	border-bottom:1px solid #666;
+	font-size:75%; color:#555;
+	text-align:right;
+}
+
+div.separadorbarra {
+	margin:5px 60px 5px 0px;
+	padding: 0px 0px 5px 0px;
+	border-bottom:1px solid #874;
+	font-size:75%; color:#555;
+	text-align:right;
+}
+
+div.pie {
+text-align:center;
+font-size:80%;
+margin-top:20px;
+}
+
+/* solo por las dudas, para los casos en que la celda se olvida el setting del padre */
+td {
+font: 12px Verdana, Arial, sans-serif;
+}
+
+/* la barra derecha se arma con dos divs anidados barra y barra2 */
+div.barra {
+width:192px;
+float:right;
+margin:0;padding:0;
+}
+
+div.barra2 {
+text-align:left;
+padding:10px 2px 10px 2px;
+text-align:left;
+font-size:90%;
+margin:0px;
+/*background-color:#eee;*/
+}
+
+/* la columna principal se arma con dos divs anidados main y main2 */
+div.main {
+width:620px;
+margin:0;padding:0;
+float:left;
+border-right: 3px solid #b84;
+border-left: 3px solid #b84;
+/*background-color:#eee;*/
+}
+
+div.main2 {
+padding:1px 14px 5px 14px;
+text-align:left;
+}
+
+
+/* contenido de la columna principal (main) */
+/* encabezados del main */
+div.encabezado1 {
+margin:0px 100px;
+padding:2px 2px 3px;
+color:#fff;
+background:#633;
+text-align:center;
+font-size:80%;
+font-weight:bold;
+}
+
+div.encabezado3 {
+margin:3px 60px;
+padding:4px;
+color:#664;
+text-align:center;
+font-size:110%;
+font-weight:bold;
+padding:10px 10px 2px 10px;
+line-height:130%;
+}
+
+div.encabezado4 {
+margin:2px 40px;
+padding:4px;
+color:#666;
+background:#fff;
+font-size:90%;
+color:#333;
+text-indent:0px;
+padding:5px 30px;
+}
+
+div.encabezado4 p{
+	text-indent:40px;
+	margin:6px 0px 0px;
+}
+
+div.seccion {
+padding: 8px 0 15px 0;
+}
+
+div.secciontit {
+text-align:left;
+margin: 8px auto 2px;
+font-weight:bold;
+color:#460;
+}
+
+
+div.seccion p { /* casi todo el texto ... */
+	text-indent: 22px;
+	margin:0px;
+	padding:3px 0px;
+	text-align:justify;
+}
+
+div.seccion p b {
+	font-weight: bold;
+	color: #322;
+
+}
+
+div.headlinksbarra { /* contenido de la barra derecha */
+font-weight: bold;
+text-align:left;
+margin:15px 0px 2px 5px;
+padding:0px;
+}
+
+ul.linksbarra {
+padding:2px;
+margin:8px 0px 5px;
+background-color:#fff;
+text-align:left;
+color:#000;
+}
+
+span.thispage {
+	font-weight:bold;
+	color:#666;
+}
+
+
+a {
+	text-decoration: none;
+	color:#c20;
+	font-weight:bold;
+}
+
+a:visited {
+	color:#a42;
+}
+
+a:hover {
+	color:#0a3;
+}
+
+
+ul.linksbarra li {
+padding:1px 0px;
+margin:0px ;
+list-style-type: none;
+}
+
+ul.links li {
+padding:3px 2px ;
+margin:8px;
+list-style-type: none;
+}
+
+ul.linksautor {
+font-weight:bold;
+color:#333;
+}
+
+ul.linksautor li{
+font-weight:normal;
+}
+
+ul.listapelis {
+padding:2px;margin:0px;
+}
+ul.listapelis li{
+padding:1px 0px;
+margin:0px 0px 0px 15px;
+list-style-type: circle;
+}
+
+ul.listapelis a{
+font-style: italic;
+}
+
+
+span.destacado {
+	font-weight:bold;
+	font-size: 120%;
+}
+
+
+img.i {
+border: 1px solid #333; margin: 6px;
+
+}
+img.id {
+border: 1px solid #333; margin: 3px 0px 3px 6px;
+float:right;
+}
+img.ii {
+border: 1px solid #333; margin: 3px 6px 3px 0px;
+float:left;
+}
+
+div.spacer { /* uso generico; solo para romper floats */
+clear: both; margin:0;padding:0;
+}
+
+div.separador2 {
+  margin:5px 40px 15px;
+	padding: 0px 20px 5px;
+	border-bottom:3px dotted #e94;
+	background-color:#fff;
+	clear: both;
+}
+
+div.copete {
+text-align:center; line-height:190%;background-color:#eee;border:1px dashed #550;padding:10px;font-size:88%;margin:8px 40px
+}
+
+div.seccion li {
+margin-bottom:6px;}
+
+
+input, select {
+	border:1px solid #666;
+	background:#eef;
+	font-size:11px;
+	margin:2px;
+}
+
+.centro {text-align:center;margin:1px auto;padding:0px;}
+
+/*** galerias con popus */
+table.galeria {margin:12px auto;}
+table.galeria td {vertical-align:bottom;text-align:left;padding-right:10px;font-size:9px;color:#666}
+table.galeria td.i {text-align:right;padding:12px 2px 0px;}
+
+#blanket {
+display:none;
+background-color:#111;
+opacity: 0.55;
+filter:alpha(opacity=55);
+position:absolute;
+z-index: 9001;
+top:0px;
+left:0px;
+width:100%;
+}
+#mipopup {
+display:none;
+background-color:#fff;
+z-index: 9002;
+}

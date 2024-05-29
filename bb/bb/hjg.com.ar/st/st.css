@@ -1,0 +1,63 @@
+
+div.wrapst {
+width:830px;
+font: 9pt/120% Verdana, Arial, sans-serif; /* todos los tamaños de tipografia son relativos a este*/
+padding:0px;
+margin: 10px auto 10px auto;
+text-align:center;
+}
+
+div.seccion img
+{
+	margin:20px; padding:0px;
+	border:1px solid #000;
+}
+
+img {
+border:1px solid black;
+padding:0px;
+margin:5px;
+}
+
+
+div.encabezadost {
+margin:1px 100px;
+color:#444;
+text-align:center;
+font-size:13px;
+font-weight:bold;
+line-height:130%;
+}
+
+
+div.encabezadost .caption {
+padding:3px 14px;
+color:#444;
+text-align:left;
+font-size:11px;
+font-weight:normal;
+line-height:130%;
+}
+
+div.encabezadost p
+{
+padding-top:12px;
+}
+
+div.encabezadost  p.volver {
+float:left;
+font-size:10px;
+margin:0px;
+padding:0px;
+}
+
+div.mainst {
+text-align:center;
+margin:20px auto;
+}
+div.mainst img {
+border:2px solid black;
+padding:0px;
+margin:10px;
+}
+

@@ -1,0 +1,66 @@
+<html>
+
+<!-- Mirrored from hjg.com.ar/ssee/ssee_js_ejemplo.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 May 2024 12:58:02 GMT -->
+<head>
+<style>
+body {font:14px Arial;}
+pre {margin:20px;font-size:110%;background:#eef;}
+</style>
+<script src="ssee.js"></script>
+</head>
+<body>
+<div style="background:#ffe;width:900px;margin:10px auto;padding:10px">
+
+Pequeña librería javascript, permite enlazar directamente a la <b>Biblia en español</b> desde
+cualquier referencia (libro, capítulo, versículo) en una página HTML.
+<p>
+
+Para usar esta librería, simplemente incluir la librería javascript de <b>http://hjg.com.ar/ssee/ssee.js</b> ,
+por ejemplo, agregando esto en el HEAD de la página web:
+
+<pre>
+&lt;script src=&quot;http://hjg.com.ar/ssee/ssee.js&quot;&gt;&lt;/script&gt;
+</pre>
+
+y luego rodear el pasaje bíblico con el tag correspondiente. Por ejemplo, si antes
+decía
+
+
+ <pre>... como Jesús dice en Lc 12:22, la vida 
+vale más que el alimento... </pre>
+
+después dirá
+
+ <pre>... como Jesús dice en <b>&lt;a href=&quot;#&quot; onclick=&quot;bibCit(this)&quot;&gt;Lc 12:22&lt;/a&gt;</b>, la vida 
+vale más que el alimento... </pre>
+
+<p>
+Esta página es funcional.<br>
+Esto es un ejemplo de una cita bíblica:
+<a href="#" onclick="bibCit(this)">Lc 12:5</a>.
+Pero el formato es bastante flexible, por ej: <a href="#" onclick="bibCit(this)">GEN 4</a>,
+<a href="#" onclick="bibCit(this)">Gn 4-3</a>
+<p>
+Nuevo: también puede ser un popup, usando <b><tt>bibCitP()</tt></b> en lugar de <b><tt>bibCit()</tt></b>, por ejemplo: <a href="#" onclick="bibCitP(this)">Lc 12:5</a>.
+<hr>
+<p>
+<b>Otra posibilidad</b> es usar
+la página de redirección <a href="p.html">http://hjg.com.ar/ssee/p.html</a>.
+Esto no requiere javascript, pero hay que incluir el pasaje bíblico en la dirección (usar guiones o puntos para separar los libro, capítulo, versículos). En el ejemplo anterior, habría que escribir: 
+
+ <pre>... como Jesús dice en <b>&lt;a href=&quot;http://hjg.com.ar/ssee/p.html?Lc.12.22&quot;&gt;Lc 12:22&lt;/a&gt;</b>, la vida 
+vale más que el alimento... </pre>
+
+o bien:
+
+ <pre>... como Jesús dice en <b>&lt;a href=&quot;http://hjg.com.ar/ssee/p.html?Lc_12-22&quot;&gt;Lc 12:22&lt;/a&gt;</b>, la vida 
+vale más que el alimento... </pre>  
+
+Ejemplo funcional: <i>como Jesús dice en <b><a href="p044b.html?Lc.12.22">Lc 12:22</a></b>, la vida 
+vale más que el alimento... </i>
+<p>
+Igual que la primera opción, hay bastante libertad para especificar los nombres de los libros (<b>Lc Luc LUC</b>...).
+</div>
+<p>
+<center><a href="../index.html">http://hjg.com.ar/</a></center>
+</body>
