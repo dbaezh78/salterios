@@ -1,23 +1,5 @@
-<!-- Reproductor de Audio para lecturas -->
-<i><span style="color: #FF0000; font-size: 12px;">Escuchar Lecturas</span></i>
-
-	<audio id="MyAudio" controls style="display: inline-block; width: 100%; aspect-ratio: 1/1;">
-	<source src="lecturas.mp3" type="audio/mpeg">
-	</audio>
-
-    <script>
-		function toggleAudio(button) {
-		  var audio = document.getElementById("MyAudio");
-
-		  if (audio.paused) {
-			audio.play();
-			button.classList.add("playing");
-			button.innerHTML = '<b class="material-symbols-outlined">stop_circle</b>';
-		  } else {
-			audio.pause();
-			button.classList.remove("playing");
-			button.innerHTML = '<b class="material-symbols-outlined">play_circle</b>';
-		  }
-		}
-    </script>
-<!-- Reproductor de Audio para lecturas -->
+		<!-- Reproductor de Audio para lecturas -->
+			<i><span style="color: #FF0000; font-size: 12px;">Escuchar Lecturas</span></i>
+			<audio src="lecturas.mp3" controls style="width: 100%;"> </audio>
+		<!-- Reproductor de Audio para lecturas -->
+			  <BR><BR>
