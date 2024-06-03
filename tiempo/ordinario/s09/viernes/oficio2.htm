@@ -6,7 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
   <TITLE>Liturgia de las horas</TITLE>
   <LINK href="../../../../css/mio.css" type=text/css rel=stylesheet>
-</HEAD>
+  <link rel="icon" href="../../../../css/ico-laudes.ico" type="image/x-icon">
+    <script>
+        function ppjs() {
+            var year = new Date().getFullYear();
+            if (year % 2 === 0) {
+                window.location.href = "oficio2.htm";
+            } else {
+                window.location.href = "oficio1.htm";
+            }
+        }
+    </script>
+</head>
 
 <BODY>
 <a href="./"> <svg height="24px" viewBox="0 0 24 24" width="24px" fill="#5f6368"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5z"/></svg> </a>
@@ -21,7 +32,8 @@
   </div>
   <div id="cuerpo" class="normal">
 
-    <FONT COLOR="#FF0000"><STRONG>OFICIO DE LECTURA</STRONG><BR>
+    <a href="#playLectura">
+      <FONT COLOR="#FF0000"><STRONG>OFICIO DE LECTURA</STRONG><BR></a>
       <HR>
       INVITATORIO
     </FONT>
@@ -99,7 +111,14 @@
       <FONT COLOR="#FF0000">V. </FONT>Hijo m&iacute;o, conserva mis palabras.<BR>
       <FONT COLOR="#FF0000">R. </FONT> Conserva mis mandatos y vivir&aacute;s.
     </FONT>
-    <BR><BR>
+	
+	 <BR><BR>
+		<!-- Reproductor de Audio para lecturas -->
+		<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">Audio 1ra Lectura</span></i>
+		<audio src="src/lectura2.mp3" controls style="width: 100%;"> </audio>
+		<!-- Reproductor de Audio para lecturas -->
+		  <BR>
+
     <FONT COLOR="#FF0000">
       PRIMERA LECTURA<BR><BR>
     </FONT>
@@ -156,6 +175,12 @@
       <FONT COLOR="#FF0000">V. </FONT> Si vivimos por el Esp&iacute;ritu marchemos tras el Esp&iacute;ritu.<BR>
       <FONT COLOR="#FF0000">R. </FONT> El fruto del Esp&iacute;ritu es: amor, alegr&iacute;a y paz.<BR><BR>
     </FONT>
+	
+		<!-- Reproductor de Audio para lecturas -->
+		<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">Audio 2da Lectura</span></i>
+		<audio src="src/lecturas.mp3" controls style="width: 100%;"> </audio>
+		<!-- Reproductor de Audio para lecturas -->
+
     <FONT COLOR="#FF0000">
       SEGUNDA LECTURA<BR><BR>
     </FONT>
@@ -210,4 +235,4 @@
 </BODY>
 
 </HTML>
-<br><br><A href="oficio.htm">Of</A> <A href="laudes.htm">La</A> <A href="tercia.htm">Tr</A> <A href="sexta.htm">Sx</A> <A href="nona.htm">Nn</A> <A href="visperas.htm">Vs</A> <A href="completas.htm">Cm</A>
+ <br><br><A href="#" onclick="ppjs()">Of</A> <A href="laudes.htm">La</A> <A href="tercia.htm">Tr</A> <A href="sexta.htm">Sx</A> <A href="nona.htm">Nn</A> <A href="visperas.htm">Vs</A> <A href="completas.htm">Cm</A>
