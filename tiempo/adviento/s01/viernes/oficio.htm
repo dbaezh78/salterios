@@ -7,6 +7,16 @@
   <TITLE>Liturgia de las horas</TITLE>
   <LINK href="/salterios/css/mio.css" type=text/css rel=stylesheet>
   <LINK href="icon" href="/salterios/css/ico-laudes.ico" type="image/x-icon">
+      <script>
+        function ppjs() {
+            var year = new Date().getFullYear();
+            if (year % 2 === 0) {
+                window.location.href = "oficio2.htm";
+            } else {
+                window.location.href = "oficio1.htm";
+            }
+        }
+    </script>
 </HEAD>
 
 <BODY>
@@ -19,11 +29,11 @@
 	  <option value="1.3">Mediano</option>
 	  <option value="1.5">Grande</option>
 	</select>
-
   </div>
   <div id="cuerpo" class="normal">
 
-    <FONT COLOR="#FF0000"><STRONG>OFICIO DE LECTURA</STRONG>
+<a href="#playLectura">
+    <FONT COLOR="#FF0000"><STRONG>OFICIO DE LECTURA</STRONG><BR></a>
     </FONT>
     <FONT COLOR="#000000"><BR><BR>
       Si el Oficio de Lectura es la primera oraci&oacute;n del d&iacute;a:<BR>
@@ -182,4 +192,4 @@
 </BODY>
 
 </HTML>
-<br><br><A href="oficio.htm">Of</A> <A href="laudes.htm">La</A> <A href="tercia.htm">Tr</A> <A href="sexta.htm">Sx</A> <A href="nona.htm">Nn</A> <A href="visperas.htm">Vs</A> <A href="completas.htm">Cm</A>
+<br><br><A href="#" onclick="ppjs()">Of</A> <A href="laudes.htm">La</A> <A href="tercia.htm">Tr</A> <A href="sexta.htm">Sx</A> <A href="nona.htm">Nn</A> <A href="visperas.htm">Vs</A> <A href="completas.htm">Cm</A>
