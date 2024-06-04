@@ -25,7 +25,7 @@
     <font color="#CC9933">
       tama&ntilde;o: </font>
 	<select id="tamanioFuente" onchange="document.getElementById('cuerpo').style.fontSize = this.value + 'em';">
-	  <option value="1.1">Pequeño</option>
+	  <option value="1.1">PequeÃ±o</option>
 	  <option value="1.3">Mediano</option>
 	  <option value="1.5">Grande</option>
 	</select>
@@ -110,7 +110,12 @@
       <FONT COLOR="#FF0000">V. </FONT>Venid a ver las obras del Se&ntilde;or.<BR>
       <FONT COLOR="#FF0000">R. </FONT> Las maravillas que hace en la tierra.
     </FONT>
-    <BR><BR>
+	    <BR><BR>
+		<!-- Reproductor de Audio para lecturas -->
+		<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">Audio 1ra Lectura</span></i>
+		<audio src="src/lectura1.mp3" controls style="width: 100%;"> </audio>
+		<!-- Reproductor de Audio para lecturas -->
+    <BR>
     <FONT COLOR="#FF0000">
       PRIMERA LECTURA<BR><BR>
     </FONT>
@@ -137,6 +142,13 @@
       <FONT COLOR="#FF0000">V. </FONT> Quien convierte a un pecador de su camino equivocado, salvar&aacute; su alma de la muerte y cubrir&aacute; la multitud de sus pecados.<BR>
       <FONT COLOR="#FF0000">R. </FONT> Porque la caridad cubre la multitud de los pecados.<BR><BR>
     </FONT>
+	
+		<!-- Reproductor de Audio para lecturas -->
+		<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">Audio 2da Lectura</span></i>
+		<audio src="src/lecturas.mp3" controls style="width: 100%;"> </audio>
+		<!-- Reproductor de Audio para lecturas -->
+		  <BR>
+
     <FONT COLOR="#FF0000">
       SEGUNDA LECTURA<BR><BR>
     </FONT>
