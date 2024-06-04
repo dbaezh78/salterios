@@ -5,7 +5,18 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
   <TITLE>Liturgia de las horas</TITLE>
-  <LINK href="../../../../css/mio.css" type=text/css rel=stylesheet>
+  <LINK href="/salterios/css/mio.css" type=text/css rel=stylesheet>
+  <LINK href="icon" href="/salterios/css/ico-laudes.ico" type="image/x-icon">
+      <script>
+        function ppjs() {
+            var year = new Date().getFullYear();
+            if (year % 2 === 0) {
+                window.location.href = "oficio2.htm";
+            } else {
+                window.location.href = "oficio1.htm";
+            }
+        }
+    </script>
 </HEAD>
 
 <BODY>
@@ -20,6 +31,9 @@
 	</select>
   </div>
   <div id="cuerpo" class="normal">
+  
+    <FONT COLOR="#FF0000"><STRONG>HORA NONA</STRONG><BR><BR>
+      INVOCACI&Oacute;N INICIAL<BR><BR>
     </FONT>
     <FONT COLOR="#000000">
       <FONT COLOR="#FF0000">V. </FONT>Dios m&iacute;o, ven en mi auxilio<BR>
@@ -100,4 +114,4 @@
 </BODY>
 
 </HTML>
-<br><br><A href="oficio.htm">Of</A> <A href="laudes.htm">La</A> <A href="tercia.htm">Tr</A> <A href="sexta.htm">Sx</A> <A href="nona.htm">Nn</A> <A href="visperas.htm">Vs</A> <A href="completas.htm">Cm</A>
+ <br><br><A href="#" onclick="ppjs">Of</A> <A href="laudes.htm">La</A> <A href="tercia.htm">Tr</A> <A href="sexta.htm">Sx</A> <A href="nona.htm">Nn</A> <A href="visperas.htm">Vs</A> <A href="completas.htm">Cm</A>
