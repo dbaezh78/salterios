@@ -113,13 +113,28 @@
       <FONT COLOR="#FF0000">V. </FONT>El Se&ntilde;or hace caminar a los humildes con rectitud.<BR>
       <FONT COLOR="#FF0000">R. </FONT> Ense&ntilde;a su camino a los humildes.
     </FONT><BR><BR>
-	
-<!-- ************************ Reproductor de Audio para lecturas ************************ -->
-		<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">Audio 1ra Lectura</span></i>
-		<audio src="src/lectura1.mp3" controls style="width: 100%;"> </audio>
-<!-- ************************ Reproductor de Audio para lecturas ************************ -->
-    <BR>
-	
+<!-- ************************* Reproductor ************************* -->
+
+		<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">1ra Lectura</span></i>
+
+		  <audio id="audioPlayer" controls style="width: 100%;"> </audio>
+		  <script>
+			function esPar(year) {
+			  return year % 2 === 0;
+			}
+			var year = new Date().getFullYear();
+			var audio = document.getElementById('audioPlayer');
+			if (esPar(year)) { 
+				audio.src = 'src/lectura2.mp3';
+			} else {
+				audio.src = 'src/lectura1.mp3';
+			}
+			audio.play(off);
+		  </script>
+		  <i><span style="color: #FF0000; font-size: 15px;"id="playLectura">2da Lectura</span></i>
+		  <audio src="src/lecturas.mp3" controls style="width: 100%;"> </audio>
+
+<!-- ************************* Reproductor ************************* -->
     <FONT COLOR="#FF0000">
       PRIMERA LECTURA<BR><BR>
     </FONT>
@@ -146,13 +161,11 @@
       <FONT COLOR="#FF0000">R. </FONT> Quien no peca en sus palabras es hombre perfecto, <FONT COLOR="#FF0000">*</FONT> que puede poner freno a toda su persona.<BR>
       <FONT COLOR="#FF0000">V. </FONT> En el mucho hablar no faltar&aacute; pecado; el que frena sus labios es sensato.<BR>
       <FONT COLOR="#FF0000">R. </FONT> Que puede poner freno a toda su persona.<BR><BR>
-    </FONT>
-	
+    </FONT>	
 <!-- ************************ Reproductor de Audio para lecturas ************************ -->
 		<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">Audio 2da Lectura</span></i>
 		<audio src="src/lecturas.mp3" controls style="width: 100%;"> </audio>
 <!-- ************************ Reproductor de Audio para lecturas ************************ -->
-	
     <FONT COLOR="#FF0000">
       SEGUNDA LECTURA<BR><BR>
     </FONT>
