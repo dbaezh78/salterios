@@ -20,7 +20,7 @@
 </HEAD>
 
 <BODY>
-<a href="./"> <svg height="24px" viewBox="0 0 24 24" width="24px" fill="#5f6368"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5z"/></svg> </a>
+<a id=top href="./"> <svg height="24px" viewBox="0 0 24 24" width="24px" fill="#5f6368"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5z"/></svg> </a>
   <div align="right">
     <font color="#CC9933">
       tama&ntilde;o: </font>
@@ -134,6 +134,29 @@
         <FONT COLOR="#FF0000">V. </FONT> Gloria al Padre, y al Hijo, y al Esp&iacute;ritu Santo.<BR>
         <FONT COLOR="#FF0000">R. </FONT> Sobre ti, Jerusal&eacute;n, amanecer&aacute; el Se&ntilde;or.<BR><BR>
       </FONT>
+<!-- ************************* Reproductor ************************* -->
+
+<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">1ra Lectura</span></i>
+
+  <audio id="audioPlayer" controls style="width: 100%;"> </audio>
+  <script>
+    function esPar(year) {
+      return year % 2 === 0;
+    }
+    var year = new Date().getFullYear();
+    var audio = document.getElementById('audioPlayer');
+    if (esPar(year)) { 
+		audio.src = 'src/lectura2.mp3';
+    } else {
+		audio.src = 'src/lectura1.mp3';
+    }
+    audio.play(off);
+  </script>
+  <i><span style="color: #FF0000; font-size: 15px;"id="playLectura">2da Lectura</span></i>
+  <audio src="src/lecturas.mp3" controls style="width: 100%;"> </audio>
+   <BR><BR>
+
+<!-- ************************* Reproductor ************************* -->
       <FONT COLOR="#FF0000">
         C&Aacute;NTICO EVANG&Eacute;LICO<BR><BR>
         <FONT COLOR="#FF0000">Ant. </FONT>
@@ -182,6 +205,8 @@
           <FONT COLOR="#FF0000">R. </FONT> Am&eacute;n.
 
 
+<div id=down />
+</BODY>
 
-
-          <br><br><A href="#" onclick="ppjs()">Of</A> <A href="laudes.htm">La</A> <A href="tercia.htm">Tr</A> <A href="sexta.htm">Sx</A> <A href="nona.htm">Nn</A> <A href="visperas.htm">Vs</A> <A href="completas.htm">Cm</A>
+</HTML>
+<br><br> <div class="topDown"> <a href="#" id="top">&#8593;</a> <a href="#" onclick="ppjs()">Of</a> <a href="laudes.htm">La</a> <a href="tercia.htm">Tr</A> <A href="sexta.htm">Sx</A> <A href="nona.htm">Nn</A> <A href="visperas.htm">Vs</A> <A href="completas.htm">Cm</A> <a href="#down" id="down">&#8595;</a> </div>
