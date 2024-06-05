@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  </HEAD>
+	<style>
+  .scroll-to-top,
+  .scroll-to-bottom {
+    position: fixed;
+    bottom: 20px;
+    z-index: 9999;
+  }
+
+  .scroll-link {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .scroll-to-top {
+    right: 20px;
+  }
+
+  .scroll-to-bottom {
+    right: 70px;
+  }
+</style>
+<BODY>
+ <div class="scroll-to-top">
+  <a href="#" class="scroll-link" id="scrollToTop">&#8593;</a>
+</div>
+
+<div class="scroll-to-bottom">
+  <a href="#" class="scroll-link" id="scrollToBottom">&#8595;</a>
+  
+  <script>
+  document.getElementById("scrollToTop").addEventListener("click", function(event) {
+    event.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+
+  document.getElementById("scrollToBottom").addEventListener("click", function(event) {
+    event.preventDefault();
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: "smooth"
+    });
+  });
+</script>
+</div>
+</BODY>
+</HTML>
