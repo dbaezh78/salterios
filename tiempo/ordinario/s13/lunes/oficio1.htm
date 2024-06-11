@@ -2,38 +2,29 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
   <TITLE>Liturgia de las horas</TITLE>
-  <LINK href="/salterios/css/mio.css" type=text/css rel=stylesheet>
-  <LINK rel="icon" href="/salterios/css/ico-laudes.ico" type="image/x-icon">
-      <script>
-        function ppjs() {
-            var year = new Date().getFullYear();
-            if (year % 2 === 0) {
-                window.location.href = "oficio2.htm";
-            } else {
-                window.location.href = "oficio1.htm";
-            }
-        }
-    </script>
+  <LINK href="/css/mio.css" type=text/css rel=stylesheet>
 </HEAD>
 
 <BODY>
-<a id=top href="./"> <svg height="24px" viewBox="0 0 24 24" width="24px" fill="#5f6368"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5z"/></svg> </a>
   <div align="right">
     <font color="#CC9933">
       tama&ntilde;o: </font>
-	<select id="tamanioFuente" onchange="document.getElementById('cuerpo').style.fontSize = this.value + 'em';">
-	  <option value="1.1">Pequeño</option>
-	  <option value="1.3">Mediano</option>
-	  <option value="1.5">Grande</option>
-	</select>
+    <a href="#" onclick="document.getElementById('cuerpo').style.fontSize='1.1em'; return false;">
+      <font color="#CC9933" size="3">A</font>
+    </a>
+    <a href="#" onclick="document.getElementById('cuerpo').style.fontSize='1.3em'; return false;">
+      <font color="#CC9933" size="5">A</font>
+    </a>
+    <a href="#" onclick="document.getElementById('cuerpo').style.fontSize='1.5em'; return false;">
+      <font color="#CC9933" size="6">A</font>
+    </a>
   </div>
   <div id="cuerpo" class="normal">
 
-<a href="#playLectura">
-    <FONT COLOR="#FF0000"><STRONG>OFICIO DE LECTURA</STRONG><BR></a>
+    <FONT COLOR="#FF0000"><STRONG>OFICIO DE LECTURA</STRONG><BR>
       <HR>
       INVITATORIO
     </FONT>
@@ -113,65 +104,79 @@
       <FONT COLOR="#FF0000">R. </FONT> Y a guardarla de todo coraz&oacute;n.
     </FONT>
     <BR><BR>
-<!-- ************************* Reproductor ************************* -->
-
-		<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">1ra Lectura</span></i>
-
-		  <audio id="audioPlayer" controls style="width: 100%;"> </audio>
-		  <script>
-			function esPar(year) {
-			  return year % 2 === 0;
-			}
-			var year = new Date().getFullYear();
-			var audio = document.getElementById('audioPlayer');
-			if (esPar(year)) { 
-				audio.src = 'src/lectura2.mp3';
-			} else {
-				audio.src = 'src/lectura1.mp3';
-			}
-			audio.play(off);
-		  </script>
-
-<!-- ************************* Reproductor ************************* -->
- <FONT COLOR="#FF0000">
+    <FONT COLOR="#FF0000">
       PRIMERA LECTURA<BR><BR>
     </FONT>
     <FONT COLOR="#000000">
-      Del libro de Nehem&iacute;as 5, 1-19<BR><BR>
+      Del primer libro de Samuel 7,15-8,22<BR><BR>
     </FONT>
     <FONT COLOR="#FF0000">
-      NEHEM&Iacute;AS LIBERA AL PUEBLO DE LA OPRESI&Oacute;N DE LOS PODEROSOS<BR>
+      ISRAEL QUIERE TENER UN REY<BR>
     </FONT>
     <FONT COLOR="#000000">
-      <BR>En aquellos d&iacute;as, la gente sencilla, sobre todo las mujeres, empezaron a protestar fuertemente contra sus hermanos jud&iacute;os. Unos dec&iacute;an:<BR><BR>&laquo;Tenemos muchos hijos e hijas; que nos den trigo para comer y seguir
-      con vida.&raquo;<BR><BR>Otros:<BR><BR>&laquo;Pasamos tanta hambre, que tenemos que hipotecar nuestros campos, vi&ntilde;edos y casas para conseguir trigo.&raquo;<BR><BR>Y otros:<BR><BR>&laquo;Hemos tenido que pedir dinero prestado para pagar
-      el impuesto real. Somos iguales que nuestros hermanos, nuestros hijos son como los suyos, y, sin embargo, debemos entregar como esclavos a nuestros hijos e hijas; a algunas de ellas incluso las han deshonrado, sin que podamos hacer nada,
-      porque nuestros campos y vi&ntilde;as est&aacute;n en manos ajenas.&raquo;<BR><BR>Cuando me enter&eacute; de sus protestas y de lo que suced&iacute;a, me indign&eacute; y, sin poder contenerme, me encar&eacute; con los nobles y las
-      autoridades. Les dije:<BR><BR>&laquo;Os est&aacute;is portando con vuestros hermanos como usureros.&raquo;<BR><BR>Convoqu&eacute; contra ellos una asamblea general, y les dije:<BR><BR>&laquo;Nosotros, en la medida de nuestras posibilidades,
-      rescatamos a nuestros hermanos jud&iacute;os vendidos a los paganos. Y vosotros vend&eacute;is a vuestros hermanos para que luego nos los vendan a nosotros.&raquo;<BR><BR>Se quedaron cortados, sin respuesta, y yo segu&iacute;: &laquo;No
-      est&aacute; bien lo que hac&eacute;is. S&oacute;lo respetando a nuestro Dios evitar&eacute;is el desprecio de nuestros enemigos, los paganos. Tambi&eacute;n yo, mis hermanos y mis criados les hemos prestado dinero y trigo. Olvidemos esa deuda.
-      Devolvedles hoy mismo sus campos, vi&ntilde;as, olivares y casas, y perdonadles el dinero, el trigo, el vino y el aceite que les hab&eacute;is prestado.&raquo;<BR><BR>Respondieron:<BR><BR>&laquo;Se lo devolveremos sin exigir nada. Haremos lo
-      que dices.&raquo;<BR><BR>Entonces, llam&eacute; a los sacerdotes y les hice jurar que har&iacute;an seguir esta promesa. Luego, me despoj&eacute; de mi manto, diciendo:<BR><BR>&laquo;As&iacute; despoje Dios de su casa y de sus bienes al que no
-      cumpla su palabra, y que se quede despojado y sin nada.&raquo;<BR><BR>Toda la asamblea respondi&oacute;:<BR><BR>&laquo;Am&eacute;n.&raquo;<BR><BR>Y alab&oacute; al Se&ntilde;or. El pueblo cumpli&oacute; lo prometido.<BR><BR>Dicho sea de paso,
-      desde el d&iacute;a en que me nombraron gobernador de Jud&aacute;, cargo que ocup&eacute; durante doce a&ntilde;os, desde el veinte hasta el treinta y dos del rey Artajerjes, ni yo ni mis hermanos comimos a expensas del cargo. Los gobernadores
-      anteriores gravaban al pueblo, exigi&eacute;ndole cada d&iacute;a cuarenta siclos de plata en concepto de pan y vino, y tambi&eacute;n sus servidores oprim&iacute;an a la gente. Pero yo no obr&eacute; as&iacute; por respeto al Se&ntilde;or.<BR><BR>Adem&aacute;s,
-      trabaj&eacute; personalmente en la muralla, aunque yo no era terrateniente, y todos mis criados se pasaban el d&iacute;a en la obra. A mi mesa se sentaban ciento cincuenta nobles y consejeros, sin contar los que ven&iacute;an de los
-      pa&iacute;ses vecinos. Cada d&iacute;a se aderezaba un toro, seis ovejas escogidas y aves; cada diez d&iacute;as encargaba vino de todas clases en abundancia. Y, a pesar de esto, nunca reclam&eacute; la manutenci&oacute;n de gobernador, porque
-      bastante agobiado estaba ya el pueblo.<BR><BR>Dios m&iacute;o, acu&eacute;rdate, para mi bien, de todo lo que hice por esta gente.<BR><BR>
+      <BR>Samuel fue juez de Israel hasta su muerte. Todos
+      los a&ntilde;os, visitaba Betel, Guilgal y Atalaya, all&iacute; gobernaba
+      a Israel. Luego volv&iacute;a a Ram&aacute;, donde ten&iacute;a su casa
+      y sol&iacute;a ejercer sus funciones. All&iacute; edific&oacute; un altar al
+      Se&ntilde;or.<BR><BR>
+      Cuando Samuel lleg&oacute; a viejo, nombr&oacute; a sus hijos jueces
+      de Israel. El hijo mayor se llamaba Joel y el segundo
+      Ab&iacute;as; ejerc&iacute;an el cargo en Berseba. Pero no se comportaban
+      como su padre; atentos s&oacute;lo al provecho propio,
+      aceptaban sobornos y juzgaban contra justicia. Entonces,
+      los ancianos de Israel se reunieron y fueron a entrevistarse
+      con Samuel en Ram&aacute;. Le dijeron:<BR><BR>
+      &laquo;Mira, t&uacute; eres ya viejo, y tus hijos no se comportan
+      como t&uacute;. N&oacute;mbranos un rey que nos gobierne, como se
+      hace en todas las naciones.&raquo;<BR><BR>
+      A Samuel le disgust&oacute; que le pidieran ser gobernados
+      por un rey, y se puso a orar al Se&ntilde;or. El Se&ntilde;or le
+      respondi&oacute;:<BR><BR>
+      &laquo;Haz caso al pueblo en todo lo que te pidan. No te
+      rechazan a ti, sino a m&iacute;; no me quieren por rey. Como
+      me trataron desde el d&iacute;a que los saqu&eacute; de Egipto,
+      abandon&aacute;ndome para servir a otros dioses, as&iacute; te tratan a ti.
+      Hazles caso; pero advi&eacute;rteles bien claro, expl&iacute;cales los
+      derechos del rey.&raquo;<BR><BR>
+      Samuel comunic&oacute; la palabra del Se&ntilde;or a la gente que
+      le ped&iacute;a un rey:<BR><BR>
+      &laquo;&Eacute;stos son los derechos del rey que os regir&aacute;: A
+      vuestros hijos los llevar&aacute; para enrolarlos en sus destacamentos
+      de carros y caballer&iacute;a, y para que vayan delante de
+      su carroza; los emplear&aacute; como jefes y oficiales en su
+      ej&eacute;rcito, como aradores de sus campos y segadores de
+      su cosecha, como fabricantes de armamentos y de
+      pertrechos para sus carros. A vuestras hijas se las llevar&aacute;
+      como perfumistas, cocineras y reposteras. Vuestros campos,
+      vi&ntilde;as y los mejores olivares os los quitar&aacute; para
+      d&aacute;rselos a sus ministros. De vuestro grano y vuestras
+      vi&ntilde;as os exigir&aacute; diezmos, para d&aacute;rselos a sus funcionarios
+      y ministros. A vuestros criados y criadas, vuestros
+      mejores burros y bueyes se los llevar&aacute; para usarlos en su
+      hacienda. De vuestros reba&ntilde;os os exigir&aacute; diezmos. &iexcl;Y
+      vosotros mismos ser&eacute;is sus esclavos! Entonces, gritar&eacute;is
+      contra el rey que os elegisteis, pero Dios no os
+      responder&aacute;.&raquo;<BR><BR>
+      El pueblo no quiso hacer caso a Samuel, e insisti&oacute;:<BR><BR>
+      &laquo;No importa. &iexcl;Queremos un rey! As&iacute; seremos nosotros
+      como los dem&aacute;s pueblos. Que nuestro rey nos
+      gobierne y salga al frente de nosotros a luchar en la
+      guerra.&raquo;<BR><BR>
+      Samuel oy&oacute; lo que ped&iacute;a el pueblo y se lo comunic&oacute;
+      al Se&ntilde;or. El Se&ntilde;or le respondi&oacute;:<BR><BR>
+      &laquo;Hazles caso y n&oacute;mbrales un rey.&raquo;<BR><BR>
+      Entonces, Samuel dijo a los israelitas:<BR><BR>
+      &laquo;&iexcl;Cada uno a su pueblo!&raquo;<BR><BR>
     </FONT>
     <FONT COLOR="#FF0000">
-      RESPONSORIO &nbsp;&nbsp;&nbsp;Sal 11, 6; Is 3, 15<BR>
+      RESPONSORIO &nbsp;&nbsp;&nbsp;1S 10, 19; Is 33, 22<BR>
     </FONT>
     <FONT COLOR="#000000">
       <BR>
-      <FONT COLOR="#FF0000">R. </FONT> &laquo;Por la opresi&oacute;n del humilde, por el gemido del pobre, <FONT COLOR="#FF0000">*</FONT> yo me levantar&eacute;&raquo;, dice el Se&ntilde;or.<BR>
-      <FONT COLOR="#FF0000">V. </FONT> &iquest;Por qu&eacute; tritur&aacute;is a mi pueblo y aplast&aacute;is el rostro de los desvalidos?<BR>
-      <FONT COLOR="#FF0000">R. </FONT> &laquo;Yo me levantar&eacute;&raquo;, dice el Se&ntilde;or.<BR><BR>
+      <FONT COLOR="#FF0000">R. </FONT> Vosotros hab&eacute;is rechazado hoy a vuestro Dios, <FONT COLOR="#FF0000">*</FONT> el que os salv&oacute; de todas las desgracias y peligros.<BR>
+      <FONT COLOR="#FF0000">V. </FONT> El Se&ntilde;or nos gobierna, el Se&ntilde;or nos da leyes, el Se&ntilde;or es nuestro rey.<BR>
+      <FONT COLOR="#FF0000">R. </FONT> El que os salv&oacute; de todas las desgracias y peligros.<BR><BR>
     </FONT>
-<!-- ************************ Reproductor de Audio para lecturas ************************ -->
-<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">Audio 2da Lectura</span></i>
-<audio src="src/lecturas.mp3" controls style="width: 100%;"> </audio>
-<!-- ************************ Reproductor de Audio para lecturas ************************ -->	
     <FONT COLOR="#FF0000">
       SEGUNDA LECTURA<BR><BR>
     </FONT>
@@ -225,9 +230,7 @@
         <FONT COLOR="#FF0000">R. </FONT>Demos gracias a Dios.
 
 
-
-<div id=down />
 </BODY>
 
 </HTML>
-<br><br> <div class="topDown"> <a href="#" id="top">&#8593;</a> <a href="#" onclick="ppjs()">Of</a> <a href="laudes.htm">La</a> <a href="tercia.htm">Tr</A> <A href="sexta.htm">Sx</A> <A href="nona.htm">Nn</A> <A href="visperas.htm">Vs</A> <A href="completas.htm">Cm</A> <a href="#down" id="down">&#8595;</a> </div>
+<br><br><A href="oficio.htm">Of</A> <A href="laudes.htm">La</A> <A href="tercia.htm">Tr</A> <A href="sexta.htm">Sx</A> <A href="nona.htm">Nn</A> <A href="visperas.htm">Vs</A> <A href="completas.htm">Cm</A>
