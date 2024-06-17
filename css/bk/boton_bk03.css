@@ -452,7 +452,7 @@
 
 		.t-liturgico{
             text-decoration: none; /* Sin subrayado */
-            color: white; /* Color gris */
+            color: black; /* Color gris */
             margin: 12px; /* Margen alrededor de cada número */
             padding: 12px 12px; /* Padding interno */
             /*border: 1px solid #ccc; /* Borde gris */
@@ -465,7 +465,3 @@
             /*width: auto; /* Ancho fijo para cada botón */
 			text-decoration: none; 
         }
-
-	.tfondo{
-		background-color: green;
-	}
