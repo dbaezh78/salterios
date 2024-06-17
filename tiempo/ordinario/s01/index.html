@@ -47,14 +47,14 @@
 
 <script>
     // JavaScript para manejar los clics en los enlaces de semanas
-    const numberLinks = document.querySelectorAll('.number-link' '.btn');
+    const numberLinks = document.querySelectorAll('.day-link' '.btn' 'dc' 'sday-lnk' 'week-link');
     numberLinks.forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
             const targetId = link.getAttribute('href'); // Obtener el ID del contenedor objetivo
 			const targetContainer = document.querySelector(targetId); // Seleccionar el contenedor objetivo
             // Ocultar todos los contenedores de días
-            document.querySelectorAll('.day-container').forEach(container => {
+            document.querySelectorAll('.dc').forEach(container => {
                 container.style.display = 'none';
             });
             // Mostrar el contenedor de días correspondiente al enlace clicado
