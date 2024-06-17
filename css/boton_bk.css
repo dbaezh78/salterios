@@ -48,29 +48,6 @@
 				Color:white;
 	
 				}
-				
-				.sunday-link {
-            text-decoration: none; /* Sin subrayado */
-            color: black; /* Color gris */
-			
-			background-color: #01B7EF;
-            margin: 5px; /* Margen alrededor de cada número */
-            padding: 8px 12px; /* Padding interno */
-            border: 1px solid #ccc; /* Borde gris */
-            border-radius: 5px; /* Bordes redondeados */
-            transition: background-color 0.3s, color 0.3s; /* Transición suave */
-            text-align: center; /* Centrar el texto */
-			font-family: "Comic Sans MS";
-            width: auto; /* Ancho fijo para cada botón */
-			/*font-size: 1.2em; */
-        }
-			.sunday-link:hover {
-				background-color: white;
-				text-decoration: none;
-				Color:black;
-	
-				}
-				
 
 		.disabled-link	{
             text-decoration: none; /* Sin subrayado */
@@ -424,28 +401,3 @@
             width: auto; /* Ancho fijo para cada botón */
 			/*font-size: 1.2em; */	
 	}
-	
-		.wday{
-            text-decoration: none; /* Sin subrayado */
-            color: black; /* Color gris */
-            margin: 5px; /* Margen alrededor de cada número */
-            padding: 8px 12px; /* Padding interno */
-            border: 1px solid #ccc; /* Borde gris */
-            border-radius: 5px; /* Bordes redondeados */
-            transition: background-color 0.3s, color 0.3s; /* Transición suave */
-            text-align: center; /* Centrar el texto */
-			cursor: pointer;
-            width: auto; /* Ancho fijo para cada botón */
-			text-decoration: none; 
-        }
-
-        .dc{  		/*        .dc= .day-container  */
-            /* display: none; */
-			cursor: pointer;
-			border: 1px solid #ccc; /* */
-			border-radius: 5px; /* Bordes redondeados */
-			text-align: center;
-            justify-content: center;
-            margin-top: 20px;
-            width: auto; /* Ancho fijo para cada botón */
-			}
