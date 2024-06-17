@@ -7,7 +7,7 @@
 	<LINK href="/salterios/css/boton.css" type=text/css rel=stylesheet>
 	<link rel="stylesheet" href="/salterios/css/bootstrap.min.css">
 	<link rel="icon" href="/salterios/css/ico-laudes.ico" type="image/x-icon">
-	<link href="/salterios/css/db.css" type=text/css rel=stylesheet>
+<!-- <link href="/salterios/css/db.css" type=text/css rel=stylesheet>  -->
 	
 		<script src="/salterios/css/jquery-3.2.1.slim.min.js"></script>
 		<script src="/salterios/css/popper.min.js"></script>
@@ -34,11 +34,11 @@
 	<div class="row">
 		<div class="col-md-12" style=padding:10px>
 			<div class="btn-inline btn-toolbar d-flex justify-content-center"> 
-	<a class="number-link btn btn-outline-success" href="s01">1</a>
-    <a class="number-link btn btn-outline-success" href="s02">2</a>
-    <a class="number-link btn btn-outline-success" href="s03">3</a>
-    <a class="number-link btn btn-outline-success" href="s04">4</a>
-    <a class="number-link btn btn-outline-success" href="navidad">Navidad</a>
+	<a class="number-link btn db-purple" href="s01">1</a>
+    <a class="number-link btn db-purple" href="s02">2</a>
+    <a class="number-link btn db-purple" href="s03">3</a>
+    <a class="number-link btn db-purple" href="s04">4</a>
+    <a class="number-link btn db-purple" href="navidad">Navidad</a>
 			</div>
 		</div>
 	</div>
@@ -46,7 +46,7 @@
 
 <script>
     // JavaScript para manejar los clics en los enlaces de semanas
-    const numberLinks = document.querySelectorAll('.day-link' '.btn' '.dc' '.sday-lnk' '.week-link' 't-liturgico');
+    const numberLinks = document.querySelectorAll('.day-link' '.btn' '.dc' '.sday-lnk' '.week-link' 't-liturgico' 'db-purple');
     numberLinks.forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault(); // Prevenir el comportamiento predeterminado del enlace

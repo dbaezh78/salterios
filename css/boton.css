@@ -244,6 +244,7 @@
 			font-family: "Comic Sans MS";
 			font-size:20px;
 		}
+		
 		.ordinariox-css:hover{
 			background:green;
 			Color:white;
@@ -479,12 +480,13 @@
 	.tafondo{	/*Tiempo Adviento Fondo*/
 		background-color: purple;
 		text-decoration: none;
+		border-color: purple;
 		color: white;
 		padding: 12px 12px;
 		text-align: center;
 		font-family: "Comic Sans MS";
 		font-size: 35px;
-		text-decoration: none; 
+		text-decoration: none;
 	}
 
 	.tcfondo{	/*Tiempo Cuaresma Fondo*/
@@ -510,7 +512,7 @@
 	}
 
 	.tnfondo{	/*Tiempo Navidad Fondo*/
-		background-color: white
+		background-color: white;
 		text-decoration: none;
 		color: #e8b935;
 		padding: 12px 12px;
@@ -520,4 +522,15 @@
 		text-decoration: none; 
 	}
 
+	.db-purple {
+		color: white;
+		background-color: gray;
+		border: 1px solid blue;
 
+		}
+
+	.db-purple:hover {
+		color: white;
+		background-color: purple;
+		border-color: green;
+		}

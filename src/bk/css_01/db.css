@@ -1,0 +1,22 @@
+	.normal {
+  font-family: Verdana, Arial
+}
+
+        .footnote {
+            font-size: 1.0em;
+			text-decoration: none;
+			color: #1ea6ef;
+			font-family: Bradley Hand ITC;
+        }
+	right1{
+		text-align: right;
+	}
+	left1{
+		text-align:left;
+		color:blue;
+		color:red;
+	}
+	a:hover{
+		text-decoration: none;
+	}
+		
