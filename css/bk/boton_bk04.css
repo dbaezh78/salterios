@@ -215,7 +215,7 @@
 		.ordinario-css{
 			text-decoration: none; /* Sin subrayado */
             background-color: green;
-			color: white; /* Color white */
+			color: white; /* Color gris */
             margin: 5px; /* Margen alrededor de cada número */
             padding: 8px 12px; /* Padding interno */
             border: 1px solid #ccc; /* Borde gris */
@@ -343,7 +343,7 @@
 
 		}
 		.santosx-css:hover{
-			background:#00A2E8;  /* */ 
+			background:#00A2E8;
 			Color:white;
 		}
 
@@ -434,14 +434,14 @@
             border-radius: 5px; /* Bordes redondeados */
             transition: background-color 0.3s, color 0.3s; /* Transición suave */
             text-align: center; /* Centrar el texto */
-			/*cursor: pointer;
+			cursor: pointer;
             width: auto; /* Ancho fijo para cada botón */
 			text-decoration: none; 
         }
 
         .dc{  		/*        .dc= .day-container  */
             /* display: none; */
-			/*cursor: pointer;	/* */
+			cursor: pointer;
 			border: 1px solid #ccc; /* */
 			border-radius: 5px; /* Bordes redondeados */
 			text-align: center;
@@ -452,72 +452,20 @@
 
 		.t-liturgico{
             text-decoration: none; /* Sin subrayado */
-            color: white; /* Color blanco */
-            margin: auto; /* Margen alrededor de cada número */
+            color: white; /* Color gris */
+            margin: 12px; /* Margen alrededor de cada número */
             padding: 12px 12px; /* Padding interno */
             /*border: 1px solid #ccc; /* Borde gris */
             /*border-radius: 2px; /* Bordes redondeados */
             /*transition: background-color 0.3s, color 0.3s; /* Transición suave */
-            text-align: center; /* Centrar el texto */
+            text-align: justify; /* Centrar el texto */
+			cursor: pointer;
 			font-family: "Comic Sans MS";
-			font-size: 35px;
+			font-size: 25px;
             /*width: auto; /* Ancho fijo para cada botón */
 			text-decoration: none; 
         }
 
-	.tofondo{	/*Tiempo Ordinario Fondo*/
+	.tfondo{
 		background-color: green;
-		text-decoration: none;
-		color: white;
-		padding: 12px 12px;
-		text-align: center;
-		font-family: "Comic Sans MS";
-		font-size: 35px;
-		text-decoration: none; 
 	}
-	
-	.tafondo{	/*Tiempo Adviento Fondo*/
-		background-color: purple;
-		text-decoration: none;
-		color: white;
-		padding: 12px 12px;
-		text-align: center;
-		font-family: "Comic Sans MS";
-		font-size: 35px;
-		text-decoration: none; 
-	}
-
-	.tcfondo{	/*Tiempo Cuaresma Fondo*/
-		background-color: purple;
-		text-decoration: none;
-		color: white;
-		padding: 12px 12px;
-		text-align: center;
-		font-family: "Comic Sans MS";
-		font-size: 35px;
-		text-decoration: none; 
-	}
-
-	.tpfondo{	/*Tiempo Pascua Fondo*/
-		background-color: white;
-		text-decoration: none;
-		color: black;
-		padding: 12px 12px;
-		text-align: center;
-		font-family: "Comic Sans MS";
-		font-size: 35px;
-		text-decoration: none; 
-	}
-
-	.tnfondo{	/*Tiempo Navidad Fondo*/
-		background-color: white
-		text-decoration: none;
-		color: #e8b935;
-		padding: 12px 12px;
-		text-align: center;
-		font-family: "Comic Sans MS";
-		font-size: 35px;
-		text-decoration: none; 
-	}
-
-
