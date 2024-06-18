@@ -466,6 +466,17 @@
 			text-decoration: none; 
         }
 
+	.fsfondo{	/*Fiesta de los Santos Fondo*/
+		background-color:  rgb(24, 114, 199);
+		text-decoration: none;
+		color: white;
+		padding: 12px 12px;
+		text-align: center;
+		font-family: "Comic Sans MS";
+		font-size: 35px;
+		text-decoration: none; 
+		}
+
 	.tofondo{	/*Tiempo Ordinario Fondo*/
 		background-color: green;
 		text-decoration: none;
@@ -480,12 +491,16 @@
 	.tafondo{	/*Tiempo Adviento Fondo*/
 		background-color: purple;
 		text-decoration: none;
-		border-color: purple;
+		border-color: rgb(44, 1, 44);
 		color: white;
 		padding: 12px 12px;
 		text-align: center;
 		font-family: "Comic Sans MS";
 		font-size: 35px;
+		text-decoration: none;
+	}
+	.tafondo:hover{
+		color:rgba(241, 241, 48, 0.886); 
 		text-decoration: none;
 	}
 
@@ -501,9 +516,9 @@
 	}
 
 	.tpfondo{	/*Tiempo Pascua Fondo*/
-		background-color: white;
+		background-color:  rgb(24, 114, 199);
 		text-decoration: none;
-		color: black;
+		color: white;
 		padding: 12px 12px;
 		text-align: center;
 		font-family: "Comic Sans MS";
@@ -512,20 +527,29 @@
 	}
 
 	.tnfondo{	/*Tiempo Navidad Fondo*/
-		background-color: white;
+		background-color: #ad0000;
 		text-decoration: none;
-		color: #e8b935;
+		border-color: rgb(44, 1, 44);
+		color: white;
 		padding: 12px 12px;
 		text-align: center;
 		font-family: "Comic Sans MS";
 		font-size: 35px;
 		text-decoration: none; 
 	}
+	.tnfondo:hover{
+		color: #008F39
+		/* color:rgba(56, 195, 21, 0.955); */
+	}
 
 	.db-purple {
-		color: white;
-		background-color: gray;
-		border: 1px solid blue;
+		color: black;
+		background-color: white;
+		border-color: purple;
+		border: 1px solid purple;
+		border-radius: 5px;
+		margin: 5px;
+		padding: 6px 12px;
 
 		}
 
@@ -533,4 +557,80 @@
 		color: white;
 		background-color: purple;
 		border-color: green;
+		text-decoration: none;
 		}
+
+		/* RED */
+
+		.db-red {
+			color: black;
+			background-color: white;
+			border-color: #ad0000;
+			border: 1px solid #ad0000;
+			border-radius: 5px;
+			margin: 5px;
+			padding: 6px 12px;
+	
+			}
+	
+		.db-red:hover {
+			color: white;
+			background-color: #ad0000;
+			text-decoration: none;
+			}
+		
+		.wcolor {
+			color: white;
+		}
+
+		.wcolora {
+			color: white;
+		}
+
+		.wcolora:hover {
+			color: rgb(28, 175, 17);
+			text-decoration: none;
+		}
+
+		
+		.wcolorto {
+			color: white;
+		}
+
+		.wcolorto:hover {
+			color: rgb(64, 161, 225);
+			text-decoration: none;
+		}
+
+		.wcolorc {
+			color: white;
+		}
+
+		.wcolorc:hover {
+			color: rgb(250, 250, 51);
+			text-decoration: none;
+		}
+
+
+
+		.wcolorp {
+			color: white;
+		}
+
+		.wcolorp:hover {
+			color: #00A2E8;
+			text-decoration: none;
+		}
+
+		
+		
+		.wcsantos {
+			color: white;
+		}
+
+		.wcsantos:hover {
+			color: #00A2E8;
+			text-decoration: none;
+		}
+
+
