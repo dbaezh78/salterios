@@ -5,3 +5,108 @@ C:\db\github\salterios\tiempo\ordinario\s09\jueves
 
 C:\db\github\storage\sync\2023\jun\10
 
+
+
+<script>
+  const fechaInfraOctava = new Date(/* Fecha de InfraOctava de Navidad */);
+  const diaInfraOctava = fechaInfraOctava.getDay();
+
+  switch (diaInfraOctava) {
+    case 0:
+      window.location.href = "domingo.html";
+      break;
+    case 1:
+      window.location.href = "lunes.html";
+      break;
+    case 2:
+      window.location.href = "martes.html";
+      break;
+    // ... y así para el resto de los días
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Infraoctava de Navidad</title>
+</head>
+<body>
+  <script>
+    const carpetas = {
+      0: "infraOctavaDomingo.html",
+      1: "infraOctavaLunes.html",
+      2: "infraOctavaMartes.html",
+      3: "infraOctavaMiercoles.html",
+      4: "infraOctavaJueves.html",
+      5: "infraOctavaViernes.html",
+      6: "infraOctavaSabado.html"
+    };
+
+    const diaActual = new Date(Date.now()).getDay();
+    const carpetaSeleccionada = carpetas[diaActual];
+    window.location.href = carpetaSeleccionada;
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+*****************
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InfraOctava de Navidad</title>
+</head>
+<body>
+  <h1>InfraOctava de Navidad</h1>
+  <a href="#" onclick="calcularEnlace()">Seleccionar día</a>
+
+  <script>
+    const fechaInfraOctava = new Date(/* Fecha de InfraOctava de Navidad */);
+    const diaInfraOctava = fechaInfraOctava.getDay();
+
+    function calcularEnlace() {
+      switch (diaInfraOctava) {
+        case 0:
+          window.location.href = "domingo.html";
+          break;
+        case 1:
+          window.location.href = "lunes.html";
+          break;
+        case 2:
+          window.location.href = "martes.html";
+          break;
+        // ... y así para el resto de los días
+      }
+    }
+  </script>
+</body>
+</html>
+
+*******************
+
+
