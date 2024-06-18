@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liturgia de las Horas</title>
+	<LINK href="/salterios/css/boton.css" type=text/css rel=stylesheet>
+	<link rel="stylesheet" href="/salterios/css/bootstrap.min.css">
+	<link rel="icon" href="/salterios/css/ico-laudes.ico" type="image/x-icon">
+	<link href="/salterios/css/db.css" type=text/css rel=stylesheet>
+	
+		<script src="/salterios/css/jquery-3.2.1.slim.min.js"></script>
+		<script src="/salterios/css/popper.min.js"></script>
+		<script src="/salterios/css/bootstrap.min.js"></script>
+</head>
+	<body>
+
+<div id="inicio"/>
+<div class="Tiempos-liturgicos">
+
+<h1>Liturgia de las Horas</h1>
+</div>
+<hr>
+<!-- Publicación de imagen -->
+<a class="btn-inline btn-toolbar d-flex justify-content-center" href="/salterios"/>
+	<img src="/salterios/css/lh.jpg" width="200px" height="200px"
+	class="btn-inline btn-toolbar d-flex justify-content-center rounded-circle"></a>
+<!-- Publicación de imagen -->
+
+<div class="container dc">
+<div class="tcfondo">	<!-- clases para fondos tofondo(Ordinario), tafondo(Adviento), tcfondo(Cuaresma), tpfondo(Pascual) tnfondo(Navidad) -->
+	<a class="tcfondo" href="/salterios/#Cuaresma">Tiempo de Cuaresma</a> 
+	</div><hr>
+	<div class="row">
+		<div class="col-md-12" style=padding:10px>
+			<div class="btn-inline btn-toolbar d-flex justify-content-center"> 
+				<a class="week-link" href="/salterios/#Ordinario">Semana 2</a>
+				<a class="sday-lnk" href="domingo/index.htm">Domingo</a>
+				<a class="day-link" href="lunes/index.htm">Lunes</a>
+				<a class="day-link" href="martes/index.htm">Martes</a>
+				<a class="day-link" href="miercoles/index.htm">Miércoles</a>
+				<a class="day-link" href="jueves/index.htm">Jueves</a>
+				<a class="day-link" href="viernes/index.htm">Viernes</a>
+				<a class="day-link" href="sabado/index.htm">Sábado</a></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+    // JavaScript para manejar los clics en los enlaces de semanas
+    const numberLinks = document.querySelectorAll('.day-link' '.btn' '.dc' '.sday-lnk' '.week-link' 't-liturgico');
+    numberLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
+            const targetId = link.getAttribute('href'); // Obtener el ID del contenedor objetivo
+			const targetContainer = document.querySelector(targetId); // Seleccionar el contenedor objetivo
+            // Ocultar todos los contenedores de días
+            document.querySelectorAll('.dc').forEach(container => {
+                container.style.display = 'none';
+            });
+            // Mostrar el contenedor de días correspondiente al enlace clicado
+            targetContainer.style.display = 'flex';
+        });
+    });
+	
+</script>
+
+ <hr>
+    <div class="footnote">
+	
+	<!-- 
+	href="https://hjg.com.ar/ssee/47_mt/c005.html#v44" target="_blank"
+	-->
+		<a data-toggle="modal" data-target="#imgx"><b> MT 5,44:</b></a>
+        <p class="right" id="footnote1"><a href="#inicio">↑</a> Amad a vuestros enemigos y rogad por los que os persigan.<sup>1</sup></p>
+		<b class="left1" id="footnote1">Vengo pronto!<a href="https://www.epifania.es/wp-content/uploads/9-Cristo-Pantocrator-05-2014web.jpg" target="_blank"><sup>2</sup></a></b>
+    </div>
+	
+	<!-- Zona Modal -->
+	
+	<!-- Modal -->
+<div class="modal fade" id="imgx" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" style="width:380px; height:600px">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Biblia</h4>
+      </div>
+      <div class="modal-body">
+        <iframe src="https://hjg.com.ar/ssee/47_mt/c005.html#v44" width="100%"; height="100%">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	
+</body>
+</html>
