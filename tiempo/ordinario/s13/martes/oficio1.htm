@@ -2,38 +2,29 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
   <TITLE>Liturgia de las horas</TITLE>
-  <LINK href="/salterios/css/mio.css" type=text/css rel=stylesheet>
-  <LINK rel="icon" href="/salterios/css/ico-laudes.ico" type="image/x-icon">
-      <script>
-        function ppjs() {
-            var year = new Date().getFullYear();
-            if (year % 2 === 0) {
-                window.location.href = "oficio2.htm";
-            } else {
-                window.location.href = "oficio1.htm";
-            }
-        }
-    </script>
+  <LINK href="/sync/css/mio.css" type=text/css rel=stylesheet>
 </HEAD>
 
 <BODY>
-<a id=top href="./"> <svg height="24px" viewBox="0 0 24 24" width="24px" fill="#5f6368"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5z"/></svg> </a>
   <div align="right">
     <font color="#CC9933">
       tama&ntilde;o: </font>
-	<select id="tamanioFuente" onchange="document.getElementById('cuerpo').style.fontSize = this.value + 'em';">
-	  <option value="1.1">Pequeño</option>
-	  <option value="1.3">Mediano</option>
-	  <option value="1.5">Grande</option>
-	</select>
+    <a href="#" onclick="document.getElementById('cuerpo').style.fontSize='1.1em'; return false;">
+      <font color="#CC9933" size="3">A</font>
+    </a>
+    <a href="#" onclick="document.getElementById('cuerpo').style.fontSize='1.3em'; return false;">
+      <font color="#CC9933" size="5">A</font>
+    </a>
+    <a href="#" onclick="document.getElementById('cuerpo').style.fontSize='1.5em'; return false;">
+      <font color="#CC9933" size="6">A</font>
+    </a>
   </div>
   <div id="cuerpo" class="normal">
 
-<a href="#playLectura">
-    <FONT COLOR="#FF0000"><STRONG>OFICIO DE LECTURA</STRONG><BR></a>
+    <FONT COLOR="#FF0000"><STRONG>OFICIO DE LECTURA</STRONG><BR>
       <HR>
       INVITATORIO
     </FONT>
@@ -114,68 +105,44 @@
       <FONT COLOR="#FF0000">R. </FONT> Ense&ntilde;a su camino a los humildes.
     </FONT>
     <BR><BR>
-<!-- ************************* Reproductor ************************* -->
-
-		<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">1ra Lectura</span></i>
-
-		  <audio id="audioPlayer" controls style="width: 100%;"> </audio>
-		  <script>
-			function esPar(year) {
-			  return year % 2 === 0;
-			}
-			var year = new Date().getFullYear();
-			var audio = document.getElementById('audioPlayer');
-			if (esPar(year)) { 
-				audio.src = 'src/lectura2.mp3';
-			} else {
-				audio.src = 'src/lectura1.mp3';
-			}
-			audio.play(off);
-		  </script>
-
-<!-- ************************* Reproductor ************************* -->
- <FONT COLOR="#FF0000">
+    <FONT COLOR="#FF0000">
       PRIMERA LECTURA<BR><BR>
     </FONT>
     <FONT COLOR="#000000">
-      Del libro de Nehem&iacute;as 8, 1-18<BR><BR>
+      Del primer libro de Samuel 9,1-6.14&mdash;10,1<BR><BR>
     </FONT>
     <FONT COLOR="#FF0000">
-      ESDRAS LEE, POR PRIMERA VEZ Y DE MODO SOLEMNE, LA LEY AL PUEBLO<BR>
+      SA&Uacute;L, ELEGIDO REY, ES UNGIDO POR SAMUEL<BR>
     </FONT>
     <FONT COLOR="#000000">
-      <BR>Al llegar el s&eacute;ptimo mes, los israelitas se encontraban instalados en sus ciudades. Entonces, todo el pueblo se reuni&oacute;, como un solo hombre, en la plaza que se abre ante la puerta del Agua, y pidi&oacute; a Esdras, el
-      letrado, que trajera el libro de la ley de Mois&eacute;s, que Dios hab&iacute;a dado a Israel. El sacerdote Esdras trajo el libro de la ley ante la asamblea, compuesta de hombres, mujeres y todos los que ten&iacute;an uso de raz&oacute;n. Era
-      a mediados del mes s&eacute;ptimo.<BR>En la plaza de la puerta del Agua, desde el amanecer hasta el mediod&iacute;a, estuvo leyendo el libro a los hombres, a las mujeres y a los que ten&iacute;an uso de raz&oacute;n. Toda la gente
-      segu&iacute;a con atenci&oacute;n la lectura de la ley. Esdras, el letrado, estaba de pie en el p&uacute;lpito de madera que hab&iacute;a hecho para esta ocasi&oacute;n. A su derecha se encontraban Matit&iacute;as, Sema, Anayas, Ur&iacute;as,
-      Jelc&iacute;as y Maseyas; a su izquierda, Fedayas, Misael, Malqu&iacute;as, Jas&uacute;n, Jasbadana, Zacar&iacute;as y Mesul&aacute;n.<BR><BR>Esdras abri&oacute; el libro a la vista de todo el pueblo -pues se hallaba en un puesto elevado- y,
-      cuando lo abri&oacute;, toda la gente se puso en pie. Esdras bendijo al Se&ntilde;or, Dios grande, y todo el pueblo, levantando las manos, respondi&oacute;:<BR>&laquo;Am&eacute;n, am&eacute;n.&raquo;<BR><BR>Despu&eacute;s, se inclinaron y
-      adoraron al Se&ntilde;or, rostro en tierra. Los levitas Josu&eacute;, Ban&iacute;, Sereb&iacute;as, Yam&iacute;n, Acub, Sabtay, Hodiy&iacute;as, Maseyas, Quelit&aacute;, Azar&iacute;as, Yozabad, Jan&aacute;n y Felayas explicaron la ley al
-      pueblo, que se manten&iacute;a en sus puestos. Le&iacute;an el libro de la ley de Dios, traduci&eacute;ndolo y explic&aacute;ndolo para que se entendiese la lectura. El gobernador Nehem&iacute;as, el sacerdote y letrado Esdras y los levitas
-      que instru&iacute;an al pueblo, viendo que la gente lloraba al escuchar la lectura de la ley, le dijeron:<BR>&laquo;Este d&iacute;a est&aacute; consagrado al Se&ntilde;or, vuestro Dios; no hag&aacute;is duelo ni llor&eacute;is.&raquo;<BR><BR>Despu&eacute;s
-      a&ntilde;adi&oacute;:<BR>&laquo;Id a casa, comed buenas tajadas, bebed vinos generosos y enviad porciones a los que no tienen nada, porque hoy es d&iacute;a consagrado a nuestro Dios. No est&eacute;is tristes: la alegr&iacute;a del
-      Se&ntilde;or es vuestra fortaleza.&raquo;<BR><BR>Los levitas acallaban al pueblo, diciendo:<BR>&laquo;Silencio, que es un d&iacute;a santo; no est&eacute;is tristes.&raquo;<BR><BR>El pueblo se fue, comi&oacute;, bebi&oacute;, envi&oacute;
-      porciones y organiz&oacute; una gran fiesta, porque hab&iacute;a comprendido lo que le hab&iacute;an explicado. Al d&iacute;a siguiente, los cabezas de familia de todo el pueblo, los sacerdotes y los levitas se reunieron con el letrado Esdras
-      para estudiar el libro de la ley. En la ley que hab&iacute;a mandado el Se&ntilde;or por medio de Mois&eacute;s encontraron escrito: &laquo;Los israelitas habitar&aacute;n en chozas durante la fiesta del s&eacute;ptimo mes.&raquo;<BR><BR>Entonces,
-      pregonaron en todos sus pueblos y en Jerusal&eacute;n:<BR>&laquo;Id al monte y traed ramas de olivo, pino, mirto, palmera y de otros &aacute;rboles frondosos para construir las chozas, como est&aacute; mandado.&raquo;<BR><BR>La gente fue, las
-      trajo e hicieron las chozas; unos en la azotea, otros en sus patios, en los patios del templo, en la plaza de la puerta del Agua y en la plaza de la puerta de Efra&iacute;m. Toda la asamblea que hab&iacute;a vuelto del destierro hizo chozas,
-      habitaron en ellas -cosa que no hac&iacute;an los israelitas desde tiempos de Josu&eacute;, hijo de Nun- y hubo una gran fiesta. Todos los d&iacute;as, del primero al &uacute;ltimo, ley&oacute; Esdras el libro de la ley de Dios. La fiesta
-      dur&oacute; siete d&iacute;as, y el octavo tuvo lugar una asamblea solemne, como est&aacute; mandado.<BR><BR>
+      <BR>En aquellos d&iacute;as, hab&iacute;a un hombre de Loma de Benjam&iacute;n, llamado Quis, hijo de Abiel, de Seror, de Becor&aacute;, de Afiaj, benjaminita, de buena posici&oacute;n. Ten&iacute;a un hijo que se llamaba Sa&uacute;l, un mozo
+      bien plantado; era el israelita m&aacute;s alto: sobresal&iacute;a por encima de todos, de los hombros arriba. A su padre, Quis, se le hab&iacute;an extraviado unas burras; y dijo a su hijo Sa&uacute;l:<BR><BR>&laquo;Ll&eacute;vate a uno de
+      los criados y vete a buscar las burras.&raquo;<BR><BR>Cruzaron la serran&iacute;a de Efra&iacute;m y atravesaron la comarca de Salis&aacute;, pero no las encontraron. Atravesaron la comarca de Saal&iacute;n, y nada. Atravesaron la comarca de
+      Benjam&iacute;n, y tampoco. Cuando llegaron a la comarca de Suf, Sa&uacute;l dijo al criado que iba con &eacute;l:<BR><BR>&laquo;Vamos a volvernos, no sea que mi padre prescinda de las burras y empiece a preocuparse por nosotros.&raquo;<BR><BR>Pero
+      el criado repuso:<BR><BR>&laquo;Precisamente en ese pueblo hay un hombre de Dios de gran fama; lo que &eacute;l dice sucede sin falta. Vamos all&aacute;. A lo mejor nos orienta sobre lo que andamos buscando.&raquo;<BR><BR>Subieron al pueblo.
+      Y, justamente cuando entraban en el pueblo, se encontr&oacute; con ellos Samuel, seg&uacute;n sal&iacute;a para subir al altozano. El d&iacute;a antes de llegar Sa&uacute;l, el Se&ntilde;or hab&iacute;a revelado a Samuel:<BR><BR>&laquo;Ma&ntilde;ana
+      te enviar&eacute; un hombre de la regi&oacute;n de Benjam&iacute;n, para que lo unjas como jefe de mi pueblo, Israel, y libre a mi pueblo de la dominaci&oacute;n filistea; porque he visto la aflicci&oacute;n de mi pueblo, sus gritos han
+      llegado hasta m&iacute;.&raquo;<BR><BR>Cuando Samuel vio a Sa&uacute;l, el Se&ntilde;or le avis&oacute;:<BR><BR>&laquo;Ese es el hombre de quien te habl&eacute;; &eacute;se regir&aacute; a mi pueblo.&raquo;<BR><BR>Sa&uacute;l se acerc&oacute;
+      a Samuel en medio de la entrada y le dijo:<BR><BR>&laquo;Haz el favor de decirme d&oacute;nde est&aacute; la casa del vidente.&raquo;<BR><BR>Samuel le respondi&oacute;:<BR><BR>&laquo;Yo soy el vidente. Sube delante de m&iacute; al altozano;
+      hoy com&eacute;is conmigo y ma&ntilde;ana te dejar&eacute; marchar y te dir&eacute; todo lo que piensas. Por las burras que se te perdieron hace tres d&iacute;as, no te preocupes, que ya aparecieron. Adem&aacute;s, &iquest;a qui&eacute;n
+      anhela todo Israel? A ti y a la familia de tu padre.&raquo;<BR><BR>Sa&uacute;l respondi&oacute;:<BR><BR>&laquo;&iexcl;Si yo soy de Benjam&iacute;n, la menor de las tribus de Israel! Y, de todas las familias de Benjam&iacute;n, mi familia es la
+      menos importante. &iquest;Por qu&eacute; me dices eso?&raquo;<BR><BR>Entonces, Samuel tom&oacute; a Sa&uacute;l y a su criado, los hizo entrar en el comedor y los puso en la presidencia de los convidados, unas treinta personas. Luego, dijo al
+      cocinero:<BR><BR>&laquo;Trae la raci&oacute;n que te encargu&eacute;, la que te dije que apartases.&raquo;<BR><BR>El cocinero tom&oacute; la pierna y la cola del animal sacrificado, y se lo sirvi&oacute; a Sa&uacute;l. Samuel dijo:<BR><BR>&laquo;Ah&iacute;
+      tienes lo que te reservaron; come, que te lo han guardado para esta ocasi&oacute;n, para que lo comas con los convidados.&raquo;<BR><BR>As&iacute;, pues, Sa&uacute;l comi&oacute; aquel d&iacute;a con Samuel. Despu&eacute;s, bajaron del
+      altozano hasta el pueblo, prepararon la cama a Sa&uacute;l en la azotea, y se acost&oacute;. Al despuntar el sol, Samuel fue a la azotea a llamarlo:<BR><BR>&laquo;Lev&aacute;ntate, que voy a despedirte.&raquo;<BR><BR>Sa&uacute;l se
+      levant&oacute;, y los dos, &eacute;l y Samuel, salieron de casa. Cuando hab&iacute;an bajado hasta las afueras, Samuel le dijo:<BR><BR>&laquo;Dile al criado que vaya delante; t&uacute; p&aacute;rate un momento y te comunicar&eacute; la palabra
+      de Dios.&raquo;<BR><BR>Tom&oacute; la aceitera, derram&oacute; aceite sobre la cabeza de Sa&uacute;l y lo bes&oacute;, diciendo:<BR><BR>&laquo;El Se&ntilde;or te unge como jefe de su heredad, de su pueblo, Israel; t&uacute; gobernar&aacute;s
+      el pueblo del Se&ntilde;or, t&uacute; lo salvar&aacute;s de los enemigos vecinos. Y &eacute;sta ser&aacute; para ti la se&ntilde;al de que el Se&ntilde;or te ha ungido como jefe de su heredad.&raquo;<BR><BR>
     </FONT>
     <FONT COLOR="#FF0000">
-      RESPONSORIO &nbsp;&nbsp;&nbsp;Sal 18, 8-9; Rm 13, 8. 10<BR>
+      RESPONSORIO &nbsp;&nbsp;&nbsp;1S 10, 1; Sal 44, 5<BR>
     </FONT>
     <FONT COLOR="#000000">
       <BR>
-      <FONT COLOR="#FF0000">R. </FONT> La ley del Se&ntilde;or es perfecta y es descanso del alma; el precepto del Se&ntilde;or es fiel e instruye al ignorante; <FONT COLOR="#FF0000">*</FONT> los mandatos del Se&ntilde;or son rectos y alegran el
-      coraz&oacute;n; la norma del Se&ntilde;or es l&iacute;mpida y da luz a los ojos.<BR>
-      <FONT COLOR="#FF0000">V. </FONT> Quien ama al pr&oacute;jimo ya ha cumplido la ley; as&iacute; que amar es cumplir la ley entera.<BR>
-      <FONT COLOR="#FF0000">R. </FONT> Los mandatos del Se&ntilde;or son rectos y alegran el coraz&oacute;n; la norma del Se&ntilde;or es l&iacute;mpida y da luz a los ojos.<BR><BR>
+      <FONT COLOR="#FF0000">R. </FONT> El Se&ntilde;or te unge como jefe de su heredad, de su pueblo, Israel; <FONT COLOR="#FF0000">*</FONT> t&uacute; lo salvar&aacute;s de los enemigos.<BR>
+      <FONT COLOR="#FF0000">V. </FONT> Es tu gala y tu orgullo; cabalga victorioso por la verdad y la justicia.<BR>
+      <FONT COLOR="#FF0000">R. </FONT> T&uacute; lo salvar&aacute;s de los enemigos.<BR><BR>
     </FONT>
-<!-- ************************ Reproductor de Audio para lecturas ************************ -->
-<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">Audio 2da Lectura</span></i>
-<audio src="src/lecturas.mp3" controls style="width: 100%;"> </audio>
-<!-- ************************ Reproductor de Audio para lecturas ************************ -->	
     <FONT COLOR="#FF0000">
       SEGUNDA LECTURA<BR><BR>
     </FONT>
@@ -231,9 +198,7 @@
         <FONT COLOR="#FF0000">R. </FONT>Demos gracias a Dios.
 
 
-
-<div id=down />
 </BODY>
 
 </HTML>
-<br><br> <div class="topDown"> <a href="#" id="top">&#8593;</a> <a href="#" onclick="ppjs()">Of</a> <a href="laudes.htm">La</a> <a href="tercia.htm">Tr</A> <A href="sexta.htm">Sx</A> <A href="nona.htm">Nn</A> <A href="visperas.htm">Vs</A> <A href="completas.htm">Cm</A> <a href="#down" id="down">&#8595;</a> </div>
+<br><br><A href="oficio.htm">Of</A> <A href="laudes.htm">La</A> <A href="tercia.htm">Tr</A> <A href="sexta.htm">Sx</A> <A href="nona.htm">Nn</A> <A href="visperas.htm">Vs</A> <A href="completas.htm">Cm</A>
