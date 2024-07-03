@@ -2,38 +2,29 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
   <TITLE>Liturgia de las horas</TITLE>
-  <LINK href="/salterios/css/mio.css" type=text/css rel=stylesheet>
-  <LINK rel="icon" href="/salterios/css/ico-laudes.ico" type="image/x-icon">
-      <script>
-        function ppjs() {
-            var year = new Date().getFullYear();
-            if (year % 2 === 0) {
-                window.location.href = "oficio2.htm";
-            } else {
-                window.location.href = "oficio1.htm";
-            }
-        }
-    </script>
+  <LINK href="/css/mio.css" type=text/css rel=stylesheet>
 </HEAD>
 
 <BODY>
-<a id=top href="./"> <svg height="24px" viewBox="0 0 24 24" width="24px" fill="#5f6368"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5z"/></svg> </a>
   <div align="right">
     <font color="#CC9933">
       tama&ntilde;o: </font>
-	<select id="tamanioFuente" onchange="document.getElementById('cuerpo').style.fontSize = this.value + 'em';">
-	  <option value="1.1">Pequeño</option>
-	  <option value="1.3">Mediano</option>
-	  <option value="1.5">Grande</option>
-	</select>
+    <a href="#" onclick="document.getElementById('cuerpo').style.fontSize='1.1em'; return false;">
+      <font color="#CC9933" size="3">A</font>
+    </a>
+    <a href="#" onclick="document.getElementById('cuerpo').style.fontSize='1.3em'; return false;">
+      <font color="#CC9933" size="5">A</font>
+    </a>
+    <a href="#" onclick="document.getElementById('cuerpo').style.fontSize='1.5em'; return false;">
+      <font color="#CC9933" size="6">A</font>
+    </a>
   </div>
   <div id="cuerpo" class="normal">
 
-<a href="#playLectura">
-    <FONT COLOR="#FF0000"><STRONG>OFICIO DE LECTURA</STRONG><BR></a>
+    <FONT COLOR="#FF0000"><STRONG>OFICIO DE LECTURA</STRONG><BR>
       <HR>
       INVITATORIO
     </FONT>
@@ -113,66 +104,39 @@
       <FONT COLOR="#FF0000">R. </FONT> De las palabras que sal&iacute;an de la boca de Dios.
     </FONT>
     <BR><BR>
-<!-- ************************* Reproductor ************************* -->
-
-		<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">1ra Lectura</span></i>
-
-		  <audio id="audioPlayer" controls style="width: 100%;"> </audio>
-		  <script>
-			function esPar(year) {
-			  return year % 2 === 0;
-			}
-			var year = new Date().getFullYear();
-			var audio = document.getElementById('audioPlayer');
-			if (esPar(year)) { 
-				audio.src = 'src/lectura2.mp3';
-			} else {
-				audio.src = 'src/lectura1.mp3';
-			}
-			audio.play(off);
-		  </script>
-
-<!-- ************************* Reproductor ************************* -->
- <FONT COLOR="#FF0000">
+    <FONT COLOR="#FF0000">
       PRIMERA LECTURA<BR><BR>
     </FONT>
     <FONT COLOR="#000000">
-      Del libro del profeta Nehem&iacute;as 9, 1-2. 5-21<BR><BR>
+      Del primer libro de Samuel 11, 1-15<BR><BR>
     </FONT>
     <FONT COLOR="#FF0000">
-      LITURGIA PENITENCIAL. ORACI&Oacute;N DE LOS LEVITAS<BR>
+      SA&Uacute;L VENCE A LOS AMONITAS Y ES ACLAMADO REY POR EL PUEBLO<BR>
     </FONT>
     <FONT COLOR="#000000">
-      <BR>El d&iacute;a veinticuatro del s&eacute;ptimo mes, se congregaron los israelitas para ayunar, vestidos de saco y la cabeza cubierta de polvo. La raza de Israel se separ&oacute; de todos los extranjeros y, puestos en pie, confesaron sus
-      pecados y las culpas de sus padres.<BR><BR>Los levitas Josu&eacute;, Cadmiel, Ban&iacute;, Jasabne&iacute;as, Sereb&iacute;as, Hodiy&iacute;as, Seban&iacute;as y Petaj&iacute;as dijeron:<BR><BR>&laquo;Levantaos, bendecid al Se&ntilde;or,
-      nuestro Dios.<BR><BR>&iexcl;Bendito seas, Se&ntilde;or, Dios nuestro, de eternidad en eternidad! &iexcl;Y sea bendito el nombre de tu gloria que supera toda bendici&oacute;n y alabanza! &iexcl;T&uacute;, Se&ntilde;or, t&uacute; el
-      &uacute;nico! T&uacute; hiciste los cielos, el cielo de los cielos y toda su mesnada, la tierra y todo cuanto abarca, los mares y todo cuanto encierran. Todo esto t&uacute; lo animas, y la mesnada de los cielos ante ti se prosterna.<BR><BR>T&uacute;,
-      Se&ntilde;or, eres el Dios que elegiste a Abram, lo sacaste de Ur de Caldea y le diste el nombre de Abraham. Hallaste su coraz&oacute;n fiel ante ti, con &eacute;l hiciste alianza, para darle el pa&iacute;s del cananeo, del hitita y del
-      amorreo, del ferezeo, del jebuseo y del guirgaseo, a &eacute;l y a su posteridad. Y has mantenido tu palabra, porque eres justo.<BR><BR>T&uacute; viste la aflicci&oacute;n de nuestros padres en Egipto, y escuchaste su clamor, junto al mar
-      Rojo. Contra el Fara&oacute;n obraste se&ntilde;ales y prodigios, contra sus siervos y todo el pueblo de su pa&iacute;s; pues supiste que eran altivos con ellos. &iexcl;Te hiciste un nombre hasta el d&iacute;a de hoy! T&uacute; hendiste el mar
-      ante ellos: por medio del mar pasaron a pie enjuto. Hundiste en los abismos a sus perseguidores, como una piedra en aguas poderosas. Con columna de nube los guiaste de d&iacute;a, con columna de fuego por la noche, para alumbrar ante ellos el
-      camino por donde hab&iacute;an de marchar.<BR><BR>Bajaste sobre el monte Sina&iacute;, y del cielo les hablaste; les diste normas justas, leyes verdaderas, preceptos y mandamientos excelentes; les diste a conocer tu santo s&aacute;bado; les
-      ordenaste mandamientos, preceptos y ley por mano de Mois&eacute;s, tu siervo. Del cielo les mandaste el pan para su hambre, para su sed hiciste brotar el agua de la roca. Y les mandaste ir a apoderarse de la tierra que t&uacute; juraste darles
-      mano en alto.<BR><BR>Altivos se volvieron nuestros padres, su cerviz endurecieron y desoyeron tus mandatos. No quisieron o&iacute;r, no recordaron los prodigios que con ellos hiciste; endurecieron la cerviz y se obstinaron en volver a Egipto y
-      a su servidumbre. Pero t&uacute; eres el Dios de los perdones, clemente y entra&ntilde;able, tardo a la c&oacute;lera y rico en bondad. &iexcl;No los desamparaste! Ni siquiera cuando se fabricaron un becerro de metal fundido y exclamaron:
-      "&iexcl;&Eacute;ste es tu dios, que te sac&oacute; de Egipto!" Grandes desprecios te hicieron.<BR><BR>T&uacute;, en tu inmensa ternura, no los abandonaste en el desierto: la columna de nube no se apart&oacute; de ellos, para guiarlos de
-      d&iacute;a por la ruta; ni la columna de fuego por la noche, para alumbrar ante ellos el camino por donde hab&iacute;an de marchar.<BR><BR>Tu esp&iacute;ritu bueno les diste para instruirlos, el man&aacute; no retiraste de su boca, y para su
-      sed les diste agua. Cuarenta a&ntilde;os los sustentaste en el desierto, y nada les falt&oacute;; ni sus vestidos se gastaron, ni se hincharon sus pies.&raquo;<BR><BR>
+      <BR>En aquellos d&iacute;as, el amonita Naj&aacute;s hizo una incursi&oacute;n y acamp&oacute; ante Yab&eacute;s de Galaad. Los de Yab&eacute;s le pidieron:<BR><BR>&laquo;Haz un pacto con nosotros, y seremos tus vasallos.&raquo; Pero
+      Naj&aacute;s les dijo:<BR><BR>&laquo;Pactar&eacute; con vosotros a condici&oacute;n de sacaros el ojo derecho. As&iacute; afrentar&eacute; a todo Israel.&raquo;<BR><BR>Los ancianos de Yab&eacute;s le pidieron:<BR><BR>&laquo;Danos siete
+      d&iacute;as para que podamos mandar emisarios por todo el territorio de Israel. Si no hay quien nos salve, nos rendiremos.&raquo;<BR><BR>Los mensajeros llegaron a Loma de Sa&uacute;l, comunicaron la noticia al pueblo, y todos se echaron a
+      llorar a gritos.<BR><BR>Pero, he aqu&iacute; que llegaba Sa&uacute;l del campo, tras los bueyes, y pregunt&oacute;:<BR>&laquo;&iquest;Qu&eacute; le pasa a la gente, que est&aacute; llorando?&raquo;<BR><BR>Le contaron la noticia que
+      hab&iacute;an tra&iacute;do los de Yab&eacute;s y, al o&iacute;rlo Sa&uacute;l, lo invadi&oacute; el esp&iacute;ritu de Dios; enfurecido, cogi&oacute; la pareja de bueyes, los descuartiz&oacute; y los reparti&oacute; por todo Israel,
+      aprovechando a los emisarios, con este preg&oacute;n:<BR><BR>&laquo;As&iacute; acabar&aacute; el ganado del que no vaya a la guerra con Sa&uacute;l y Samuel.&raquo;<BR><BR>El temor del Se&ntilde;or cay&oacute; sobre la gente, y fueron a la
+      guerra como un solo hombre. Sa&uacute;l les pas&oacute; revista en Centella: los de Israel eran trescientos mil, y treinta mil los de Jud&aacute;. Y dijo a los emisarios que hab&iacute;an venido:<BR><BR>&laquo;Decid a los de Yab&eacute;s de
+      Galaad: "Ma&ntilde;ana, cuando caliente el sol, os llegar&aacute; la salvaci&oacute;n."&raquo;<BR>Los emisarios marcharon a comunic&aacute;rselo a los de Y&aacute;b&eacute;s, que se llenaron de alegr&iacute;a, y dijeron a Naj&aacute;s:<BR><BR>&laquo;Ma&ntilde;ana
+      nos rendiremos, y har&eacute;is de nosotros lo que mejor os parezca.&raquo;<BR><BR>Al d&iacute;a siguiente, Sa&uacute;l distribuy&oacute; la tropa en tres cuerpos; irrumpieron en el campamento enemigo al relevo de la madrugada, y estuvieron
+      matando amonitas hasta que calent&oacute; el sol; los enemigos que quedaron vivos se dispersaron, de forma que no iban dos juntos. Entonces, el pueblo dijo a Samuel:<BR><BR>&laquo; &iexcl;A ver, los que dec&iacute;an que Sa&uacute;l no
+      reinar&iacute;a! &iexcl;Entregadlos, que los haremos morir!&raquo;<BR>Pero Sa&uacute;l dijo:<BR><BR>&laquo;Hoy no ha de morir nadie, porque hoy el Se&ntilde;or ha salvado a Israel.&raquo;<BR><BR>Y Samuel dijo a toda la gente:<BR><BR>&laquo;Vamos
+      todos a Guilgal a inaugurar all&iacute; la monarqu&iacute;a.&raquo;<BR><BR>Todos fueron a Guilgal y coronaron all&iacute; a Sa&uacute;l ante el Se&ntilde;or; y Sa&uacute;l y los israelitas ofrecieron al Se&ntilde;or sacrificios de
+      comuni&oacute;n y celebraron all&iacute; una gran fiesta.<BR><BR>
     </FONT>
     <FONT COLOR="#FF0000">
-      RESPONSORIO &nbsp;&nbsp;&nbsp;Ne 9, 9. 11. 12. 20; 1Co 10, 1. 2<BR>
+      RESPONSORIO &nbsp;&nbsp;&nbsp;Sal 17, 47. 48b. 51<BR>
     </FONT>
     <FONT COLOR="#000000">
       <BR>
-      <FONT COLOR="#FF0000">R. </FONT> Viste, Se&ntilde;or, la aflicci&oacute;n de nuestros padres en Egipto; tu hendiste el mar ante ellos, con columna de nube los guiaste de d&iacute;a, con columna de fuego por la noche. <FONT COLOR="#FF0000">*</FONT>
-      Tu esp&iacute;ritu bueno les diste para instruirlos.<BR>
-      <FONT COLOR="#FF0000">V. </FONT> Todos atravesaron el mar y todos quedaron bautizados por la nube y el mar.<BR>
-      <FONT COLOR="#FF0000">R. </FONT> Tu esp&iacute;ritu bueno les diste para instruirlos.<BR><BR>
+      <FONT COLOR="#FF0000">R. </FONT> Viva el Se&ntilde;or, bendita sea mi roca, sea ensalzado mi Dios y Salvador; <FONT COLOR="#FF0000">*</FONT> &eacute;l me libr&oacute; de mis enemigos.<BR>
+      <FONT COLOR="#FF0000">V. </FONT> T&uacute; diste gran victoria a tu rey, tuviste misericordia de tu Ungido.<BR>
+      <FONT COLOR="#FF0000">R. </FONT> &Eacute;l me libr&oacute; de mis enemigos.<BR><BR>
     </FONT>
-<!-- ************************ Reproductor de Audio para lecturas ************************ -->
-<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">Audio 2da Lectura</span></i>
-<audio src="src/lecturas.mp3" controls style="width: 100%;"> </audio>
-<!-- ************************ Reproductor de Audio para lecturas ************************ -->	
     <FONT COLOR="#FF0000">
       SEGUNDA LECTURA<BR><BR>
     </FONT>
@@ -226,9 +190,7 @@
         <FONT COLOR="#FF0000">R. </FONT>Demos gracias a Dios.
 
 
-
-<div id=down />
 </BODY>
 
 </HTML>
-<br><br> <div class="topDown"> <a href="#" id="top">&#8593;</a> <a href="#" onclick="ppjs()">Of</a> <a href="laudes.htm">La</a> <a href="tercia.htm">Tr</A> <A href="sexta.htm">Sx</A> <A href="nona.htm">Nn</A> <A href="visperas.htm">Vs</A> <A href="completas.htm">Cm</A> <a href="#down" id="down">&#8595;</a> </div>
+<br><br><A href="oficio.htm">Of</A> <A href="laudes.htm">La</A> <A href="tercia.htm">Tr</A> <A href="sexta.htm">Sx</A> <A href="nona.htm">Nn</A> <A href="visperas.htm">Vs</A> <A href="completas.htm">Cm</A>
