@@ -1,0 +1,326 @@
+<html>
+<head>
+<!-- saved from url=(0021)http://www.nch.com.au -->
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Effects</title>
+<link rel=STYLESHEET href="hlp.css" type="text/css">
+</head>
+
+<body>
+<script type="text/javascript" language="JavaScript" src="help.js"></script>
+<script type="text/javascript" language="JavaScript">HelpHeader("WavePad Sound Editor","4.52","Effects","editing.html","specialeffects.html");</script>
+ <h1>Effects</h1>   <h2>Selected Region</h2>    <p>
+All of the effects described below apply only to the selected region. To mark the selected region you can either click and hold down on the wave window and drag the mouse or press and hold down the shift key while moving in the file. To select the entire file press Ctrl+A. If you do not have any region selected when accessing an effect, the entire waveform will be selected as default.<p>
+      <h2>Presets</h2>  <p>
+Some effects come with a series of options known as &quot;Presets&quot;. The idea behind presets is to save you having to fiddle around with the numbers, which is great if the numbers don't mean a lot to you. Instead, you can just browse the preset list and select the option which best describes the effect you are trying to achieve.<p>
+  <h2>Previewing</h2>  <p>
+The result of applying certain effects can be previewed using the play button in the Effect dialog. If you modify the effect parameters while previewing the file, you should hear the changes taking place. For this to work properly, we recommend using either ASIO or DirectSound as your sound playback system.<p>
+   <h2>Amplify</h2>  <p>
+To 'amplify' is to increase the loudness or volume of the selected region. To make a part of the recording softer or louder, select it and then use the menu Effects -&gt; Amplify. The volume is entered in percent (100 being no change, 50 being -6dB softer or 200 being +6dB louder).<p>
+   <h2>Normalize</h2>  <p>
+To 'normalize' is to adjust the volume so that the loudest peak is equal to (or a percentage of) the maximum signal that can be used in digital audio. Usually you normalize files to 100% as the last stage in production to make it the loudest possible without distortion.<p>
+    <h2>High-Pass Filter</h2>  <p>
+A high-pass filter (sometimes called a low cut filter) removes all low frequencies below a specified Hz. This is useful if you want to make your recording sound 'clearer' or less 'muddy'. It is very usual to use a high-pass filter of about 300Hz on all voice recordings to improve intelligibility.<p>
+ <p>
+   <h2>Equalizer</h2>  <p>
+An equalizer changes the frequency response of a signal so it has different tonal qualities.    See <a href="CONCEPTS.html">General Audio Concepts (Samples, Channels etc..)</a> for    some explanation about what this means. <p>
+     <p>
+After you select Effects menu -&gt; Equalizer you will see a graph of amplitude against frequencies.    Left click on any point to create a new band point. To remove a band point right click on it.<p>
+     <p>
+To assist you with shaping the Equalizer graph in the way you want, there is a preset    list that displays the most common sorts of filters used in the Equalizer graph. You can    choose any preset filter from the list and then manipulate the filter to achieve the effect    you desire. The list of filters to choose from and how you can shape them are explained    below. Note that all fields where a frequency value is entered can have a maximum    value of 20000 (Hertz).    <p>
+     <p>
+  <p>
+  - <b>BandPass Filter</b>: Keeps only those frequencies in the audio between a certain range.  <p>
+  <p>
+  <p>
+  <i>Start Frequency</i> - The lower cutoff frequency value, in Hertz.  <p>
+  <p>
+  <i>End Frequency</i> - The upper cutoff frequency value, in Hertz.  <p>
+  <p>
+  <i>Slope Length</i> - The width of the slope extending from the lower and upper cutoff points, in Hertz.  <p>
+  <p>
+  <i>Amplitude</i> - The degree that the frequencies outside the cutoff range are suppressed. 50% means the volume is reduced to one-half, 25% means the volume is reduced to one-quarter. Maximum value is 100%.  <p>
+  <p>
+  <p>
+  - <b>BandStop Filter</b>: Keeps all frequencies in the audio except those between a certain range.  <p>
+  <p>
+  <p>
+  <i>Start Frequency</i> - The lower stop frequency, in Hertz.  <p>
+  <p>
+  <i>End Frequency</i> - The upper stop frequency, in Hertz.  <p>
+  <p>
+  <i>Slope Length</i> - The width of the slope extending from the lower and upper stop points, in Hertz.  <p>
+  <p>
+  <i>Amplitude</i> - The degree that the frequencies inside the stop range are suppressed. 50% means the volume is reduced to one-half, 25% means the volume is reduced to one-quarter. Maximum value is 100%.  <p>
+  <p>
+  <p>
+  - <b>High Pass Filter</b>: Keeps only those frequencies in the audio above a certain value.  <p>
+  <p>
+  <p>
+  <i>Pass Frequency</i> - The point at which all frequencies above are to be kept, in Hertz.  <p>
+  <p>
+  <i>Slope Length</i> - The width of the slope extending from the pass frequency, in Hertz.  <p>
+  <p>
+  <i>Amplitude</i> - The degree that the frequencies below the pass range are suppressed. 50% means the volume is reduced to one-half, 25% means the volume is reduced to one-quarter. Maximum value is 100%.  <p>
+  <p>
+  <p>
+  - <b>Low Pass Filter</b>: Keeps only those frequencies in the audio below a certain value.  <p>
+  <p>
+  <p>
+  <i>Pass Frequency</i> - The point at which all frequencies below are to be kept, in Hertz.  <p>
+  <p>
+  <i>Slope Length</i> - The width of the slope extending from the pass frequency, in Hertz.  <p>
+  <p>
+  <i>Amplitude</i> - The degree that the frequencies above the pass range are suppressed. 50% means the volume is reduced to one-half, 25% means the volume is reduced to one-quarter. Maximum value is 100%.  <p>
+  <p>
+  <p>
+  - <b>Notch Filter</b>: Attenuates the frequencies in the specified range to very low levels and passes all other frequencies unaltered. There is no slope - frequencies are either attenuated or not.  <p>
+  <p>
+  <p>
+  <i>Start Frequency</i> - The lower cutoff frequency value, in Hertz.  <p>
+  <p>
+  <i>End Frequency</i> - The upper cutoff frequency value, in Hertz.  <p>
+  <p>
+  <p>
+  - <b>Boost/Cut Filter</b>: Either attenuates or boosts frequencies in the specified range and passes all others unaltered.  <p>
+  <p>
+  <p>
+  <i>Start Frequency</i> - The lower boost/cut frequency value, in Hertz.  <p>
+  <p>
+  <i>End Frequency</i> - The upper boost/cut frequency value, in Hertz.  <p>
+  <p>
+  <i>Slope Length</i> - The width of the slope extending from the lower and upper boost/cut points, in Hertz.  <p>
+  <p>
+  <i>Amplitude</i> - The degree that the frequencies inside the boost/cut range are either boosted or cut. 200% means the volume is boosted to twice the original amount, and 50% means the volume is cut to half the original amount. Maximum value is 200%.  <p>
+  <p>
+  <p>
+If you are using the equalizer simply to drop lower frequencies, you should always try the High Pass filter first (Effects menu -&gt; High Pass Filter), because it is better and faster for very low frequencies.<p>
+  <p>
+     <h2>Echo</h2>  <p>
+An echo is a repeat of the sound after a short time (usually 400 - 1000ms). It sounds a bit like the person is in a large stadium or is shouting between two mountains.<p>
+ <p>
+To add echo select the region and use the menu Effects -&gt; Echo then specify the duration and amplitude of the echo. The duration is the length of time after which the sound repeats - usually this is between 400 and 1000ms. The amplitude can be between 1 - 99% (99 being a very loud echo).<p>
+   <h2>Reverb</h2>  <p>
+Reverb is many small reflections of the sound that come after a set time. It usually occurs when someone is speaking in a room, hall etc. More reverb is called wet, no reverb is called dry.<p>
+ <p>
+Use the menu Effects -&gt; Reverb and enter the reverb level and time. The reverb level is the amplitude - 99 is very wet, 0 is dry. The time can be between 100 and 800ms - 200ms sounds like a small room or 800ms a large hall.<p>
+ <p>
+If you add too much reverb it can sound like the person is in a pipe or in the bathroom.<p>
+  <h2>Noise Gate</h2>  <p>
+A noise gate is a filter which controls the volume of an audio signal. Any part of your audio which is below the Threshold will be attenuated by the amount you specify.<p>
+ <ul><li>   <i>   Threshold:   </i> Audio falling below this threshold will be attenuated.  <li>   <i>   Hold:   </i> The period of time (in milliseconds) to wait before applying the attenuation.  <li>   <i>   Release:   </i> The period of time (in milliseconds) taken to fully apply the attenuation.  <li>   <i>   Attack:   </i> The period of time (in milliseconds) taken to fully remove the attenuation.  <li>   <i>   Attenuation:   </i> The amount to attenuate the audio signal when it falls below the threshold.  </ul>  <h2>Reverse</h2>  <p>
+This effect reverses the selection in the same way playing a record or tape backwards would.<p>
+ <p>
+ <p>
+  <b>Fade In</b>  <p>
+ <p>
+  <b>Fade Out</b>  <p>
+ <p>
+  <b>Fade Out and Trim</b>  <p>
+ <p>
+ <p>
+To fade in or out use the menu Effects -&gt; Fade In or Effects -&gt; Fade Out.<p>
+ <p>
+ <p>
+The fade out and trim option is a combined function which fades out over the selection then marks the end of the selection as the end of the file. This is frequently used at the end of music tracks.<p>
+ <p>
+   <p>
+  <b>CrossFade</b>  <p>
+  <p>
+  <p>
+The CrossFade tool allows you to mix together voice and music in a variety of different ways. You can, for example:<p>
+  <p>
+  <p>
+~ fade out a music track while fading in another track<p>
+  <p>
+~ fade out a music track and cue in a voice track at full volume (or vice versa)<p>
+  <p>
+~ overlay the end of one voice track with the start of another track<p>
+  <p>
+  <p>
+To use the tool, first select the region of audio you want to perform the crossfade on. If you want to crossfade between two files, you must combine the two files together first into one file. Next, go to Effects menu -&gt; CrossFade. A window will appear, showing a graph and a number of data fields.<p>
+  <p>
+  <p>
+The graph is divided into two sections, the top section shows the fading in part of the audio, the bottom shows the fading out. The area that the crossfade is to be performed on is highlighted in blue, and surrounded by markers showing the start and end of the crossfade region. There is a one second portion of the waveform on either side of the highlighted section, which is there to provide a better view of the crossfade.<p>
+  <p>
+  <p>
+If you hover your mouse over any part of the graph, you can see what parts of the graph correspond to what time in the audio waveform.<p>
+  <p>
+  <p>
+The data fields work as follows:<p>
+  <p>
+  <p>
+  <i>Start and End Selected Positions</i>  <p>
+  <p>
+  <p>
+  Tells you the start and end times of the audio you selected in the waveform. <b>Note:</b> These times do NOT correspond to the start and end times you see in the graph window! Read on!  <p>
+  <p>
+  <p>
+  <i>Gap Time</i>  <p>
+  <p>
+  <p>
+This says how long the crossfade region will be, in milliseconds. This time may be be modified when the crossfade is performed, if the fade in and fade out times are larger than this value.<p>
+  <p>
+  <p>
+  <i>Fade In Time</i>  <p>
+  <p>
+  <p>
+The length of time to fade in the audio. The fade out will normally occur from the start of the user-selected region.<p>
+  <p>
+  <p>
+  <i>Fade Out Time</i>  <p>
+  <p>
+  <p>
+The length of time to fade out the audio. The fade in will normally occur from the end of the crossfade region (i.e. it is a reverse fade out, the fade out will start at the end and go backwards).<p>
+  <p>
+  <p>
+So with the above information in mind, the crossfade will work as follows:<p>
+  <p>
+  <p>
+1. The user-selected region of audio is &quot;duplicated&quot; and both copies are stored internally. One copy of the audio is used to perform the fade out, and the other copy is used for the fade in. In the audio waveform, all audio after the end of the selected region is removed and stored safely. All audio within the selected region is deleted (remember this audio has also been stored away safely).<p>
+  <p>
+2. The fade out operation works by pasting one copy of the audio at the start of the selected region, and then fading it out over the specified fade out time.<p>
+  <p>
+3. The fade in operation works by first fading out the other copy of the audio from the end point, backwards over the specified fade in time. It then mixes it over the first copy, aligning it so that the end of audio is located at the end of the CrossFade region (the selected length).<p>
+  <p>
+4. The section of audio after the selected region that was stored away previously, is pasted back into the waveform at the end of the CrossFade region.<p>
+  <p>
+  <p>
+  <b>Envelope</b>  <p>
+  <p>
+  <p>
+The 'envelope' is the change in volume of the select region over time. This can be used to make fine adjustments to the volume over time or even more crude changes like fade in or fade out.<p>
+  <p>
+  <p>
+Select the region you want to change the volume over and use the menu Effects -&gt; Envelope. Click on any point to adjust its volume (right click removes the point). Click the Set Flat button to reset the volume and remove extra volume points.<p>
+  <p>
+  <p>
+  <b>Stereo Pan</b>  <p>
+  <p>
+  <p>
+  The stereo pan effect allows you to change how loud the sound is that comes out the left or right speaker. For example if you had a stereo recording   with all the sound coming out of only one speaker, you could use the pan effect to &quot;center&quot; the sound yourself. You can also make a centered sound   change move one from speaker to the other as the sound file plays.  <p>
+  <p>
+  <p>
+  Select the region you want to change the pan for and choose Effects -&gt; Stereo Pan. Click on a point and move it upwards for an increase in volume on the left speaker, or move it downwards   for an increase in volume on the right speaker.  <p>
+  <p>
+  <p>
+Please note the stereo pan effect only works on stereo files. If your file is not stereo you must first convert it to stereo by choosing Edit -&gt; Convert Channels -&gt; Stereo.<p>
+  <p>
+   <p>
+  <b>Automatic Gain Control</b>  <p>
+ <p>
+ <p>
+Normal recordings can have the volume of the recording too high in parts and too soft in parts. 'Automatic Gain Control' reduces the too loud parts and increases the too soft parts. This is sometimes a better alternative to normalization (above).<p>
+ <p>
+ <p>
+To use AGC select all (Ctrl+A) then use the menu Effects -&gt; Automatic Gain Control.<p>
+ <p>
+ <p>
+  <b>Noise Reduction</b>  <p>
+ <p>
+ <p>
+  See: <a href="NOISEREDUCTION.html">Noise Reduction</a>  <p>
+ <p>
+ <p>
+  <b>Special Effects</b>  <p>
+ <p>
+ <p>
+  See: <a href="SPECIALEFFECTS.html">Special Effects</a>  <p>
+ <p>
+ <p>
+  <b>Simple Speed and Pitch Change</b>  <p>
+ <p>
+ <p>
+This plays the recording faster or slower which in turn increases or decreases the pitch too. This function is useful to correct slow or fast tapes.<p>
+ <p>
+ <p>
+  <b>Speed Change</b>  <p>
+ <p>
+ <p>
+Normal speed changes (i.e. &quot;Simple Speed and Pitch Change&quot; above) changes the pitch in proportion to the speed. If you want to change the speed but keep the pitch the same use this function.<p>
+ <p>
+ <p>
+  <b>Pitch Change</b>  <p>
+ <p>
+ <p>
+This changes the pitch of the recording without changing the speed (i.e. the converse of the above).<p>
+ <p>
+ <p>
+  <b>Dynamic Range Compressor</b>  <p>
+ <p>
+ <p>
+A Dynamic Range Compressor limits the volume levels of a sound recording so that it stays within a certain loudness range.<p>
+ <p>
+ <p>
+An example of where it is used is in TV broadcasting, where it ensures that the volume levels of ads are perceived as being louder than the television program itself (without any change in the actual broadcast volume).<p>
+ <p>
+ <p>
+It also has a use for recording audio from one medium to another, where the two mediums are not capable of handling the same range of volume levels (e.g. A CD can handle a much greater range than a cassette tape).<p>
+ <p>
+ <p>
+The &quot;Threshold&quot; setting works by detecting when the sound recording volume exceeds a defined decibel level. It then gradually attenuates the sound to bring it down below the dB level, and does it in such a way that the listener will not be aware the attenuation is occurring.<p>
+ <p>
+ <p>
+The &quot;Ratio&quot; setting limits the amount the volume level of the recording increases at any one time. If, for example, you wanted the volume levels of a recording to only increase by at most 1/4 of the amount they would normally increase, then this would correspond to a Ratio of 4:1. So if the recording volume level increased by 8dB, then you would only hear a 2dB volume increase.<p>
+ <p>
+ <p>
+The &quot;Limit&quot; setting defines at what maximum decibel level the sound recording will be allowed to rise up to. So if, for example, the Limit was set to 0dB, then you will never hear the volume level of the recording get louder than 0dB. The Limit setting has similarities to the Threshold setting, but the main difference is that the Threshold does allow sounds to go above the defined decibel level (for a short time), whereas the Limit does not.<p>
+ <p>
+ <p>
+You will find that the minimum Limit volume you can set is the same as the maximum Threshold value. This basically means that, in any situation, the sound will start to attenuate at the threshold level, but will never be heard louder than the limit.<p>
+ <p>
+ <p>
+  <b>DC Offset Correction</b>  <p>
+ <p>
+ <p>
+Often when you record audio using bad electronics the recording has a constant 'DC' level throughout the file. Because the ear cannot hear this you will not notice it until you attempt to edit in other audio when you can hear horrible clicks. If you think this is the problem you can run DC Offset Correction over the entire recording before you begin to edit. Another (and possibly better) way to deal with this problem is to run a high pass filter (say at 50Hz) over the recording.<p>
+ <p>
+   <p>
+  <b>DirectX Effects</b>  <p>
+  <p>
+  <p>
+This feature allows you to use DirectX plugins to apply effects to the audio you are working with in WavePad. To use this feature, select Effects menu -&gt; DirectX plugins, and in the window that appears you should see a list of DirectX plugins detected on your computer. Pick the effect you want to use, and click the &quot;Settings&quot; button if you want to change the configuration settings around. Next, click the &quot;OK&quot; button to apply the DirectX effect to your audio.<p>
+  <p>
+  <p>
+  <b>VST Plugins</b>  <p>
+  <p>
+  <p>
+This feature allows you to use Virtual Studio Technology DLL plugins to apply effects to the audio you are working with in WavePad. To use this feature, select Effects menu -&gt; VST Plugins, and in the window that appears, you can type or browse for the directory on your computer that contains VST plugins - note that the plugins must be DLL files! Once you have specified a directory name, you should see a list of VST plugin names appear in a list in the window. Select whatever plugin you want to use, and click the &quot;Settings&quot; button if you want to change the configuration settings around. Next, click the &quot;OK&quot; button to apply the VST effect to your audio.<p>
+  <p>
+  <p>
+  <p>
+  <p>
+Also please visit <a href="http://www.kvraudio.com">http://www.kvraudio.com</a>, which is a comprehensive information resource for all types of plugins, including VST and DirectX plugins.<p>
+            <p>
+To see a list of recommended free VST plugins for WavePad, visit <a href="http://www.nch.com.au/wavepad/free-vst-plugins.html">http://www.nch.com.au/wavepad/free-vst-plugins.html</a>.<p>
+  <p>
+   <p>
+ <p>
+Next:<p>
+ <p>
+  <a href="SPECIALEFFECTS.html">Special Effects</a>  <p>
+ <p>
+ <p>
+ <p>
+See also:<p>
+ <p>
+  <a href="INDEX.html">Contents</a>  <p>
+ <p>
+  <a href="CONCEPTS.html">General Audio Concepts (Samples, Channels etc..)</a>  <p>
+ <p>
+  <a href="PLAYRECORD.html">Play, Record, Move and Selecting</a>  <p>
+ <p>
+  <a href="EDITING.html">Editing</a>  <p>
+ <p>
+  <a href="SPECIALEFFECTS.html">Special Effects</a>  <p>
+ <p>
+  <a href="NOISEREDUCTION.html">Noise Reduction</a>  <p>
+ <p>
+ <p>
+ 
+<script type="text/javascript" language="JavaScript" src="help.js"></script>
+<script type="text/javascript" language="JavaScript">HelpFooter("Effects","editing.html","specialeffects.html","NCH Software","http://www.nch.com.au");</script>
+
+</body>
+</html>

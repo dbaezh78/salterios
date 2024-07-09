@@ -1,0 +1,142 @@
+<html>
+<head>
+<!-- saved from url=(0021)http://www.nch.com.au -->
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>General Audio Concepts</title>
+<link rel=STYLESHEET href="hlp.css" type="text/css">
+</head>
+
+<body>
+<script type="text/javascript" language="JavaScript" src="help.js"></script>
+<script type="text/javascript" language="JavaScript">HelpHeader("WavePad Sound Editor","4.52","General Audio Concepts","overview.html","openfile.html");</script>
+ <p>
+General Audio Concepts<p>
+ <p>
+An Introduction to Sound<p>
+ <p>
+ <p>
+This is a general introduction to key audio concepts for those who have not worked with sound before. If you class yourself as an &quot;audiophile&quot;, or if you have some other past experience learning about sound, you can skip this page.<p>
+ <p>
+ <p>
+  <b>Sound</b>  <p>
+ <p>
+ <p>
+The starting point for everything WavePad does is sound. Sound is vibrating air travelling very fast like a wave. It is created by a vibrating object (e.g. our vocal cords, a guitar string or a speaker) and can be detected by an ear or a microphone. A microphone converts these vibrations into alternating electronic voltage which the computer's sound card can turn into the data used by WavePad.<p>
+ <p>
+ <p>
+  <b>Frequency</b>  <p>
+ <p>
+ <p>
+One way to analyse sound is by looking at the speed it vibrates as it travels through the air. The number of times this vibration happens per second is called the &quot;frequency&quot; of the sound, and is measured in Hertz (Hz) or kiloHertz (kHz).<p>
+ <p>
+ <p>
+  It is quite often the case that sounds will not consist of a single wave vibrating at a certain frequency through the air, often they will contain multiple waves vibrating at different speeds and different volume levels. WavePad contains a couple of tools that will allow you to see this effect for yourself, please see the sections on <a href="TOOLS.html">Frequency Analysis</a> and <a href="TOOLS.html">Temporal Frequency Analysis</a> for further information.  <p>
+ <p>
+ <p>
+The human ear is said to be able to hear sounds ranging from about 20Hz (20 vibrations per second) up to 20,000Hz (20,000 vibrations per second). In reality, most of us only hear to about 15,000Hz, but audio enthusiasts often claim they can hear sounds up to the 20,000Hz mark. The frequencies of a person's voice can range between 300Hz and 3000Hz.<p>
+ <p>
+ <p>
+  <b>Loudness, Volume, Amplitude, Level and Gain</b>  <p>
+ <p>
+ <p>
+The terms loudness, volume, amplitude and level mean roughly the same thing. The more volume a sound is given the more power has been used to create it and the louder it sounds.<p>
+ <p>
+ <p>
+When adjusting the volume level of a sound (for example when using the Amplify Effect of WavePad), the &quot;Gain&quot; value signifies the amount of increase or decrease in the level. This value can be represented in percent or in a scale called the &quot;decibel&quot; or &quot;dB&quot; scale (read on!).<p>
+ <p>
+    <p>
+The human ear can hear a remarkable broad range of sounds from very low to very high power.   The ear does not perceive differences in power in direct proportion to power but in a logarithmic way.   To more closely match the way we hear loudness sound engineers use the decibel scale (dB). To give   you a feel for how this works, reducing the volume level of a sound by 6dB means you are dropping   the amplitude by 1/2 or the power by 1/4. Conversely, a 6db increase in the level corresponds to   doubling the amplitude. A 20dB drop means 1/10 of the amplitude (or 1/100 of the power).   The smallest unit of loudness change a person will notice is around + / - 3dB.<p>
+    <p>
+ <p>
+  <b>Audio Recording and Computers</b>  <p>
+ <p>
+ <p>
+In order to store and reproduce audio on your computer, the audio signal from the microphone is converted by your sound card into a series of numbers in quick succession. You can think of these numbers as representing the pressure on the surface of the microphone at different points over time. This process of converting audio into a series a numbers is called &quot;sampling&quot;.<p>
+ <p>
+ <p>
+  <b>Sample Rate</b>  <p>
+ <p>
+ <p>
+The sample rate is the number of times that the amplitude is converted to a number per second. For example, at CD quality recording, your computer stores 44100 numbers per second each representing the amplitude at the specific point in time.<p>
+ <p>
+ <p>
+It can be shown that the maximum possible frequency that can be carried in a sampled sound is exactly half of the sample rate. In reality it is a little less. So for example, a recording made with a 44100 sampling rate will carry frequencies up to 20000Hz.<p>
+ <p>
+ <p>
+A quick guide to sample rates follows<p>
+ <p>
+ <p>
+6000 - Very low quality voice<p>
+ <p>
+8000 - Telephone quality voice<p>
+ <p>
+11025 - Reasonable quality voice - eg. dictation<p>
+ <p>
+22050 - Good quality voice, Reasonable quality music - eg. multimedia CD.<p>
+ <p>
+44100 - CD Quality.<p>
+ <p>
+ <p>
+Higher sample rates including 48000, 88200, 96000 and even 192000 are sometimes used but many sound engineers point out that they do not offer any real audible quality improvement (aside from adding a bit more redundancy to the system).<p>
+ <p>
+ <p>
+  <b>Tip:</b> always record and work with audio in the Sample Rate that you will use in the end, because every time you convert you lose a little quality. For example - if you are making a CD use 44100. If it is for telephone use 8000.  <p>
+ <p>
+ <p>
+  <b>Channels Stereo / Mono</b>  <p>
+ <p>
+ <p>
+Multiple &quot;channels&quot; of audio can be recorded at the same time. Most commonly, &quot;Stereo&quot; recording is two channels (left and right) with which our two ears give us a sense of audio direction and space. Recording with just one channel is referred to as &quot;Mono&quot; recording.<p>
+ <p>
+ <p>
+  <b>Tip:</b> If you are recording voice, be sure to record in Mono mode. If you are recording music with multiple instruments then use Stereo mode.  <p>
+ <p>
+ <p>
+  <b>8/16/24/32 bits</b>  <p>
+ <p>
+ <p>
+You might have seen terms like &quot;8 bits&quot; or &quot;16 bits&quot; when looking at sound files but are not sure what they mean. The number of bits, like in the sample rate, is an indicator of the quality or resolution of the sound inside the file. The more bits the better resolution. WavePad uses 32 bits internally for optimal audio quality. However 16 bits is usually more than adequate for saving.<p>
+ <p>
+ <p>
+  <b>Audio File Compression and Codecs</b>  <p>
+ <p>
+ <p>
+One of the problems with high quality audio is that you can end up with very large-sized audio files. In order to avoid this, you can use what is known as &quot;compression&quot; to reduce the size of your files. The systems used to implement compression in audio files are called &quot;codecs&quot;.<p>
+ <p>
+ <p>
+There are a number of different codecs around, including MPEG Layer-3/MP3, Ogg Vorbis (both good for music) and GSM (good for telephone or voice). Most codecs are designed for a specific function, usually to store either music or voice.<p>
+ <p>
+ <p>
+You can select the compression codec to use when using the File -&gt; Save As option in WavePad. You should note that almost all compression codecs are lossy, however - this means you lose audio quality every time you save the file. For this reason it is important that you do not save audio in a compressed form until it is really needed. For example, if you need to save a file when you want to do further work on it, save it in an uncompressed form like 44100 Hz, 16 bit PCM format Wave.<p>
+ <p>
+ <p>
+  Audio File Compression must not be confused with Audio Dynamic Range Compression. File Compression is all about reducing file size whereas Dynamic Range Compression is about volume control. For more about Dynamic Range Compression see <a href="EFFECTS.html">Effects</a>.  <p>
+ <p>
+ <p>
+  <b>Editing and Effects</b>  <p>
+ <p>
+ <p>
+Editing means deleting or inserting audio. Effects are processes that change the audio in some way (eg. add echo or make it softer).<p>
+ <p>
+ <p>
+  See the WavePad Edit and Effects menu. Each effect is fully explained on the page <a href="EFFECTS.html">Effects</a>.  <p>
+ <p>
+ <p>
+ <p>
+Next:<p>
+ <p>
+  <a href="OPENFILE.html">Create, Open, Save and Send audio files</a>  <p>
+ <p>
+ <p>
+ <p>
+See also:<p>
+ <p>
+  <a href="INDEX.html">Contents</a>  <p>
+ <p>
+ 
+<script type="text/javascript" language="JavaScript" src="help.js"></script>
+<script type="text/javascript" language="JavaScript">HelpFooter("General Audio Concepts","overview.html","openfile.html","NCH Software","http://www.nch.com.au");</script>
+
+</body>
+</html>
