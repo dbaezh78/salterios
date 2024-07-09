@@ -1,0 +1,31 @@
+PRIMERA LECTURA
+
+Del libro de los Proverbios.
+
+LA SABIDURÍA Y LA INSENSATEZ.
+
+La Sabiduría se ha construido su casa, plantando siete columnas; ha preparado el banquete, ha mezclado el vino y puesto la mesa; ha despachado a sus criados para que lo anuncien en los puntos que dominan la ciudad:
+
+«Los inexpertos, que vengan aquí, quiero hablar a los faltos de juicio: Venid a comer de mi pan y a beber el vino que he mezclado; dejad vuestras necedades y viviréis, seguid el camino de la prudencia.»
+
+Quien corrige al burlón se acarrea insultos, quien reprende al malvado atrae su desprecio; no reprendas al arrogante, pues te aborrecerá; reprende al sabio y te lo agradecerá. Da al sabio y será más sabio; enseña al justo y crecerá su ciencia. El comienzo de la sabiduría es el temor del Señor, y conocer al Santo es verdadera inteligencia. Por mí prolongarás tus días y se aumentarán los años de tu vida; si eres sabio, lo serás para tu bien, si eres arrogante, tú solo lo tendrás que pagar.
+
+La Insensatez es alborotada, es tonta, no tiene vergüenza; se sienta a la puerta de su casa, en un asiento que domina la ciudad, para gritar a los transeúntes y a los que siguen el recto camino:
+
+«Los inexpertos, que vengan aquí, quiero hablar a los faltos de juicio: El agua robada es más dulce; el pan a escondidas es más sabroso.»
+
+Pero no saben que en su casa están las sombras de la muerte y que sus invitados van a lo hondo del abismo.
+
+Palabra de Dios, te alabamos Señor.
+
+RESPONDEREMOS
+
+«Venid, que ya está todo preparado.»
+Un hombre quiso dar un gran banquete y envió a su siervo a decir a los invitados:
+«Venid, que ya está todo preparado.»
+Venid a comer de mi pan y a beber el vino que he mezclado.
+<<<<<<< HEAD
+Venid, que ya está todo preparado.
+=======
+Venid, que ya está todo preparado.
+>>>>>>> 1d600b1ccec8486cfd2c3fc0b2a39e48ee0e572d
