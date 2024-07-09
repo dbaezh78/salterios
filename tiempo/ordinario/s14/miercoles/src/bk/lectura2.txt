@@ -24,4 +24,8 @@ RESPONDEREMOS
 Un hombre quiso dar un gran banquete y envió a su siervo a decir a los invitados:
 «Venid, que ya está todo preparado.»
 Venid a comer de mi pan y a beber el vino que he mezclado.
+<<<<<<< HEAD
 Venid, que ya está todo preparado.
+=======
+Venid, que ya está todo preparado.
+>>>>>>> 1d600b1ccec8486cfd2c3fc0b2a39e48ee0e572d

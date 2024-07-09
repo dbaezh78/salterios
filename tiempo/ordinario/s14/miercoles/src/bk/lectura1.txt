@@ -4,7 +4,11 @@ Del primer libro de Samuel.
 
 FUGA DE DAVID.
 
+<<<<<<< HEAD
 En aquellos días, llegó David a Nob, donde está el sacerdote Ajimélec; vino Ajimélec temblando al encuentro de David y le preguntó:
+=======
+En aquellos días, llegó David a Nob, donde estaba el sacerdote Ajimélec; vino Ajimélec temblando al encuentro de David y le preguntó:
+>>>>>>> 1d600b1ccec8486cfd2c3fc0b2a39e48ee0e572d
 
 «¿Por qué vienes solo y no hay nadie contigo?»
 
@@ -52,8 +56,16 @@ Palabra de Dios, te alabamos Señor.
 
 RESPONDEREMOS
 
+<<<<<<< HEAD
 Sirvamos a Dios en la novedad del espíritu y no en la vejez de la letra.
 Nos hemos desprendido de la ley, muriendo para aquello en que estábamos presos;
 sirvamos a Dios en la novedad del espíritu y no en la vejez de la letra.
 ¿No habéis leído lo que hizo David cuando sintió hambre: cómo entró en la casa de Dios y comió de los panes de la proposición?
 Sirvamos a Dios en la novedad del espíritu y no en la vejez de la letra.
+=======
+sirvamos a Dios en la novedad del espíritu y no en la vejez de la letra.
+Nos hemos desprendido de la ley, muriendo para aquello en que estábamos presos;
+sirvamos a Dios en la novedad del espíritu y no en la vejez de la letra.
+¿No habéis leído lo que hizo David cuando sintió hambre: cómo entró en la casa de Dios y comió de los panes de la proposición?
+Sirvamos a Dios en la novedad del espíritu y no en la vejez de la letra.
+>>>>>>> 1d600b1ccec8486cfd2c3fc0b2a39e48ee0e572d
