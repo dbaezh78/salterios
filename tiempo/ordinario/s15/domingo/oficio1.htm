@@ -2,29 +2,38 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
   <TITLE>Liturgia de las horas</TITLE>
-  <LINK href="/sync/css/mio.css" type=text/css rel=stylesheet>
+  <LINK href="/salterios/css/mio.css" type=text/css rel=stylesheet>
+  <LINK rel="icon" href="/salterios/css/ico-laudes.ico" type="image/x-icon">
+      <script>
+        function ppjs() {
+            var year = new Date().getFullYear();
+            if (year % 2 === 0) {
+                window.location.href = "oficio2.htm";
+            } else {
+                window.location.href = "oficio1.htm";
+            }
+        }
+    </script>
 </HEAD>
 
 <BODY>
+<a id=top href="./"> <svg height="24px" viewBox="0 0 24 24" width="24px" fill="#5f6368"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5z"/></svg> </a>
   <div align="right">
     <font color="#CC9933">
       tama&ntilde;o: </font>
-    <a href="#" onclick="document.getElementById('cuerpo').style.fontSize='1.1em'; return false;">
-      <font color="#CC9933" size="3">A</font>
-    </a>
-    <a href="#" onclick="document.getElementById('cuerpo').style.fontSize='1.3em'; return false;">
-      <font color="#CC9933" size="5">A</font>
-    </a>
-    <a href="#" onclick="document.getElementById('cuerpo').style.fontSize='1.5em'; return false;">
-      <font color="#CC9933" size="6">A</font>
-    </a>
+	<select id="tamanioFuente" onchange="document.getElementById('cuerpo').style.fontSize = this.value + 'em';">
+	  <option value="1.1">Pequeño</option>
+	  <option value="1.3">Mediano</option>
+	  <option value="1.5">Grande</option>
+	</select>
   </div>
   <div id="cuerpo" class="normal">
 
-    <FONT COLOR="#FF0000"><STRONG>OFICIO DE LECTURA</STRONG><BR>
+<a href="#playLectura">
+    <FONT COLOR="#FF0000"><STRONG>OFICIO DE LECTURA</STRONG><BR></a>
       <HR>
       INVITATORIO
     </FONT>
@@ -102,6 +111,26 @@
       <FONT COLOR="#FF0000">R. </FONT> presta o&iacute;do a mis consejos.
     </FONT>
     <BR><BR>
+<!-- ************************* Reproductor ************************* -->
+
+		<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">1ra Lectura</span></i>
+
+		  <audio id="audioPlayer" controls style="width: 100%;"> </audio>
+		  <script>
+			function esPar(year) {
+			  return year % 2 === 0;
+			}
+			var year = new Date().getFullYear();
+			var audio = document.getElementById('audioPlayer');
+			if (esPar(year)) { 
+				audio.src = 'src/lectura2.mp3';
+			} else {
+				audio.src = 'src/lectura1.mp3';
+			}
+			audio.play(off);
+		  </script>
+
+<!-- ************************* Reproductor ************************* -->
     <FONT COLOR="#FF0000">
       PRIMERA LECTURA<BR><BR>
     </FONT>
@@ -137,6 +166,10 @@
       <FONT COLOR="#FF0000">V. </FONT> Visite el Se&ntilde;or todos los montes que est&aacute;n a su alrededor, pero pase de largo ante los montes de Gelbo&eacute;.<BR>
       <FONT COLOR="#FF0000">R. </FONT> Porque ah&iacute; cayeron los h&eacute;roes de Israel.<BR><BR>
     </FONT>
+		<!-- ************************ Reproductor de Audio para lecturas ************************ -->
+		<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">Audio 2da Lectura</span></i>
+		<audio src="src/lecturas.mp3" controls style="width: 100%;"> </audio>
+		<!-- ************************ Reproductor de Audio para lecturas ************************ -->	
     <FONT COLOR="#FF0000">
       SEGUNDA LECTURA<BR><BR>
     </FONT>
@@ -204,7 +237,8 @@
         <FONT COLOR="#FF0000">R. </FONT>Demos gracias a Dios.
 
 
+<div id=down />
 </BODY>
 
 </HTML>
-<br><br><A href="oficio.htm">Of</A> <A href="laudes.htm">La</A> <A href="tercia.htm">Tr</A> <A href="sexta.htm">Sx</A> <A href="nona.htm">Nn</A> <A href="visperas.htm">Vs</A> <A href="completas.htm">Cm</A>
+<br><br> <div class="topDown"> <a href="#" id="top">&#8593;</a> <a href="#" onclick="ppjs()">Of</a> <a href="laudes.htm">La</a> <a href="tercia.htm">Tr</A> <A href="sexta.htm">Sx</A> <A href="nona.htm">Nn</A> <A href="visperas.htm">Vs</A> <A href="completas.htm">Cm</A> <a href="#down" id="down">&#8595;</a> </div>
