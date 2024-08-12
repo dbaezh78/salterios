@@ -46,31 +46,28 @@
 				background-color:#01B7EF;
 				text-decoration: none;
 				Color:white;
-	
 				}
 				
-				.sday-lnk {
-            text-decoration: none; /* Sin subrayado */
-            color: black; /* Color gris */
-			
-			background-color: #01B7EF;
-            margin: 5px; /* Margen alrededor de cada número */
-            padding: 8px 12px; /* Padding interno */
-            border: 1px solid #ccc; /* Borde gris */
-            border-radius: 5px; /* Bordes redondeados */
-            transition: background-color 0.3s, color 0.3s; /* Transición suave */
-            text-align: center; /* Centrar el texto */
-			font-family: "Comic Sans MS";
-            width: auto; /* Ancho fijo para cada botón */
-			/*font-size: 1.2em; */
+	.sday-lnk {
+		text-decoration: none; /* Sin subrayado */
+		color: black; /* Color gris */
+		background-color: #01B7EF;
+		margin: 5px; /* Margen alrededor de cada número */
+		padding: 8px 12px; /* Padding interno */
+		border: 1px solid #ccc; /* Borde gris */
+		border-radius: 5px; /* Bordes redondeados */
+		transition: background-color 0.3s, color 0.3s; /* Transición suave */
+		text-align: center; /* Centrar el texto */
+		font-family: "Comic Sans MS";
+		width: auto; /* Ancho fijo para cada botón */
+		/*font-size: 1.2em; */
         }
-			.sday-lnk:hover {
-				background-color: white;
-				text-decoration: none;
-				Color:black;
-	
-				}
-				
+		
+	.sday-lnk:hover {
+		background-color: white;
+		text-decoration: none;
+		Color:black;
+		}
 
 		.disabled-link	{
             text-decoration: none; /* Sin subrayado */
@@ -632,6 +629,7 @@
 		}
 
 		.bdia-css{
+			cursor: pointer; /* Cambia el cursor a una mano */
 			text-decoration: none; /* Sin subrayado */
             background-color: white;
             margin: 5px; /* Margen alrededor de cada número */
@@ -646,7 +644,13 @@
 		}
 		.bdia-css:hover{
 			background:green;
-			Color: #00A2E8;
+			Color: white;
+			/*Color: #00A2E8;*/
 			text-decoration: none;
 			border-color: #00A2E8;
+			cursor: pointer; /* Cambia el cursor a una mano */
 		}
+
+	button {
+        cursor: pointer; /* Cambia el cursor a una mano */
+    }
