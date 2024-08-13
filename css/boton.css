@@ -611,8 +611,6 @@
 			text-decoration: none;
 		}
 
-
-
 		.wcolorp {
 			color: white;
 		}
@@ -633,4 +631,22 @@
 			text-decoration: none;
 		}
 
-
+		.bdia-css{
+			text-decoration: none; /* Sin subrayado */
+            background-color: white;
+            margin: 5px; /* Margen alrededor de cada número */
+            padding: 15px 12px; /* Padding interno */
+            border: 1px solid #ccc; /* Borde gris */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s, color 0.3s; /* Transición suave */
+            text-align: center; /* Centrar el texto */
+            width: auto; /* Ancho fijo para cada botón */
+			font-family: "Comic Sans MS";
+			font-size:20px;
+		}
+		.bdia-css:hover{
+			background:green;
+			Color: #00A2E8;
+			text-decoration: none;
+			border-color: #00A2E8;
+		}
