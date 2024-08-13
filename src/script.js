@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
         // Manejar el caso en que no hay datos para la fecha actual
         const noDisponible = document.createElement("span");
-        noDisponible.textContent = "Bendecido día";
+        noDisponible.textContent = "Mc 11,24";
         santoBotones.appendChild(noDisponible);
     }
 });
