@@ -1,29 +1,25 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Obtener la fecha actual
     const fechaActual = new Date();
-
-    // Nombres de los meses en español
-    const meses = [
-        "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
-        "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
-    ];
-
-    // Formatear día, mes y año
     const dia = fechaActual.getDate();
-    const mes = meses[fechaActual.getMonth()];
-    const anio = fechaActual.getFullYear();
-    const fechaFormateada = `${dia} ${mes} ${anio}`;
-    const fechaSinAño = `${dia}/${fechaActual.getMonth() + 1}`; // Formato día/mes
+    const mes = fechaActual.getMonth() + 1; // Los meses en JavaScript van de 0 a 11
+    const año = fechaActual.getFullYear();
+
+    // Formatear la fecha en el formato deseado (día/mes/año)
+    const fechaFormateada = `${dia}/${mes}/${año}`;
+
+    // Formatear la fecha sin el año para el catálogo de santos
+    const fechaSinAño = `${dia}/${mes}`;
 
     // Obtener los elementos de los botones
     const salmodiaBoton = document.getElementById("salmodia-enlace");
     const santoBotones = document.getElementById("santo-enlace");
 
     // Verificar si la fecha está en el catálogo de salmodia
-    if (catalogoSalmodia[`${dia}/${fechaActual.getMonth() + 1}/${anio}`]) {
+    if (catalogoSalmodia[fechaFormateada]) {
         // Asignar la acción de redirigir al enlace correspondiente al botón de salmodia
-        salmodiaBoton.onclick = function () {
-            window.location.href = catalogoSalmodia[`${dia}/${fechaActual.getMonth() + 1}/${anio}`];
+        salmodiaBoton.onclick = function() {
+            window.location.href = catalogoSalmodia[fechaFormateada];
         };
     } else {
         // Manejar el caso en que no hay datos para la fecha actual
@@ -41,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // Crear un nuevo botón para cada santo
             const boton = document.createElement("button");
             boton.textContent = santo.nombre;
-            boton.onclick = function () {
+            boton.onclick = function() {
                 window.location.href = santo.enlace;
             };
 
@@ -51,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
         // Manejar el caso en que no hay datos para la fecha actual
         const noDisponible = document.createElement("span");
-        noDisponible.textContent = `${fechaFormateada}`;
+        noDisponible.textContent = fechaActual;
         santoBotones.appendChild(noDisponible);
     }
 });
