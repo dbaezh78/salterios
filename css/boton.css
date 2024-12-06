@@ -652,5 +652,6 @@
 		}
 
 	button {
-        cursor: pointer; /* Cambia el cursor a una mano */
+        cursor: Hand;	/* Cambia el cursor a una mano */
+        /*	cursor: pointer; /* Cambia el cursor a fecha*/
     }
