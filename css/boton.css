@@ -632,6 +632,7 @@
 			cursor: pointer; /* Cambia el cursor a una mano */
 			text-decoration: none; /* Sin subrayado */
             background-color: white;
+			color: black;
             margin: 5px; /* Margen alrededor de cada número */
             padding: 15px 12px; /* Padding interno */
             border: 1px solid #ccc; /* Borde gris */
@@ -643,14 +644,19 @@
 			font-size:20px;
 		}
 		.bdia-css:hover{
-			background:green;
+			/*	background:green;	/* cuando estemos en tiempo ORDINARIO */
+			background:purple;	/* cuando estemos en tiempo ADVIENTO y CUARESMA*/
+			/*	background:red;	/* cuando estemos en tiempo NAVIDAD */
+			/*	background:#00A2E8;	/* cuando estemos en tiempo PASCUA */
 			Color: white;
 			/*Color: #00A2E8;*/
 			text-decoration: none;
-			border-color: #00A2E8;
-			cursor: pointer; /* Cambia el cursor a una mano */
+			
+			cursor: Hand; /* Cambia el cursor a una mano */
+			/* cursor: pointer; /* Cambia el cursor a una mano */
 		}
 
 	button {
-        cursor: pointer; /* Cambia el cursor a una mano */
+        cursor: Hand;	/* Cambia el cursor a una mano */
+        /*	cursor: pointer; /* Cambia el cursor a fecha*/
     }
