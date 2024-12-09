@@ -652,11 +652,11 @@
 			/*Color: #00A2E8;*/
 			text-decoration: none;
 			
-			cursor: Hand; /* Cambia el cursor a una mano */
-			/* cursor: pointer; /* Cambia el cursor a una mano */
+			/* cursor: Hand; /* Cambia el cursor a una mano */
+			cursor: pointer; /* Cambia el cursor a una mano */
 		}
 
 	button {
-        cursor: Hand;	/* Cambia el cursor a una mano */
-        /*	cursor: pointer; /* Cambia el cursor a fecha*/
+         cursor: Hand;	/* Cambia el cursor a una mano */
+       /* cursor: pointer; /* Cambia el cursor a fecha*/
     }
