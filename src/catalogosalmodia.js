@@ -1,6 +1,6 @@
-const catalogoSalmodia = {					
-// Añade más fechas y enlaces según sea necesario					
-					
+const catalogoSalmodia = {	
+// Añade más fechas y enlaces según sea necesario	
+	
 	"29/11/2024": "/salterios/tiempo/ordinario/s34/viernes",
 	"30/11/2024": "/salterios/tiempo/ordinario/s34/sabado",
 	"1/12/2024": "/salterios/tiempo/adviento/s01/domingo",
@@ -32,20 +32,20 @@ const catalogoSalmodia = {
 	"27/12/2024": "/salterios/tiempo/adviento/navidad/dias/sd27",
 	"28/12/2024": "/salterios/tiempo/adviento/navidad/dias/sd28",
 	"29/12/2024": "/salterios/tiempo/adviento/navidad/dias/Infra - LA SAGRADA FAMILIA DE JESÚS MARÍA Y JOSÉ",
-	"30/12/2024": "/salterios/tiempo/adviento/s01/lunes",
-	"31/12/2024": "/salterios/tiempo/adviento/s01/martes",
+	"30/12/2024": "/salterios/tiempo/adviento/navidad/s01/lunes",
+	"31/12/2024": "/salterios/tiempo/adviento/navidad/s01/martes",
 	"1/1/2025": "/salterios/tiempo/santos/enero/01-SANTAMARÍAMADREDEDIOS",
 	"2/1/2025": "/salterios/tiempo/adviento/navidad/dias/se2 - 2do Enero - SANTOS BASILIO MAGNO Y GREGORIO NACIANZO",
-	"3/1/2025": "/salterios/tiempo/adviento/s01/viernes",
-	"4/1/2025": "/salterios/tiempo/adviento/s01/sabado",
-	"5/1/2025": "/salterios/tiempo/adviento/s02/domingo",
-	"6/1/2025": "/salterios/tiempo/ordinario/s02/lunes",
-	"7/1/2025": "/salterios/tiempo/ordinario/s02/martes",
-	"8/1/2025": "/salterios/tiempo/ordinario/s02/miercoles",
-	"9/1/2025": "/salterios/tiempo/ordinario/s02/jueves",
-	"10/1/2025": "/salterios/tiempo/ordinario/s02/viernes",
-	"11/1/2025": "/salterios/tiempo/ordinario/s02/sabado",
-	"12/1/2025": "/salterios/tiempo/ordinario/s01/domingo",
+	"3/1/2025": "/salterios/tiempo/adviento/navidad/s01/viernes",
+	"4/1/2025": "/salterios/tiempo/adviento/navidad/s01/sabado",
+	"5/1/2025": "/salterios/tiempo/adviento/navidad/s02/domingo",
+	"6/1/2025": "/salterios/tiempo/adviento/navidad/s02/lunes",
+	"7/1/2025": "/salterios/tiempo/adviento/navidad/s02/martes",
+	"8/1/2025": "/salterios/tiempo/adviento/navidad/s02/miercoles",
+	"9/1/2025": "/salterios/tiempo/adviento/navidad/s02/jueves",
+	"10/1/2025": "/salterios/tiempo/adviento/navidad/s02/viernes",
+	"11/1/2025": "/salterios/tiempo/adviento/navidad/s02/sabado",
+	"12/1/2025": "/salterios/tiempo/solemnidades/BautismodelSeñor",
 	"13/1/2025": "/salterios/tiempo/ordinario/s01/lunes",
 	"14/1/2025": "/salterios/tiempo/ordinario/s01/martes",
 	"15/1/2025": "/salterios/tiempo/ordinario/s01/miercoles",
@@ -423,4 +423,4 @@ const catalogoSalmodia = {
 	"22/1/2026": "/salterios/tiempo/ordinario/s02/jueves",
 	"23/1/2026": "/salterios/tiempo/ordinario/s02/sabado",
 	"24/1/2026": "/salterios/tiempo/ordinario/s03/domingo",
-};					
+};	
