@@ -1,8 +1,16 @@
 const catalogoSanto = {
 
+
+	// ********************************************************** Fechas Especiales *********************************************************
+	// ***************************************** Este es el Miercoles de Ceniza y será segun el año *****************************************
+	"5/3": [{ nombre: "Miercoles de Ceniza", enlace: "/salterios/tiempo/cuaresma/ceniza/miercoles"}],
+	// ***********************************************************************************************************************************************
+
+
 	// *********************************************************** ENERO ***********************************************************
 	"1/1": [{ nombre: "Santa María Madre De Dios", enlace: "/salterios/tiempo/santos/enero/01-SANTA_MARÍA_MADRE_DE_DIOS" }],
 	"2/1": [{ nombre: "Santos Basilio Magno y Gregorio Nacianzo", enlace: "/salterios/tiempo/santos/enero/02-SANTOS_BASILIO_MAGNO_Y_GREGORIO_NACIANZO" }],
+	"6/1": [{ nombre: "LA EPIFANÍA DEL SEÑOR (SOLEMNIDAD)", enlace: "/salterios/tiempo/adviento/navidad/dias/se6 - La Epifania del Señor" }],
 	"17/1": [{ nombre: "San Antonio, Abad", enlace: "/salterios/tiempo/santos/enero/17-SAN ANTONIO, ABAD" }],
 	"21/1": [{ nombre: "Santa Inés, Virgen Y Mártir", enlace: "/salterios/tiempo/santos/enero/21-SANTA INÉS, virgen y mártir" }],
 	"24/1": [{ nombre: "Santa María, Reina De La Paz-San Francisco De Sales-San Francisco De Sales", enlace: "/salterios/tiempo/santos/enero/24-SANTA MARÍA, REINA DE LA PAZ-SAN FRANCISCO DE SALES-SAN FRANCISCO DE SALES" }],
@@ -23,7 +31,7 @@ const catalogoSanto = {
 	"26/2": [{ nombre: "La Cátedra De San Pedro, Apóstol", enlace: "/salterios/tiempo/santos/febrero/22-LA CÁTEDRA DE SAN PEDRO, APÓSTOL" }],
 	"28/2": [{ nombre: "San Policarpo, Obispo Y Mártir", enlace: "/salterios/tiempo/santos/febrero/23-SAN POLICARPO, obispo y mártir" }],
 	// *********************************************************** FEBRERO ***********************************************************
-	
+
 	// *********************************************************** MARZO ***********************************************************
 	"19/3": [{ nombre: "San Jose, Esposo De La Bienaventurada Virgen María", enlace: "/salterios/tiempo/santos/marzo/19-SAN JOSE, ESPOSO DE LA BIENAVENTURADA VIRGEN MARÍA" }],
 	"25/3": [{ nombre: "La Anunciación Del Señor", enlace: "/salterios/tiempo/santos/marzo/25-LA ANUNCIACIÓN DEL SEÑOR" }],

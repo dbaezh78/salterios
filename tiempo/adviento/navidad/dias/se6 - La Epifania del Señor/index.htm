@@ -32,11 +32,47 @@
   </div>
   <div id="cuerpo" class="normal">
 
+
+<!--
     <CENTER>
       <FONT COLOR="#FF0000">
         <FONT COLOR="#FF0000"><STRONG>TIEMPO DE NAVIDAD</STRONG><BR><STRONG>LUNES DE LA SEMANA II</STRONG><BR>De la solemnidad.<BR><BR><I>6 de enero</I><BR></FONT><BR>
         <FONT COLOR="#9E5806"><STRONG>LA EPIFAN&Iacute;A DEL SE&Ntilde;OR</STRONG>.<I> (SOLEMNIDAD]</I>
     </CENTER>
+-->
+
+
+    <script>
+        function obtenerDiaSemana() {
+            const dias = ["DOMINGO", "LUNES", "MARTES", "MIÉRCOLES", "JUEVES", "VIERNES", "SÁBADO"];
+            const fecha = new Date();
+            return dias[fecha.getDay()];
+        }
+
+        function insertarDiaSemana() {
+            const diaSemana = obtenerDiaSemana();
+            document.getElementById("dia-semana").innerText = diaSemana;
+        }
+
+        window.onload = insertarDiaSemana;
+    </script>
+</head>
+<body>
+    <center>
+        <font color="#FF0000">
+            <strong>TIEMPO DE NAVIDAD</strong><br>
+            <strong><span id="dia-semana"></span> DE LA SEMANA II</strong><br>
+            De la solemnidad.<br><br>
+            <i>6 de enero</i><br>
+        </font><br>
+        <font color="#9E5806">
+            <strong>LA EPIFANÍA DEL SEÑOR</strong>.<i> (SOLEMNIDAD)</i>
+        </font>
+    </center>
+
+
+
+
     <BR><BR>
     <TABLE WIDTH="100%" BORDER="1">
       <TR>
