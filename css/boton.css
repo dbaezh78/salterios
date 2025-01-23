@@ -644,8 +644,8 @@
 			font-size:20px;
 		}
 		.bdia-css:hover{
-			/*	background:green;	/* cuando estemos en tiempo ORDINARIO */
-			background:purple;	/* cuando estemos en tiempo ADVIENTO y CUARESMA*/
+			background:green;	/* cuando estemos en tiempo ORDINARIO */
+			/*	background:purple;	/* cuando estemos en tiempo ADVIENTO y CUARESMA*/
 			/*	background:red;	/* cuando estemos en tiempo NAVIDAD */
 			/*	background:#00A2E8;	/* cuando estemos en tiempo PASCUA */
 			Color: white;
