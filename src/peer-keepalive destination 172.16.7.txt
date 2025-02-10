@@ -1,0 +1,24 @@
+peer-keepalive destination 172.16.77.140 source 172.16.77.141
+peer-keepalive destination 172.16.77.141 source 172.16.77.140
+
+
+
+
+7    Lan-AC-OLD                       active    Po10, Po20, Eth1/13, Eth1/14
+                                                Eth1/31
+100  In-band                          active    Po10, Po20, Eth1/13, Eth1/14
+                                                Eth1/31
+104  VLAN0104                         active    Po10, Po20, Eth1/13, Eth1/14
+
+
+
+
+
+
+watchguard
+0	=	pp14	=	INTERNET CLARO PUERTO 
+1	=	WAN ALTINCE - REVISAR
+3	=	PP15	=	AC2 P.46	SEGURO 172.16.7.5
+
+FALTABA LA VLAN EN EL NEXUS A EL NEXUS B YA LA TENIA
+
