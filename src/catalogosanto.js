@@ -24,6 +24,7 @@ const catalogoSanto = {
 	// *********************************************************** FEBRERO ***********************************************************
 	"1/2": [{ nombre: "La Presentación Del Señor", enlace: "/salterios/tiempo/santos/febrero/02-LA PRESENTACIÓN DEL SEÑOR" }],
 	"2/2": [{ nombre: "Santa Águeda, Virgen Y Mártir", enlace: "/salterios/tiempo/santos/febrero/04-SANTA ÁGUEDA, virgen y mártir" }],
+	"10/2": [{ nombre: "Santa Escolástica de Nursia", enlace: "/salterios/tiempo/santos/febrero/10-SANTA ESCOLÁSTICA, virgen" }],
 	"17/2": [{ nombre: "San Felipe De Jesús", enlace: "/salterios/tiempo/santos/febrero/05-SAN FELIPE DE JESÚS" }],
 	"21/2": [{ nombre: "Santos Pablo Miki Y Compañeros", enlace: "/salterios/tiempo/santos/febrero/06-SANTOS PABLO MIKI Y COMPAÑEROS" }],
 	"24/2": [{ nombre: "Santa Escolástica, Virgen", enlace: "/salterios/tiempo/santos/febrero/10-SANTA ESCOLÁSTICA, virgen" }],
