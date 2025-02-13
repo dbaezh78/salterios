@@ -47,20 +47,20 @@ const audios = [
     { nombre: "Titulo Pendiente", archivo: "audios/tos22d.mp3", fecha: `${year}-06-01` },
 
     // SEMANA V TIEMPO ORDINARIO
-    { nombre: "Evangelio Lunes Semana 5 Tiempo Ordinario",		archivo: "/salterios/src/evan/audios/tos05lunes.mpeg", fecha: `${year}-02-10` },
-    { nombre: "Evangelio Martes Semana 5 Tiempo Ordinario",		archivo: "/salterios/src/evan/audios/tos05martes.mpeg", fecha: `${year}-02-11` },
-    { nombre: "Evangelio Miércoles Semana 5 Tiempo Ordinario",	archivo: "/salterios/src/evan/audios/tos05miercoles.mpeg", fecha: `${year}-02-12` },
-    { nombre: "Evangelio Jueves Semana 5 Tiempo Ordinario",		archivo: "/salterios/src/evan/audios/tos05jueves.mpeg", fecha: `${year}-02-12` },
-    { nombre: "Evangelio Viernes Semana 5 Tiempo Ordinario",	archivo: "/salterios/src/evan/audios/tos05viernes.mp3", fecha: `${year}-02-13` },
-    { nombre: "Evangelio Sabado Semana 5 Tiempo Ordinario",		archivo: "/salterios/src/evan/audios/tos05sabado.mpeg", fecha: `${year}-02-15` },
+    { nombre: "Evangelio Lunes Semana 5 Tiempo Ordinario",		archivo: "/salterios/src/evan/audios/tos05lunes.mpeg",		fecha: `${year}-02-10` },
+    { nombre: "Evangelio Martes Semana 5 Tiempo Ordinario",		archivo: "/salterios/src/evan/audios/tos05martes.mpeg", 	fecha: `${year}-02-11` },
+    { nombre: "Evangelio Miércoles Semana 5 Tiempo Ordinario",	archivo: "/salterios/src/evan/audios/tos05miercoles.mpeg",	fecha: `${year}-02-12` },
+    { nombre: "Evangelio Jueves Semana 5 Tiempo Ordinario",		archivo: "/salterios/src/evan/audios/tos05jueves.mpeg",		fecha: `${year}-02-13` },
+    { nombre: "Evangelio Viernes Semana 5 Tiempo Ordinario",	archivo: "/salterios/src/evan/audios/tos05viernes.mp3",		fecha: `${year}-02-14` },
+    { nombre: "Evangelio Sabado Semana 5 Tiempo Ordinario",		archivo: "/salterios/src/evan/audios/tos05sabado.mpeg",		fecha: `${year}-02-15` },
 
     // SEMANA VI TIEMPO ORDINARIO
-    { nombre: "Evangelio Lunes Semana 5 Tiempo Ordinario",		archivo: "/salterios/src/evan/audios/tos06lunes.mpeg", fecha: `${year}-02-10` },
-    { nombre: "Evangelio Martes Semana 5 Tiempo Ordinario",		archivo: "/salterios/src/evan/audios/tos06martes.mpeg", fecha: `${year}-02-11` },
-    { nombre: "Evangelio Miércoles Semana 5 Tiempo Ordinario",	archivo: "/salterios/src/evan/audios/tos06miercoles.mpeg", fecha: `${year}-02-12` },
-    { nombre: "Evangelio Jueves Semana 5 Tiempo Ordinario",		archivo: "/salterios/src/evan/audios/tos06jueves.mpeg", fecha: `${year}-02-13` },
-    { nombre: "Evangelio Viernes Semana 5 Tiempo Ordinario",	archivo: "/salterios/src/evan/audios/tos06viernes.mpeg", fecha: `${year}-02-14` },
-    { nombre: "Evangelio Sabado Semana 5 Tiempo Ordinario",		archivo: "/salterios/src/evan/audios/tos06sabado.mpeg", fecha: `${year}-02-15` },
+    { nombre: "Evangelio Lunes Semana 5 Tiempo Ordinario",		archivo: "/salterios/src/evan/audios/tos06lunes.mpeg",		fecha: `${year}-02-10` },
+    { nombre: "Evangelio Martes Semana 5 Tiempo Ordinario",		archivo: "/salterios/src/evan/audios/tos06martes.mpeg",		fecha: `${year}-02-11` },
+    { nombre: "Evangelio Miércoles Semana 5 Tiempo Ordinario",	archivo: "/salterios/src/evan/audios/tos06miercoles.mpeg",	fecha: `${year}-02-12` },
+    { nombre: "Evangelio Jueves Semana 5 Tiempo Ordinario",		archivo: "/salterios/src/evan/audios/tos06jueves.mpeg",		fecha: `${year}-02-13` },
+    { nombre: "Evangelio Viernes Semana 5 Tiempo Ordinario",	archivo: "/salterios/src/evan/audios/tos06viernes.mpeg",	fecha: `${year}-02-14` },
+    { nombre: "Evangelio Sabado Semana 5 Tiempo Ordinario",		archivo: "/salterios/src/evan/audios/tos06sabado.mpeg",		fecha: `${year}-02-15` },
 ];
 
 function obtenerFechaHoy() {
