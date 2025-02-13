@@ -8,6 +8,10 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="icon" href="css/ico-laudes.ico" type="image/x-icon">
 	<link href="css/db.css" type=text/css rel=stylesheet>
+	<!-- -->
+	<link href="/salterios/css/evan-css.css" type=text/css rel=stylesheet>
+	
+	<!-- -->
 
 		<script src="css/jquery-3.2.1.slim.min.js"></script>
 		<script src="css/popper.min.js"></script>
@@ -15,7 +19,8 @@
 		
 	    <script src="src/catalogosalmodia.js"></script>
 		<script src="src/catalogosanto.js"></script>
-		<script src="src/script.js"></script>	
+		<script src="src/script.js"></script>
+		<script src="/salterios/src/evan/evan-js.js"></script>	
 
 </head>
 	<body>
@@ -48,7 +53,20 @@
 			</div>
 		</div>
 	</div>
+<!-------------- Reproductor Evangelio ------------------->
 <hr>
+<div id="reproductor">
+<div>
+        <h4>Evangelio del día</h4>
+        <h3 id="titulo-audio" style="color:#7F052A";></h3>
+        <audio id="audio-player" controls>
+            <source id="audio-source" src="" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    </div>
+</div>
+<hr>
+<!-------------- Reproductor Evangelio ------------------->
 
 <div class="container">
 	<div class="row">
