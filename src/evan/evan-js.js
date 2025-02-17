@@ -377,7 +377,7 @@ const audios = [
 /*	Diciembre	*/	{ nombre: "Tiempo Navidad, Semana 2 Martes",		archivo: "/salterios/src/evan/tn/2/martes.mp3",		fecha: `${year}-12-30` },
 /*	Diciembre	*/	{ nombre: "Tiempo Navidad, Semana 2 Miercoles",		archivo: "/salterios/src/evan/tn/2/miercoles.mp3",	fecha: `${year}-12-31` },
 
-	
+
 ];
 
 function obtenerFechaHoy() {
