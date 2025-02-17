@@ -7,6 +7,7 @@
   <TITLE>Liturgia de las horas</TITLE>
   <LINK href="/salterios/css/mio.css" type=text/css rel=stylesheet>
   <LINK rel="icon" href="/salterios/css/ico-laudes.ico" type="image/x-icon">
+  <script src="/salterios/src/evan/evan-js.js"></script>
       <script>
         function ppjs() {
             var year = new Date().getFullYear();
@@ -156,8 +157,17 @@
   </script>
   <i><span style="color: #FF0000; font-size: 15px;"id="playLectura">2da Lectura</span></i>
   <audio src="src/lecturas.mp3" controls style="width: 100%;"> </audio>
-   <BR><BR>
 
+	<!-- Audio para el evangelio -->
+  <i><span style="color: #FF0000; font-size: 15px;"id="playLectura">Evangelio</span></i>
+        <audio id="audio-player" controls style="width: 100%;">
+            <source id="audio-source" src="" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+
+	<h6 id="titulo-audio" style="display: none; color:#7F052A;"></h6>
+
+		<br><br>
 <!-- ************************* Reproductor ************************* -->
       <FONT COLOR="#FF0000">
         C&Aacute;NTICO EVANG&Eacute;LICO<BR><BR>
