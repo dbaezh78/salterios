@@ -374,13 +374,14 @@ const audios = [
 /*	Diciembre	*/	{ nombre: "Adviento, Semana 4 Lunes",			archivo: "/salterios/src/evan/ta/4/lunes.mp3",		fecha: `${year}-12-22` },
 /*	Diciembre	*/	{ nombre: "Adviento, Semana 4 Martes",			archivo: "/salterios/src/evan/ta/4/martes.mp3",		fecha: `${year}-12-23` },
 /*	Diciembre	*/	{ nombre: "Adviento, Semana 4 Miercoles",		archivo: "/salterios/src/evan/ta/4/miercoles.mp3",	fecha: `${year}-12-24` },
-/*	Diciembre	*/	{ nombre: "Navidad, Semana 1 Jueves",			archivo: "/salterios/src/evan/tn/1/jueves.mp3",		fecha: `${year}-12-25` },
-/*	Diciembre	*/	{ nombre: "Navidad, Semana 1 Viernes",			archivo: "/salterios/src/evan/tn/1/viernes.mp3",	fecha: `${year}-12-26` },
-/*	Diciembre	*/	{ nombre: "Navidad, Semana 1 Sabado",			archivo: "/salterios/src/evan/tn/1/sabado.mp3",		fecha: `${year}-12-27` },
-/*	Diciembre	*/	{ nombre: "Navidad, Semana 2 Domingo",			archivo: "/salterios/src/evan/tn/2/domingo.mp3",	fecha: `${year}-12-28` },
-/*	Diciembre	*/	{ nombre: "Navidad, Semana 2 Lunes",			archivo: "/salterios/src/evan/tn/2/lunes.mp3",		fecha: `${year}-12-29` },
-/*	Diciembre	*/	{ nombre: "Navidad, Semana 2 Martes",			archivo: "/salterios/src/evan/tn/2/martes.mp3",		fecha: `${year}-12-30` },
-/*	Diciembre	*/	{ nombre: "Navidad, Semana 2 Miercoles",		archivo: "/salterios/src/evan/tn/2/miercoles.mp3",	fecha: `${year}-12-31` },
+/*	Diciembre	*/	{ nombre: "Navidad, Semana 1 Jueves",			archivo: "/salterios/src/evan/tn/25-NocheBuena.mp3",fecha: `${year}-12-25` },
+/*	Diciembre	*/	{ nombre: "Navidad, Semana 1 Viernes",			archivo: "/salterios/src/evan/tn/viernes.mp3",		fecha: `${year}-12-26` },
+/*	Diciembre	*/	{ nombre: "Navidad, San Juan Apostol",			archivo: "/salterios/src/evan/tn/27-sJuanAp.mp3",	fecha: `${year}-12-27` },
+/*	Diciembre* /	{ nombre: "Navidad, San Esteban",				archivo: "/salterios/src/evan/tn/28-SanEsteban.mp3",fecha: `${year}-12-28` },*/
+/*Diciembre	*/	{ nombre: "Navidad, Domingo de la Sagrada Familia",	archivo: "/salterios/src/evan/tn/SagradaFamilia.mp3",fecha: `${year}-12-28` },
+/*	Diciembre	*/	{ nombre: "Navidad, Semana 2 Lunes",			archivo: "/salterios/src/evan/tn/lunes.mp3",		fecha: `${year}-12-29` },
+/*	Diciembre	*/	{ nombre: "Navidad, Semana 2 Martes",			archivo: "/salterios/src/evan/tn/martes.mp3",		fecha: `${year}-12-30` },
+/*	Diciembre	*/	{ nombre: "Navidad, 31 de Diciembre",			archivo: "/salterios/src/evan/tn/31-diciembre.mp3",	fecha: `${year}-12-31` },
 
 
 ];
