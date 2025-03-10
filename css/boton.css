@@ -88,7 +88,7 @@
 
 		.day-link {
             text-decoration: none; /* Sin subrayado */
-            color: black; /* Color gris */
+            color: white; /* Color blanco */
             margin: 5px; /* Margen alrededor de cada número */
             padding: 8px 12px; /* Padding interno */
             border: 1px solid #ccc; /* Borde gris */
@@ -400,7 +400,7 @@
             font-size: 1.0em;
 			text-decoration: none;
 			color: #1ea6ef;
-			text-align: right;
+			text-align: center;
 			font-family: Bradley Hand ITC;
         }
 	a {
@@ -643,9 +643,12 @@
 			font-family: "Comic Sans MS";
 			font-size:20px;
 		}
+
+		/* COLOR DE BOTON DE LA SALMODIA DEL DIA
+		*****************************************/
 		.bdia-css:hover{
-			background:green;	/* cuando estemos en tiempo ORDINARIO */
-			/*	background:purple;	/* cuando estemos en tiempo ADVIENTO y CUARESMA*/
+			/*	background:green;	/* cuando estemos en tiempo ORDINARIO */
+				background:purple;	/* cuando estemos en tiempo ADVIENTO y CUARESMA*/
 			/*	background:red;	/* cuando estemos en tiempo NAVIDAD */
 			/*	background:#00A2E8;	/* cuando estemos en tiempo PASCUA */
 			Color: white;

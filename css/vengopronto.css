@@ -1,0 +1,12 @@
+.contenedor-imagen {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente */
+}
+
+.imagen {
+    display: none; /* Oculta las imágenes por defecto */
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}

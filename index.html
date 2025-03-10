@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liturgia de las Horas</title>
+	  
 	<LINK href="css/boton.css" type=text/css rel=stylesheet>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="icon" href="/salterios/css/ico-laudes.ico" type="image/x-icon">
 	<link href="css/db.css" type=text/css rel=stylesheet>
+	<link rel="stylesheet" href="/salterios/css/vengopronto.css">
 
 	<!-- -->
 	<link href="/salterios/css/evan-css.css" type=text/css rel=stylesheet>
@@ -25,6 +27,8 @@
 	    <script src="src/catalogosalmodia.js"></script>
 		<script src="src/catalogosanto.js"></script>
 		<script src="src/script.js"></script>
+		<script src="/salterios/js/vengopronto.js"></script>
+
 
 	<!-- 
 		<script src="script.js"></script>
@@ -41,7 +45,7 @@
 <div id="inicio"/>
 <div class="Tiempos-liturgicos">
 
-<h1>Liturgia de las Horas</h1>
+<h1 style="text-shadow: 2px 2px 5px white;">Liturgia de las Horas</h1>
 </div>
 <hr>
 <!-- Publicación de imagen -->
@@ -57,7 +61,9 @@
 		<div class="row">
 			<div class="col-md-12" style=padding:1%>
 				<div class="btn-inline btn-toolbar d-flex justify-content-center">
-<!-- la clase bdia-css está en el archivo boton.css
+
+<!-- 
+El color del boton está en el css: boton.css en la clase bdia-css, solo tienes que cambiar como comentario entre colores  en la linea 631
 "C:\db\Github\salterios\css\boton.css"
 -->
 	<a id="salmodia-enlace" class="bdia-css" href="#">Salmodia del día</a>
@@ -70,9 +76,11 @@
 <hr>
 <div id="reproductor">
 <div>
-        <h4>Evangelio del día</h4>
-        <h5 id="titulo-audio" style="color:#7F052A";></h5>
-        <audio id="audio-player" controls style="width: 100%;">
+
+		<h3 style="color: white; text-shadow: 2px 2px 5px gold;">Evangelio del día</h3>
+
+        <h5 id="titulo-audio" style="color:#e5f7e9fe; text-shadow: 2px 2px 2px rgb(74, 3, 92)"></h5>
+        <audio id="audio-player" controls style="width: 100%; opacity: 0.5;">
             <source id="audio-source" src="" type="audio/mpeg">
             Tu navegador no soporta el elemento de audio.
         </audio>
@@ -1612,36 +1620,21 @@
 </script>
 
  <hr>
-    <div class="footnote">
-	
-	<!-- 
-	href="https://hjg.com.ar/ssee/47_mt/c005.html#v44" target="_blank"
-	-->
-		<a data-toggle="modal" data-target="#imgx"><b> MT 5,44:</b></a>
-        <p class="right" id="footnote1"><a href="#inicio">↑</a> Amad a vuestros enemigos y rogad por los que os persigan.<sup>1</sup></p>
-		<b class="left1" id="footnote1">Vengo pronto!<a href="https://www.epifania.es/wp-content/uploads/9-Cristo-Pantocrator-05-2014web.jpg" target="_blank"><sup>2</sup></a></b>
-    </div>
-	
-	<!-- Zona Modal -->
-	
-	<!-- Modal -->
-<div class="modal fade" id="imgx" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content" style="width:380px; height:600px">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Biblia</h4>
-      </div>
-      <div class="modal-body">
-        <iframe src="https://hjg.com.ar/ssee/47_mt/c005.html#v44" width="100%"; height="100%">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
+
+ <div class="contenedor-imagen">
+    <!-- Imagen 1 arriba del texto -->
+    <img id="imagen1" class="imagen" src="/salterios/src/ima/amad.png" alt="Amad a vuestros enemigos">
+    <h4 onclick="mostrarImagen('imagen1')" style="color: white; text-shadow: 2px 2px 5px gold;">
+        Amad a vuestros enemigos
+    </h4>
+
+    <!-- Imagen 2 arriba del texto -->
+    <img id="imagen2" class="imagen" src="/salterios/src/ima/vengopronto.jpg" alt="Vengo pronto">
+    <h4 onclick="mostrarImagen('imagen2')" style="color: white; text-shadow: 2px 2px 5px gold;">
+        Vengo pronto
+    </h4>
 </div>
+
 
 </body>
 </html>

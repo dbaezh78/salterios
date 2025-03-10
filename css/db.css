@@ -1,4 +1,15 @@
-	.normal {
+body {
+    background: url(/salterios/src/ima/BackGround.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center;
+    background-attachment: fixed; /* Fija la imagen de fondo */
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px); /* Ajusté el blur para que sea uniforme */
+}
+
+
+.normal {
   font-family: Verdana, Arial
 }
 
