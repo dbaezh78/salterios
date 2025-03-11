@@ -12,8 +12,6 @@ function openDayFolder(year, month, day) {
     selectedDate.textContent = `Fecha seleccionada: ${day}/${month}/${year}`;
 }
 
-
-
 // Variables globales
 	let currentDate = new Date(); // Fecha actual
 	let currentMonth = currentDate.getMonth(); // Mes actual (0-11)
