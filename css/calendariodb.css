@@ -1,0 +1,8 @@
+        /* Estilos para el iframe */
+        #calendario-iframe {
+            display: none; /* Oculta el iframe inicialmente */
+            width: 100%; /* Ancho completo */
+            height: 500px; /* Altura personalizable */
+            border: 1px solid #ccc; /* Borde para mejor visualización */
+            margin-top: 20px;
+        }

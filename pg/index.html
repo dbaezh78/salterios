@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario con Reproductor</title>
+	<link rel="stylesheet" href="/salterios/pg/cal/src/player.css">
+</head>
+<body>
+
+    <div class="navigation">
+        <button id="prevMonth">&lt;</button>
+        <input type="month" id="monthSelector">
+        <button id="nextMonth">&gt;</button>
+    </div>
+
+    <div class="calendar" id="calendar">
+        <!-- Nombres de los días de la semana -->
+        <div class="day-name">Dom</div>
+        <div class="day-name">Lun</div>
+        <div class="day-name">Mar</div>
+        <div class="day-name">Mié</div>
+        <div class="day-name">Jue</div>
+        <div class="day-name">Vie</div>
+        <div class="day-name">Sáb</div>
+    </div>
+
+    <div id="selectedDate" style="color:white ; text-shadow: 2px 2px 2px rgb(0, 0, 0); text-align: center; margin-bottom: 10px;"></div>
+    <div class="iframe-container">
+        <iframe style="width:auto; height: 500px; border: none;" id="dayFrame" src=""></iframe>
+    </div>
+
+    <script src="/salterios/pg/cal/src/player.js"></script>
+	
+</body>
+</html>
