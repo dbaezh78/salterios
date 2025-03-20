@@ -4,40 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liturgia de las Horas</title>
-	  
-	<LINK href="css/boton.css" type=text/css rel=stylesheet>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="icon" href="/salterios/css/ico-laudes.ico" type="image/x-icon">
-	<link href="css/db.css" type=text/css rel=stylesheet>
-	<link rel="stylesheet" href="/salterios/css/vengopronto.css">
 
-	<!-- -->
-	<link href="/salterios/css/evan-css.css" type=text/css rel=stylesheet>
+	<!-- SECCIÓN DE CSS-->
+	<link rel="stylesheet" href="css/boton.css" type=text/css>
+	<link rel="stylesheet" href="css/bootstrap.min.css" type=text/css>
+	<link rel="stylesheet" href="css/db.css" type=text/css >
+	<link rel="stylesheet" href="/salterios/css/vengopronto.css" type=text/css>
+	<link rel="stylesheet" href="/salterios/css/calendariodb.css" type=text/css>
+	<link rel="stylesheet" href="/salterios/css/evan-css.css" type=text/css>
+	<link rel="stylesheet" href="/salterios/css/calendar_month.css" type=text/css>
 	
-	<!-- 
-	<link href="style.css" type=text/css rel=stylesheet>
-	<link href="/salterios/lab/style.css" type=text/css rel=stylesheet>
-	-->
-	<!-- -->
-
-		<script src="css/jquery-3.2.1.slim.min.js"></script>
-		<script src="css/popper.min.js"></script>
-		<script src="css/bootstrap.min.js"></script>
-		
-	    <script src="src/catalogosalmodia.js"></script>
-		<script src="src/catalogosanto.js"></script>
-		<script src="src/script.js"></script>
-		<script src="/salterios/js/vengopronto.js"></script>
-
-
-	<!-- 
-		<script src="script.js"></script>
-		<script src="/salterios/lab/script.js"></script>
-	-->
-		<script src="/salterios/src/evan/evan-js.js"></script>	
-	<!-- -->
-
-
 </head>
 	<body>
 	
@@ -55,40 +32,38 @@
 	<h1 style="color: gold; text-shadow: 2px 2px 5px rgb(227, 21, 21);">HORAS</h1>
 	
 </div>
-<hr>
+
 <!-- Publicación de imagen -->
-
-<a class="btn-inline btn-toolbar d-flex justify-content-center" href="/salterios"/>
+<a class="btn-inline btn-toolbar d-flex justify-content-center" href="/salterios">
 	<img src="css/lh.jpg" width="200px" height="200px"
-	class="btn-inline btn-toolbar d-flex justify-content-center rounded-circle"></a>
+	class="btn-inline btn-toolbar d-flex justify-content-center rounded-circle";></a>
 
-<!--				<div class="btn-inline btn-toolbar d-flex justify-content-center"> -->
-				
-<br>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12" style=padding:1%>
 				<div class="btn-inline btn-toolbar d-flex justify-content-center">
 
-<!-- 
-El color del boton está en el css: boton.css en la clase bdia-css, solo tienes que cambiar como comentario entre colores  en la linea 631
-"C:\db\Github\salterios\css\boton.css"
--->
-	<a id="salmodia-enlace" class="bdia-css" href="#">Salmodia del día</a>
+<!-- ---------------------------------------------------------------------------------------
+			El color del boton está en el css: boton.css en la clase bdia-css, 
+			solo tienes que cambiar como comentario entre colores  en la linea 631
+			"C:\db\Github\salterios\css\boton.css"
+	----------------------------------------------------------------------------------------> 
+	<a id="salmodia-enlace" class="bdia-css" href="#">Salmodia del día</a>	
 	<a id="santo-enlace" class="pascualx-css" href="#"></a>
 				</div>
 			</div>
 		</div>
 	</div>
+
 <!-------------- Reproductor Evangelio ------------------->
 <hr>
 <div id="reproductor">
-<div>
+	<div>
 
 		<h3 style="color: white; text-shadow: 2px 2px 5px gold;">Evangelio del día</h3>
+        <h5 id="titulo-audio" style="color:#e5f7e9fe; text-shadow: 2px 2px 2px rgb(74, 3, 92);"></h5>
 
-        <h5 id="titulo-audio" style="color:#e5f7e9fe; text-shadow: 2px 2px 2px rgb(74, 3, 92)"></h5>
-        <audio id="audio-player" controls style="width: 100%; opacity: 0.5;">
+        <audio id="audio-player" controls style="width: 100%; opacity: 0.7;">
             <source id="audio-source" src="" type="audio/mpeg">
             Tu navegador no soporta el elemento de audio.
         </audio>
@@ -97,8 +72,16 @@ El color del boton está en el css: boton.css en la clase bdia-css, solo tienes 
 <hr>
 <!-------------- Reproductor Evangelio ------------------->
 
-	<div id="root"></div>
-	
+<!-- CALENDARIO -->
+<div style="text-align: center;">
+	<span style="color: white;" id="toggle-calendario" class="material-symbols-outlined">calendar_month</span>
+	<!-- Iframe para cargar el archivo index.html -->
+	<iframe style="border: none; width: 100%; height: 500px;" id="calendario-iframe" src="/cal/index.html"></iframe>
+</div>
+<!-- CALENDARIO -->
+
+
+<div id="root"></div>
 <div class="container">
 	<div class="row">
 		<div class="col-md-12" style=padding:1%>
@@ -1643,6 +1626,17 @@ El color del boton está en el css: boton.css en la clase bdia-css, solo tienes 
     </h4>
 </div>
 
+<!-- SECCIÓN DE SCRIPT-->
+<script src="src/script.js"></script>
+<script src="css/jquery-3.2.1.slim.min.js"></script>
+<script src="css/popper.min.js"></script>
+<script src="css/bootstrap.min.js"></script>
+<script src="src/catalogosalmodia.js"></script>
+<script src="src/catalogosanto.js"></script>
+<script src="/salterios/src/evan/evan-js.js"></script>	
+<script src="/salterios/js/vengopronto.js"></script>
+<script src="/salterios/js/calendariodb.js"></script>
 
 </body>
 </html>
+
