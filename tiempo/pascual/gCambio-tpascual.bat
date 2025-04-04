@@ -43,7 +43,7 @@ for %%d in (%dias%) do (
             if exist "!archivo!" (
                 echo   - Modificando: %%a
                 type "!archivo!" > "%temp%\tempfile.tmp"
-                powershell -Command "(gc '%temp%\tempfile.tmp') -replace 'src/','/tcuaresma/%semana%/%%d/' | sc '!archivo!'"
+                powershell -Command "(gc '%temp%\tempfile.tmp') -replace 'src/','/tpascual/%semana%/%%d/' | sc '!archivo!'"
                 del "%temp%\tempfile.tmp"
             )
         )
