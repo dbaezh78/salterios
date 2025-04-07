@@ -27,6 +27,35 @@
 			text-align: center;
         }
 
+.db-jccenter{
+
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: center;
+
+    -webkit-box-pack:center!important;
+    -ms-flex-pack:center!important;
+    justify-content:center;
+    }
+
+db-center{
+    display: -webkit-box !important;
+    display: -ms-flexbox!important;
+    /* display: flex !important; */
+    align-items: baseline;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+}
+
+
+
 		.week-link {
             text-decoration: none; /* Sin subrayado */
             color: white; /* Color gris */
@@ -98,6 +127,7 @@
 			cursor: pointer;
             width: auto; /* Ancho fijo para cada botón */
 			text-decoration: none; 
+			display: inline-table;
         }
 		
 		.day-link:hover {
@@ -503,6 +533,8 @@
 
 	.tcfondo{	/*Tiempo Cuaresma Fondo*/
 		background-color: purple;
+		border: 1px solid #000000;  /* Borde sólido de 5px con el color azul */
+		border-radius: 5px;        /* Esquinas redondeadas */
 		text-decoration: none;
 		color: white;
 		padding: 12px 12px;
@@ -510,6 +542,7 @@
 		font-family: "Comic Sans MS";
 		font-size: 35px;
 		text-decoration: none; 
+		box-shadow: 0 0 10px rgba(1, 183, 239, 0.5); /* Sombra opcional para resaltar */
 	}
 
 	.tpfondo{	/*Tiempo Pascua Fondo*/
@@ -539,20 +572,143 @@
 		/* color:rgba(56, 195, 21, 0.955); */
 	}
 
-	.db-purple {
-		color: black;
+	.db-ordinario {
+		width: 45px;
+		text-align: center;
+		display: inline-block;
+		font-weight: bold;
+		color: white;
+		background-color: green;
+		border-color: rgb(214, 234, 241);
+		border: 1px solid rgb(31, 188, 241);
+		border-radius: 5px;
+		margin: 1px;
+		padding: 8px 25px;
+
+		}
+
+	.db-ordinario:hover {
+		color: green;
+		font-weight: bold;
 		background-color: white;
+		border-color: rgb(12, 139, 14);
+		text-decoration: none;
+		}
+
+
+		.db-msantos {
+			width: 127px;
+			text-align: center;
+			display: inline-block;
+			color: white;
+			background-color: #007bff;
+			border-color: rgb(214, 234, 241);
+			border: 1px solid rgb(31, 188, 241);
+			border-radius: 5px;
+			margin: 5px;
+			padding: 8px 25px;
+	
+			}
+	
+		.db-msantos:hover {
+			color: #007bff;
+			font-weight: bold;
+			background-color: white;
+			border-color: rgb(12, 139, 14);
+			text-decoration: none;
+			}
+
+
+		.db-santos {
+			width: auto;
+			text-align: center;
+			display: inline-block;
+			color: white;
+			background-color: rgb(21, 160, 234);
+			border-color: rgb(214, 234, 241);
+			border: 1px solid rgb(31, 188, 241);
+			border-radius: 5px;
+			margin: 5px;
+			padding: 8px 25px;
+	
+			}
+	
+		.db-santos:hover {
+			color: rgb(21, 160, 234);
+			font-weight: bold;
+			background-color: white;
+			border-color: rgb(12, 139, 14);
+			text-decoration: none;
+			}
+
+	.db-pascua {
+		width: 47px;
+		text-align: center;
+		display: inline-block;
+		font-weight: bold;
+
+		color: rgb(255, 255, 255);
+		background-color: rgb(48, 143, 227);
+		border-color: rgb(214, 234, 241);
+		border: 1px solid rgb(31, 188, 241);
+		border-radius: 5px;
+		margin: 5px;
+		padding: 8px 25px;
+
+		}
+
+	.db-pascua:hover {
+		color: rgb(8, 1, 1);
+		font-weight: bold;
+		background-color: rgb(169, 207, 239);
+		border-color: rgb(113, 189, 255);
+		text-decoration: none;
+		}
+
+		.db-cuaresma {
+			width: 10%;
+			text-align: center;
+			display: inline-block;
+			font-weight: bold;
+	
+			color: white;
+			background-color: purple;
+			border-color: purple;
+			border: 1px solid purple;
+			border-radius: 5px;
+			margin: 5px;
+			padding: 8px 25px;
+	
+			}
+	
+		.db-cuaresma:hover {
+			color: purple;
+			background-color: white;
+			border-color: green;
+			text-decoration: none;
+			}
+	
+
+
+	.db-purple {
+		width: auto;
+		text-align: center;
+		display: inline-block;
+		font-weight: bold;
+
+		color: white;
+		background-color: purple;
 		border-color: purple;
 		border: 1px solid purple;
 		border-radius: 5px;
 		margin: 5px;
-		padding: 6px 12px;
+		padding: 8px 25px;
 
 		}
 
 	.db-purple:hover {
-		color: white;
-		background-color: purple;
+		color: purple;
+		background-color: white;
 		border-color: green;
 		text-decoration: none;
 		}
@@ -566,7 +722,7 @@
 			border: 1px solid #ad0000;
 			border-radius: 5px;
 			margin: 5px;
-			padding: 6px 12px;
+			padding: 8px 25px;
 	
 			}
 	
