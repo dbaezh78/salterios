@@ -34,6 +34,8 @@
 
 <a href="#playLectura">
     <FONT COLOR="#FF0000"><STRONG>OFICIO DE LECTURA</STRONG><BR></a>
+	 <HR>
+      INVITATORIO
 	</FONT>
     <FONT COLOR="#000000"><BR><BR>
       Si el Oficio de Lectura es la primera oraci&oacute;n del d&iacute;a:<BR>
@@ -126,15 +128,15 @@
 			var year = new Date().getFullYear();
 			var audio = document.getElementById('audioPlayer');
 			if (esPar(year)) { 
-				audio.src = 'src/lectura2.mp3';
+				audio.src = '/tnavidad/dias/sd26/lectura2.mp3';
 			} else {
-				audio.src = 'src/lectura1.mp3';
+				audio.src = '/tnavidad/dias/sd26/lectura1.mp3';
 			}
 			audio.play(off);
 		  </script>
 
 <!-- ************************* Reproductor ************************* -->
- <FONT COLOR="#FF0000">
+    <FONT COLOR="#FF0000">
       PRIMERA LECTURA<BR><BR>
     </FONT>
     <FONT COLOR="#000000">
@@ -173,7 +175,7 @@
     </FONT>
 <!-- ************************ Reproductor de Audio para lecturas ************************ -->
 <i><span style="color: #FF0000; font-size: 15px;"id="playLectura">Audio 2da Lectura</span></i>
-<audio src="src/lecturas.mp3" controls style="width: 100%;"> </audio>
+<audio src="/tnavidad/dias/sd26/lecturas.mp3" controls style="width: 100%;"> </audio>
 <!-- ************************ Reproductor de Audio para lecturas ************************ -->	
     <FONT COLOR="#FF0000">
       SEGUNDA LECTURA<BR><BR>
