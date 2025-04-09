@@ -55,9 +55,9 @@
 			var year = new Date().getFullYear();
 			var audio = document.getElementById('audioPlayer');
 			if (esPar(year)) { 
-				audio.src = 'src/lectura2.mp3';
+				audio.src = '/tpascual/s01/domingo/lectura2.mp3';
 			} else {
-				audio.src = 'src/lectura1.mp3';
+				audio.src = '/tpascual/s01/domingo/lectura1.mp3';
 			}
 			audio.play(off);
 		  </script>
@@ -267,6 +267,12 @@
                   </FONT>
                   &nbsp;<BR>
                   <FONT COLOR="#FF0000">
+                    
+                  <!-- ************************ Reproductor de Audio para lecturas ************************ -->
+		              <i><span style="color: #FF0000; font-size: 15px;"id="playLectura">Audio Evangelio</span></i>
+                  <audio src="/tpascual/s01/domingo/lecturas.mp3" controls style="width: 100%;"> </audio>
+                  <!-- ************************ Reproductor de Audio para lecturas ************************ -->	
+
                     CUARTA LECTURA<BR>
                     Lectura del evangelio seg&uacute;n san Mateo 28, 1-10<BR>
                     &nbsp;<BR>

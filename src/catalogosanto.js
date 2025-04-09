@@ -38,26 +38,25 @@ const catalogoSanto = {
 	"25/3": [{ nombre: "La Anunciación Del Señor", enlace: "/salterios/tiempo/santos/marzo/25-LA ANUNCIACIÓN DEL SEÑOR" }],
 	// *********************************************************** MARZO ***********************************************************
 	
-	
 	// *********************************************************** ABRIL ***********************************************************
-	"7/4": [{ nombre: "San Juan Bautista De La Salle", enlace: "/salterios/tiempo/santos/marzo/07-SAN JUAN BAUTISTA DE LA SALLE" }],
-	"11/4": [{ nombre: "San Estanislao, Obispo Y Mártir", enlace: "/salterios/tiempo/santos/marzo/11-SAN ESTANISLAO, Obispo y mártir" }],
-	"25/4": [{ nombre: "Nuestra Señora Del Valle", enlace: "/salterios/tiempo/santos/marzo/25-NUESTRA SEÑORA DEL VALLE" }],
-	"25/4": [{ nombre: "San Marcos, Evangelista", enlace: "/salterios/tiempo/santos/marzo/25-SAN MARCOS, Evangelista" }],
-	"27/4": [{ nombre: "Santo Toribio De Mogrovejo, Obispo", enlace: "/salterios/tiempo/santos/marzo/27-SANTO TORIBIO DE MOGROVEJO, obispo" }],
-	"29/4": [{ nombre: "Santa Catalina De Siena, Virgen Y Doctora De La Iglesia", enlace: "/salterios/tiempo/santos/marzo/29-SANTA CATALINA DE SIENA, virgen y doctora de la Iglesia" }],
+	"7/4": [{ nombre: "San Juan Bautista De La Salle", enlace: "/salterios/tiempo/santos/abril/07-SAN JUAN BAUTISTA DE LA SALLE" }],
+	"11/4": [{ nombre: "San Estanislao, Obispo Y Mártir", enlace: "/salterios/tiempo/santos/abril/11-SAN ESTANISLAO, Obispo y mártir" }],
+	"25/4": [{ nombre: "Nuestra Señora Del Valle", enlace: "/salterios/tiempo/santos/abril/25-NUESTRA SEÑORA DEL VALLE" }],
+	"25/4": [{ nombre: "San Marcos, Evangelista", enlace: "/salterios/tiempo/santos/abril/25-SAN MARCOS, Evangelista" }],
+	"27/4": [{ nombre: "Santo Toribio De Mogrovejo, Obispo", enlace: "/salterios/tiempo/santos/abril/27-SANTO TORIBIO DE MOGROVEJO, obispo" }],
+	"29/4": [{ nombre: "Santa Catalina De Siena, Virgen Y Doctora De La Iglesia", enlace: "/salterios/tiempo/santos/abril/29-SANTA CATALINA DE SIENA, virgen y doctora de la Iglesia" }],
 	// *********************************************************** ABRIL ***********************************************************
 	
 	// *********************************************************** MAYO ***********************************************************
-	"1/5": [{ nombre: "San José Obrero", enlace: "/salterios/tiempo/santos/marzo/01-SAN JOSÉ OBRERO" }],
-	"2/5": [{ nombre: "San Atanasio, Obispo Y Doctor De La Iglesia", enlace: "/salterios/tiempo/santos/marzo/02-SAN ATANASIO, obispo y doctor de la Iglesia" }],
-	"3/5": [{ nombre: "Exaltación De La Santa Cruz", enlace: "/salterios/tiempo/santos/marzo/03-EXALTACIÓN DE LA SANTA CRUZ" }],
-	"3/5": [{ nombre: "Santos Felipe Y Santiago, Apóstoles", enlace: "/salterios/tiempo/santos/marzo/03-SANTOS FELIPE Y SANTIAGO, apóstoles" }],
-	"8/5": [{ nombre: "Nuestra Señora De Luján, Patrona De La República Argentina", enlace: "/salterios/tiempo/santos/marzo/08-NUESTRA SEÑORA DE LUJÁN, Patrona de la República Argentina" }],
-	"14/5": [{ nombre: "San Matías, Apóstol", enlace: "/salterios/tiempo/santos/marzo/14-SAN MATÍAS, apóstol" }],
-	"20/5": [{ nombre: "María, Madre De La Iglesia", enlace: "/salterios/tiempo/santos/marzo/20-MARÍA, MADRE DE LA IGLESIA" }],
-	"26/5": [{ nombre: "San Felipe Neri, Presbítero", enlace: "/salterios/tiempo/santos/marzo/26-SAN FELIPE NERI, presbítero" }],
-	"26/5": [{ nombre: "Santa Mariana De Jesús Paredes, Virgen", enlace: "/salterios/tiempo/santos/marzo/26-SANTA MARIANA DE JESÚS PAREDES, virgen" }],
+	"1/5": [{ nombre: "San José Obrero", enlace: "/salterios/tiempo/santos/mayo/01-SAN JOSÉ OBRERO" }],
+	"2/5": [{ nombre: "San Atanasio, Obispo Y Doctor De La Iglesia", enlace: "/salterios/tiempo/santos/mayo/02-SAN ATANASIO, obispo y doctor de la Iglesia" }],
+	"3/5": [{ nombre: "Exaltación De La Santa Cruz", enlace: "/salterios/tiempo/santos/mayo/03-EXALTACIÓN DE LA SANTA CRUZ" }],
+	"3/5": [{ nombre: "Santos Felipe Y Santiago, Apóstoles", enlace: "/salterios/tiempo/santos/mayo/03-SANTOS FELIPE Y SANTIAGO, apóstoles" }],
+	"8/5": [{ nombre: "Nuestra Señora De Luján, Patrona De La República Argentina", enlace: "/salterios/tiempo/santos/mayo/08-NUESTRA SEÑORA DE LUJÁN, Patrona de la República Argentina" }],
+	"14/5": [{ nombre: "San Matías, Apóstol", enlace: "/salterios/tiempo/santos/mayo/14-SAN MATÍAS, apóstol" }],
+	"20/5": [{ nombre: "María, Madre De La Iglesia", enlace: "/salterios/tiempo/santos/mayo/20-MARÍA, MADRE DE LA IGLESIA" }],
+	"26/5": [{ nombre: "San Felipe Neri, Presbítero", enlace: "/salterios/tiempo/santos/mayo/26-SAN FELIPE NERI, presbítero" }],
+	"26/5": [{ nombre: "Santa Mariana De Jesús Paredes, Virgen", enlace: "/salterios/tiempo/santos/mayo/26-SANTA MARIANA DE JESÚS PAREDES, virgen" }],
 	// *********************************************************** MAYO ***********************************************************
 	
 	// *********************************************************** JUNIO ***********************************************************
