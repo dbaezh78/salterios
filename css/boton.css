@@ -57,10 +57,10 @@ db-center{
 
 
 		.week-link {
+			background-color: #2F365F;
             text-decoration: none; /* Sin subrayado */
             color: white; /* Color gris */
 			font-weight: bold;
-			background-color: #2F365F;
             margin: 5px; /* Margen alrededor de cada número */
             padding: 8px 12px; /* Padding interno */
             border: 1px solid #ccc; /* Borde gris */
@@ -115,9 +115,10 @@ db-center{
 		}
 
 
-		.day-link {
+		.day-link, .dlta, .dltn, .dlto, .dltc, .dltp, .dltpf {
             text-decoration: none; /* Sin subrayado */
-            color: white; /* Color blanco */
+			font-weight: bold;
+            color: black; /* Color blanco */
             margin: 5px; /* Margen alrededor de cada número */
             padding: 8px 12px; /* Padding interno */
             border: 1px solid #ccc; /* Borde gris */
@@ -125,13 +126,47 @@ db-center{
             transition: background-color 0.3s, color 0.3s; /* Transición suave */
             text-align: center; /* Centrar el texto */
 			cursor: pointer;
-            width: auto; /* Ancho fijo para cada botón */
-			text-decoration: none; 
+            width: 44px; /* Ancho fijo para cada botón */
 			display: inline-table;
+			background-color: white;
         }
+		.dltn, .dltpf {
+			width: auto; /* Ancho fijo para cada botón */
+		}
 		
+		.dlta:hover {
+			background-color:#900997;
+			color: white;
+			text-decoration: none; 
+		}
+
+		.dltn:hover {
+			background-color:#e41a0c;
+			color: white;
+			text-decoration: none; 
+		}
+
+		.dlto:hover {
+			background-color:green;
+			color: white;
+			text-decoration: none; 
+		}
+
+		.dltc:hover {
+			background-color:#900997;
+			color: white;
+			text-decoration: none; 
+		}
+
+		.dltp, .dltpf:hover  {
+			background-color:#088de6;
+			color: white;
+			text-decoration: none; 
+		}
+
 		.day-link:hover {
-		background-color:#01B7EF;
+		background-color: white;
+		color: black;
 		text-decoration: none; 
 		
 		}
@@ -502,6 +537,7 @@ db-center{
 		font-family: "Comic Sans MS";
 		font-size: 35px;
 		text-decoration: none; 
+		border: 1px solid #fff8dc59;
 		}
 
 	.tofondo{	/*Tiempo Ordinario Fondo*/
@@ -513,6 +549,7 @@ db-center{
 		font-family: "Comic Sans MS";
 		font-size: 35px;
 		text-decoration: none; 
+		border: 1px solid #fff8dc59;
 	}
 	
 	.tafondo{	/*Tiempo Adviento Fondo*/
@@ -525,6 +562,7 @@ db-center{
 		font-family: "Comic Sans MS";
 		font-size: 35px;
 		text-decoration: none;
+		border: 1px solid #fff8dc59;
 	}
 	.tafondo:hover{
 		color:rgba(241, 241, 48, 0.886); 
@@ -543,6 +581,7 @@ db-center{
 		font-size: 35px;
 		text-decoration: none; 
 		box-shadow: 0 0 10px rgba(1, 183, 239, 0.5); /* Sombra opcional para resaltar */
+		border: 1px solid #fff8dc59;
 	}
 
 	.tpfondo{	/*Tiempo Pascua Fondo*/
@@ -554,6 +593,7 @@ db-center{
 		font-family: "Comic Sans MS";
 		font-size: 35px;
 		text-decoration: none; 
+		border: 1px solid #fff8dc59;
 	}
 
 	.tnfondo{	/*Tiempo Navidad Fondo*/
@@ -566,6 +606,7 @@ db-center{
 		font-family: "Comic Sans MS";
 		font-size: 35px;
 		text-decoration: none; 
+		border: 1px solid #fff8dc59;
 	}
 	.tnfondo:hover{
 		color: #008F39
@@ -698,8 +739,8 @@ db-center{
 
 		color: white;
 		background-color: purple;
-		border-color: purple;
-		border: 1px solid purple;
+		border-color: white;
+		border: 1px solid white;
 		border-radius: 5px;
 		margin: 5px;
 		padding: 8px 25px;
@@ -709,7 +750,7 @@ db-center{
 	.db-purple:hover {
 		color: purple;
 		background-color: white;
-		border-color: green;
+		border-color: purple;
 		text-decoration: none;
 		}
 
@@ -819,3 +860,33 @@ db-center{
          cursor: Hand;	/* Cambia el cursor a una mano */
        /* cursor: pointer; /* Cambia el cursor a fecha*/
     }
+
+
+	.db-mboton {
+		display: flex;
+		flex-wrap: wrap;
+		cursor: pointer;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		justify-content: center;
+		flex-wrap:wrap;
+		width: auto;
+
+/*		-webkit-box-pack: center !important;
+		-ms-flex-pack: center !important;
+		justify-content: unset;
+		display: inline-masonry;
+		display: flex;
+		margin-bottom: 5px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: center;
+		text-align: center;
+		justify-content: center;
+		margin-top: 20px;
+		width: auto; */
+	}
