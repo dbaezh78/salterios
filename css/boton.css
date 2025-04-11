@@ -158,10 +158,16 @@ db-center{
 			text-decoration: none; 
 		}
 
-		.dltp, .dltpf:hover  {
-			background-color:#088de6;
+		.dltpf:hover {
+			background-color:rgb(24, 114, 199);
 			color: white;
-			text-decoration: none; 
+			text-decoration: none;
+		}
+
+		.dltp:hover {
+			background-color:rgb(24, 114, 199);;
+			color: white;
+			text-decoration: none;
 		}
 
 		.day-link:hover {
@@ -889,4 +895,15 @@ db-center{
 		justify-content: center;
 		margin-top: 20px;
 		width: auto; */
+	}
+
+	.db_mboton {
+		display: flex;
+		flex-wrap: wrap;
+		cursor: pointer;
+		border: 0px solid #ccc;
+		border-radius: 5px;
+		justify-content: center;
+		flex-wrap:wrap;
+		width: auto;
 	}
