@@ -135,7 +135,7 @@
 
 <i><span style="color: #FF0000; font-size: 15px;"id="playLectura">1ra Lectura</span></i>
 
-  <audio id="audioPlayer" controls style="width: 100%;"> </audio>
+  <audio id="audioPlayer" controls style="width: 100%; background: #f1f3f4;"> </audio>
   <script>
     function esPar(year) {
       return year % 2 === 0;
@@ -143,14 +143,14 @@
     var year = new Date().getFullYear();
     var audio = document.getElementById('audioPlayer');
     if (esPar(year)) { 
-		audio.src = 'src/lectura2.mp3';
+		audio.src = '/santos/mayo/26-SANTA MARIANA DE JESÚS PAREDES, virgen/lectura2.mp3';
     } else {
-		audio.src = 'src/lectura1.mp3';
+		audio.src = '/santos/mayo/26-SANTA MARIANA DE JESÚS PAREDES, virgen/lectura1.mp3';
     }
     audio.play(off);
   </script>
   <i><span style="color: #FF0000; font-size: 15px;"id="playLectura">2da Lectura</span></i>
-  <audio src="src/lecturas.mp3" controls style="width: 100%;"> </audio>
+  <audio src="/santos/mayo/26-SANTA MARIANA DE JESÚS PAREDES, virgen/lecturas.mp3" controls style="width: 100%; background: #f1f3f4;"> </audio>
    <BR><BR>
 
 <!-- ************************* Reproductor ************************* -->
