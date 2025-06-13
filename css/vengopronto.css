@@ -5,6 +5,7 @@
 }
 
 .imagen {
+    cursor: pointer;
     display: none;
     max-width: 100%;
     height: auto;
