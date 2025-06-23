@@ -206,7 +206,10 @@ const audios = [
 /*	Junio		*/	{ nombre: "Ordinario, Semana XI, Lunes",			archivo: "/ev/to/11/lunes.mp3",			fecha: `${year}-06-16` },
 /*	Junio		*/	{ nombre: "Ordinario, Semana XI, Martes",			archivo: "/ev/to/11/martes.mp3",		fecha: `${year}-06-17` },
 /*	Junio		*/	{ nombre: "Ordinario, Semana XI, Miercoles",		archivo: "/ev/to/11/miercoles.mp3",		fecha: `${year}-06-18` },
-/*	Junio		*/	{ nombre: "Ordinario, Semana XI, Jueves",			archivo: "/ev/to/11/jueves.mp3",		fecha: `${year}-06-19` },
+
+/*	Junio		*/	//  { nombre: "Ordinario, Semana XI, Jueves",		archivo: "/ev/to/11/jueves.mp3",		fecha: `${year}-06-19` },   
+/*	Junio		*/	{ nombre: "Jueves Corpus Christi",	                archivo: "/ev/fiesta/cChristi.mp3",		fecha: `${year}-06-19` },   // Jueves Corpus Cristi
+
 /*	Junio		*/	{ nombre: "Ordinario, Semana XI, Viernes",			archivo: "/ev/to/11/viernes.mp3",		fecha: `${year}-06-20` },
 /*	Junio		*/	{ nombre: "Ordinario, Semana XI, Sabado",			archivo: "/ev/to/11/sabado.mp3",		fecha: `${year}-06-21` },
 
