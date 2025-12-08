@@ -76,4 +76,10 @@ table, th, td {
     right: 70px;
   }
 
+
+  .saudio {
+    background-color: #f1f3f4;
+    width: 100%; 
+  }
+
 /* otros CSS del html */
