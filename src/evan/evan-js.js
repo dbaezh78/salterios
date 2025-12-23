@@ -421,10 +421,15 @@ const audios = [
 /*	Diciembre	*/	{ nombre: "Adviento, Semana III, Viernes",			archivo: "/ev/ta/3/viernes.mp3",		fecha: `${year}-12-19` },
 /*	Diciembre	*/	{ nombre: "Adviento, Semana III, Sabado",			archivo: "/ev/ta/3/sabado.mp3",			fecha: `${year}-12-20` },
 
-/*	Diciembre	*/	{ nombre: "Adviento, Semana IV, Domingo",			archivo: "/ev/ta/4/domingo.mp3",		fecha: `${year}-12-21` },
-/*	Diciembre	*/	{ nombre: "Adviento, Semana IV, Lunes",				archivo: "/ev/ta/4/lunes.mp3",			fecha: `${year}-12-22` },
-/*	Diciembre	*/	{ nombre: "Adviento, Semana IV, Martes",			archivo: "/ev/ta/4/martes.mp3",			fecha: `${year}-12-23` },
-/*	Diciembre	*/	{ nombre: "Adviento, Semana IV, Miercoles",			archivo: "/ev/ta/4/miercoles.mp3",		fecha: `${year}-12-24` },
+/*	Diciembre	/	{ nombre: "Adviento, Semana IV, Domingo",			archivo: "/ev/ta/4/domingo.mp3",		fecha: `${year}-12-21` }, */
+/*	Diciembre	/	{ nombre: "Adviento, Semana IV, Lunes",				archivo: "/ev/ta/4/lunes.mp3",			fecha: `${year}-12-22` }, */
+/*	Diciembre	/	{ nombre: "Adviento, Semana IV, Martes",			archivo: "/ev/ta/4/martes.mp3",			fecha: `${year}-12-23` }, */
+/*	Diciembre	/	{ nombre: "Adviento, Semana IV, Miercoles",			archivo: "/ev/ta/4/miercoles.mp3",		fecha: `${year}-12-24` }, */
+
+/*	Diciembre	*/	{ nombre: "Adviento, 21 de Diciembre",	    		archivo: "/ev/ta/4/21dic.mp3",		    fecha: `${year}-12-21` },
+/*	Diciembre	*/	{ nombre: "Adviento, 22 de Diciembre",	    		archivo: "/ev/ta/4/22dic.mp3",	    	fecha: `${year}-12-22` },
+/*	Diciembre	*/	{ nombre: "Adviento, 23 de Diciembre",	    		archivo: "/ev/ta/4/23dic.mp3",		    fecha: `${year}-12-23` },
+/*	Diciembre	*/	{ nombre: "Adviento, 24 de Diciembre",	    		archivo: "/ev/ta/4/24dic.mp3",	    	fecha: `${year}-12-24` },
 /*	Diciembre	*/	{ nombre: "Navidad, Semana I, Jueves",				archivo: "/ev/tn/25-NocheBuena.mp3",	fecha: `${year}-12-25` },
 /*	Diciembre	*/	{ nombre: "Navidad, Semana I, Viernes",				archivo: "/ev/tn/viernes.mp3",			fecha: `${year}-12-26` },
 /*	Diciembre	*/	{ nombre: "Navidad, San Juan Apostol",				archivo: "/ev/tn/27-sJuanAp.mp3",		fecha: `${year}-12-27` },
