@@ -55,6 +55,14 @@ table, th, td {
     z-index: 9999;
   }
 
+    .Top,
+  .scroll-to-bottom {
+    position: fixed;
+    right: 1%;
+    z-index: 9999;
+  }
+
+
   .scroll-link {
     display: block;
     width: 40px;

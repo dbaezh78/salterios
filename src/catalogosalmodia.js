@@ -397,7 +397,7 @@ const catalogoSalmodia = {
 	"27/12/2025": "/salterios/tiempo/adviento/navidad/dias/sd27",
 	"28/12/2025": "/salterios/tiempo/adviento/navidad/dias/Infra - LA SAGRADA FAMILIA DE JESÚS MARÍA Y JOSÉ",
 	"29/12/2025": "/salterios/tiempo/adviento/navidad/01/lunes",
-	"30/12/2025": "/salterios/tiempo/adviento/navidad/01/martes",
+	"30/12/2025": "/salterios/tiempo/adviento/navidad/dias/Infra - DIA VI - Martes - INFRAOCTAVA DE NAVIDAD",
 	"31/12/2025": "/salterios/tiempo/adviento/navidad/01/miercoles",
 	"1/1/2026": "/salterios/tiempo/adviento/navidad/01/jueves",
 	"2/1/2026": "/salterios/tiempo/adviento/navidad/01/viernes",
