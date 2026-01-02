@@ -32,8 +32,8 @@ const audios = [
     { nombre: "La Conversión de San Pablo, apóstol",					archivo: "/ev/dias/26enero.mp3",		fecha: `${year}-01-25` }, // 25 La Conversión de San Pablo, apóstol
 	*/
 
-/* ENERO        */ { nombre: "Navidad, Semana I,Santa María, Madre de Dios, JUEVES", archivo: "/ev/tn/1/jueves.mp3", fecha: `${year}-01-01` },
-/* ENERO        */ { nombre: "Navidad, Semana I,Santos Basilio Magno y Gregorio de Nacianzo, obispos y doctores de la Iglesia, VIERNES", archivo: "/ev/tn/1/viernes.mp3", fecha: `${year}-01-02` },
+/* ENERO        */ { nombre: "Navidad, Semana I,Santa María, Madre de Dios, JUEVES", archivo: "/ev/tn/01-enero.mp3", fecha: `${year}-01-01` },
+/* ENERO        */ { nombre: "Navidad, Semana I, VIERNES", archivo: "/ev/tn/s01/viernes.mp3", fecha: `${year}-01-02` },
 /* ENERO        */ { nombre: "Navidad, Semana I, SÁBADO", archivo: "/ev/tn/1/sábado.mp3", fecha: `${year}-01-03` },
 /* ENERO        */ { nombre: "Navidad, Semana I, DOMINGO", archivo: "/ev/tn/1/domingo.mp3", fecha: `${year}-01-04` },
 /* ENERO        */ { nombre: "Navidad, Semana I, LUNES", archivo: "/ev/tn/1/lunes.mp3", fecha: `${year}-01-05` },
