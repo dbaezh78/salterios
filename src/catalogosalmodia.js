@@ -1,5 +1,3 @@
-const year = new Date().getFullYear(); // Obtiene el año actual
-
 const catalogoSalmodia = {	
 // Añade más fechas y enlaces según sea necesario	
 // el archivo codificado para todo está en la ruta

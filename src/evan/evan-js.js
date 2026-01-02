@@ -1,6 +1,7 @@
 const year = new Date().getFullYear(); // Obtiene el año actual
 // const year = 2025; // Si prefieres un año fijo
 
+
 // Lista de audios con su información
 const audios = [
 
