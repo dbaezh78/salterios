@@ -34,6 +34,8 @@ const catalogoSalmodia = {
 	"29/12/2024": "/salterios/tiempo/adviento/navidad/dias/Infra - LA SAGRADA FAMILIA DE JESÚS MARÍA Y JOSÉ",
 	"30/12/2024": "/salterios/tiempo/adviento/navidad/s01/lunes",
 	"31/12/2024": "/salterios/tiempo/adviento/navidad/s01/martes",
+
+	//2025
 	"1/1/2025": "/salterios/tiempo/santos/enero/01-SANTAMARÍAMADREDEDIOS",
 	"2/1/2025": "/salterios/tiempo/adviento/navidad/dias/se2 - 2do Enero - SANTOS BASILIO MAGNO Y GREGORIO NACIANZO",
 	"3/1/2025": "/salterios/tiempo/adviento/navidad/s01/viernes",
@@ -396,31 +398,81 @@ const catalogoSalmodia = {
 	"26/12/2025": "/salterios/tiempo/adviento/navidad/dias/sd26",
 	"27/12/2025": "/salterios/tiempo/adviento/navidad/dias/sd27",
 	"28/12/2025": "/salterios/tiempo/adviento/navidad/dias/Infra - LA SAGRADA FAMILIA DE JESÚS MARÍA Y JOSÉ",
-	"29/12/2025": "/salterios/tiempo/adviento/navidad/01/lunes",
+	"29/12/2025": "/salterios/tiempo/adviento/navidad/dias/sd29",
 	"30/12/2025": "/salterios/tiempo/adviento/navidad/dias/Infra - DIA VI - Martes - INFRAOCTAVA DE NAVIDAD",
 	"31/12/2025": "/salterios/tiempo/adviento/navidad/s01/miercoles",
-	"1/1/2026": "/salterios/tiempo/adviento/navidad/s01/jueves",
-	"2/1/2026": "/salterios/tiempo/adviento/navidad/s01/viernes",
-	"3/1/2026": "/salterios/tiempo/adviento/navidad/s01/sabado",
-	"4/1/2026": "/salterios/tiempo/adviento/navidad/s02/domingo",
-	"5/1/2026": "/salterios/tiempo/adviento/navidad/s02/lunes",
-	"6/1/2026": "/salterios/tiempo/adviento/navidad/s02/martes",
-	"7/1/2026": "/salterios/tiempo/adviento/navidad/s02/miercoles",
-	"8/1/2026": "/salterios/tiempo/adviento/navidad/s02/jueves",
-	"9/1/2026": "/salterios/tiempo/adviento/navidad/s02/viernes",
-	"10/1/2026": "/salterios/tiempo/adviento/navidad/s02/sabado",
-	"11/1/2026": "/salterios/tiempo/ordinario/s01/domingo",
-	"12/1/2026": "/salterios/tiempo/ordinario/s01/lunes",
-	"13/1/2026": "/salterios/tiempo/ordinario/s01/martes",
-	"14/1/2026": "/salterios/tiempo/ordinario/s01/miercoles",
-	"15/1/2026": "/salterios/tiempo/ordinario/s01/jueves",
-	"16/1/2026": "/salterios/tiempo/ordinario/s01/viernes",
-	"17/1/2026": "/salterios/tiempo/ordinario/s01/sabado",
-	"18/1/2026": "/salterios/tiempo/ordinario/s02/domingo",
-	"19/1/2026": "/salterios/tiempo/ordinario/s02/lunes",
-	"20/1/2026": "/salterios/tiempo/ordinario/s02/martes",
-	"21/1/2026": "/salterios/tiempo/ordinario/s02/miercoles",
-	"22/1/2026": "/salterios/tiempo/ordinario/s02/jueves",
-	"23/1/2026": "/salterios/tiempo/ordinario/s02/sabado",
-	"24/1/2026": "/salterios/tiempo/ordinario/s03/domingo",
+
+	// 2026
+	"1/1/2026": "/salterios/tiempo/adviento/navidad/s01/viernes",
+	"2/1/2026": "/salterios/tiempo/adviento/navidad/s01/sabado",
+	
+	//SEMANA 2 TIEMPO NAVIDAD
+	"3/1/2026": "/salterios/tiempo/adviento/navidad/s02/domingo",
+	"4/1/2026": "/salterios/tiempo/adviento/navidad/s02/lunes",
+	"5/1/2026": "/salterios/tiempo/adviento/navidad/s02/martes",
+	"6/1/2026": "/salterios/tiempo/adviento/navidad/s02/miercoles",
+	"7/1/2026": "/salterios/tiempo/adviento/navidad/s02/jueves",
+	"8/1/2026": "/salterios/tiempo/adviento/navidad/s02/viernes",
+	"9/1/2026": "/salterios/tiempo/adviento/navidad/s02/sabado",
+
+	//SEMANA I TIEMPO ORDINARIO
+	"11/1/2026": "/salterios/tiempo/adviento/navidad/bautismo",
+	"12/1/2026": "/salterios/tiempo/ordinario/s01/domingo",
+	"13/1/2026": "/salterios/tiempo/ordinario/s01/lunes",
+	"14/1/2026": "/salterios/tiempo/ordinario/s01/martes",
+	"15/1/2026": "/salterios/tiempo/ordinario/s01/miercoles",
+	"16/1/2026": "/salterios/tiempo/ordinario/s01/jueves",
+	"17/1/2026": "/salterios/tiempo/ordinario/s01/viernes",
+	"18/1/2026": "/salterios/tiempo/ordinario/s01/sabado",
+	//SEMANA II TIEMPO ORDINARIO
+	"19/1/2026": "/salterios/tiempo/ordinario/s02/domingo",
+	"20/1/2026": "/salterios/tiempo/ordinario/s02/lunes",
+	"21/1/2026": "/salterios/tiempo/ordinario/s02/martes",
+	"22/1/2026": "/salterios/tiempo/ordinario/s02/miercoles",
+	"23/1/2026": "/salterios/tiempo/ordinario/s02/jueves",
+	"24/1/2026": "/salterios/tiempo/ordinario/s02/sabado",
+	//SEMANA III TIEMPO ORDINARIO
+	"25/1/2026": "/salterios/tiempo/ordinario/s03/domingo",
+	"26/1/2026": "/salterios/tiempo/ordinario/s03/lunes",
+	"27/1/2026": "/salterios/tiempo/ordinario/s03/martes",
+	"28/1/2026": "/salterios/tiempo/ordinario/s03/miercoles",
+	"29/1/2026": "/salterios/tiempo/ordinario/s03/jueves",
+	"30/1/2026": "/salterios/tiempo/ordinario/s03/viernes",
+	"31/1/2026": "/salterios/tiempo/ordinario/s03/sabado",
+	//SEMANA IV TIEMPO ORDINARIO
+	"1/2/2026": "/salterios/tiempo/ordinario/s04/domingo",
+	"2/2/2026": "/salterios/tiempo/ordinario/s04/lunes",
+	"3/2/2026": "/salterios/tiempo/ordinario/s04/martes",
+	"4/2/2026": "/salterios/tiempo/ordinario/s04/miercoles",
+	"5/2/2026": "/salterios/tiempo/ordinario/s04/jueves",
+	"6/2/2026": "/salterios/tiempo/ordinario/s04/viernes",
+	"7/2/2026": "/salterios/tiempo/ordinario/s04/sabado",
+	//SEMANA V TIEMPO ORDINARIO
+	"8/2/2026": "/salterios/tiempo/ordinario/s05/domingo",
+	"9/2/2026": "/salterios/tiempo/ordinario/s05/lunes",
+	"10/2/2026": "/salterios/tiempo/ordinario/s05/martes",
+	"11/2/2026": "/salterios/tiempo/ordinario/s05/miercoles",
+	"12/2/2026": "/salterios/tiempo/ordinario/s05/jueves",
+	"13/2/2026": "/salterios/tiempo/ordinario/s05/viernes",
+	"14/2/2026": "/salterios/tiempo/ordinario/s05/sabado",
+	//SEMANA VI TIEMPO ORDINARIO
+	
+
+
+
+	"24/12/2026": "/salterios/tiempo/adviento/s04/jueves",
+	"25/12/2026": "/salterios/tiempo/adviento/navidad/dias/sd25",
+	"26/12/2026": "/salterios/tiempo/adviento/navidad/dias/sd26",
+	"27/12/2026": "/salterios/tiempo/adviento/navidad/dias/Infra - LA SAGRADA FAMILIA DE JESÚS MARÍA Y JOSÉ",
+	"28/12/2026": "/salterios/tiempo/adviento/navidad/dias/sd28",
+	"29/12/2026": "/salterios/tiempo/adviento/navidad/dias/sd29",
+	"30/12/2026": "/salterios/tiempo/adviento/navidad/dias/Infra - DIA VI - Miercoles - INFRAOCTAVA DE NAVIDAD",
+	"31/12/2026": "/salterios/tiempo/adviento/navidad/dias/Infra - DIA VI - Jueves - INFRAOCTAVA DE NAVIDAD",
+
+	// 2027
+	"1/1/2027": "/salterios/tiempo/adviento/navidad/dias/se1-1roEnero-OCTAVADELANATIVIDADDELSEÑOR-SantaMariaMadredeDios",
+	"2/1/2027": "/salterios/tiempo/adviento/navidad/dias/se2 - 2do Enero - SANTOS BASILIO MAGNO Y GREGORIO NACIANZO",
+	"3/1/2027": "/salterios/tiempo/adviento/navidad/s01/viernes",
 };	
+
+
