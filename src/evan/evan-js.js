@@ -9,17 +9,17 @@ const audios = [
 /*	Diciembre	*/	{ nombre: "Adviento, 22 de Diciembre",	    											archivo: "/ev/ta/4/22dic.mp3",	    	fecha: `${year}-12-22` },
 /*	Diciembre	*/	{ nombre: "Adviento, 23 de Diciembre",	    											archivo: "/ev/ta/4/23-dic.mp3",		   	fecha: `${year}-12-23` },
 /*	Diciembre	*/	{ nombre: "Adviento, 24 de Diciembre",	    											archivo: "/ev/ta/4/24dic.mp3",	    	fecha: `${year}-12-24` },
-/*	Diciembre	*/	{ nombre: "Navidad, Semana I, Jueves",													archivo: "/ev/tn/25-NocheBuena.mp3",	fecha: `${year}-12-25` },
-/*	Diciembre	*/	{ nombre: "Navidad, Semana I, Viernes",													archivo: "/ev/tn/26-SanEsteban.mp3",	fecha: `${year}-12-26` },
+/*	Diciembre	*/	{ nombre: "Navidad, Semana I, Viernes",													archivo: "/ev/tn/25-NocheBuena.mp3",	fecha: `${year}-12-25` },
+/*	Diciembre	*/	{ nombre: "Navidad, Semana I, Sábado",													archivo: "/ev/tn/26-SanEsteban.mp3",	fecha: `${year}-12-26` },
 
 /*	Diciembre	* /	{ nombre: "Navidad, San Juan Apostol",													archivo: "/ev/tn/27-sJuanAp.mp3",		fecha: `${year}-12-27` },*/
 
 /*	Diciembre	*/	{ nombre: "Navidad, Domingo de la Sagrada Familia",										archivo: "/ev/tn/SagradaFamilia.mp3",	fecha: `${year}-12-27` },
-/*	Diciembre	*/	{ nombre: "Navidad, San Esteban",														archivo: "/ev/tn/28-SanEsteban.mp3",	fecha: `${year}-12-28` },
-
-/*	Diciembre	*/	{ nombre: "Navidad, Semana II, Lunes",													archivo: "/ev/tn/lunes.mp3",			fecha: `${year}-12-29` },
-/*	Diciembre	*/	{ nombre: "Navidad, Semana II, Martes",													archivo: "/ev/tn/30-dic.mp3",			fecha: `${year}-12-30` },
+/*	Diciembre	*/	{ nombre: "Navidad, Semana I, Lunes",													archivo: "/ev/tn/28-dic.mp3",			fecha: `${year}-12-28` },
+/*	Diciembre	*/	{ nombre: "Navidad, Semana I, Martes",													archivo: "/ev/tn/29-dic.mp3",			fecha: `${year}-12-29` },
+/*	Diciembre	*/	{ nombre: "Navidad, Semana I, Miercoles",												archivo: "/ev/tn/30-dic.mp3",			fecha: `${year}-12-30` },
 /*	Diciembre	*/	{ nombre: "Navidad, 31 de Diciembre",													archivo: "/ev/tn/31-dic.mp3",			fecha: `${year}-12-31` },    
+
 
 
     // DIA DE LOS SANTOS
@@ -27,8 +27,8 @@ const audios = [
     { nombre: "2 de Enero", 																				archivo: "/ev/tn/02-enero.mp3",	       	fecha: `${year}-01-02` }, // 2 de Enero Santisimo Nombre de nuestro Señor Jesucristo
     { nombre: "3 de Enero", 																				archivo: "/ev/tn/03-enero.mp3",			fecha: `${year}-01-03` }, // 3 de Enero Santisimo Nombre de nuestro Señor Jesucristo
     { nombre: "La Epifanía del Señor", 																		archivo: "/ev/tn/06-enero.mp3",			fecha: `${year}-01-06` }, // 6 de Enero, Epifanía del Señor
-
-
+    
+    
     /*	
     { nombre: "Día de la Altagracia", 																		archivo: "/ev/dias/21enero.mp3",		fecha: `${year}-01-21` }, // 21 de Enero, Día de la Altagracia
     { nombre: "La Conversión de San Pablo, apóstol",														archivo: "/ev/dias/26enero.mp3",		fecha: `${year}-01-25` }, // 25 La Conversión de San Pablo, apóstol
@@ -55,7 +55,7 @@ const audios = [
 /* ENERO        */ { nombre: "Ordinario, Semana II, LUNES", 												archivo: "/ev/to/2/lunes.mp3",			fecha: `${year}-01-19` },
 /* ENERO        */ { nombre: "Ordinario, Semana II, MARTES", 												archivo: "/ev/to/2/martes.mp3",			fecha: `${year}-01-20` },
 
-/* ENERO        * / { nombre: "Ordinario, Semana II, MIÉRCOLES", 											archivo: "/ev/to/2/miércoles.mp3",		fecha: `${year}-01-21` },*/
+/* ENERO        */ { nombre: "Ordinario, Semana II, MIÉRCOLES", 											archivo: "/ev/to/2/miércoles.mp3",		fecha: `${year}-01-21` },
 
 /* ENERO        */ { nombre: "Ordinario, Semana II, JUEVES", 												archivo: "/ev/to/2/jueves.mp3",			fecha: `${year}-01-22` },
 /* ENERO        */ { nombre: "Ordinario, Semana II, VIERNES", 												archivo: "/ev/to/2/viernes.mp3",		fecha: `${year}-01-23` },
