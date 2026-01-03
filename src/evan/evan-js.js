@@ -6,8 +6,8 @@ const year = new Date().getFullYear(); // Obtiene el año actual
 const audios = [
 
     // DIA DE LOS SANTOS
-    { nombre: "Santa María, Madre de Dios", 																archivo: "/ev/tn/01-enero.mp3",		   	fecha: `${year}-01-01` }, // 1ro de Enero, Santa Maria Madre de Dios     
-    { nombre: "2 de Enero", 																				archivo: "/ev/tn/02-enero.mp3",	       	fecha: `${year}-01-02` }, // 2 de Enero Santisimo Nombre de nuestro Señor Jesucristo
+    { nombre: "de Navidad, Semana I, 1 de Enero, - Santa María, Madre de Dios, - Feliz Año Nuevo", 																archivo: "/ev/tn/01-enero.mp3",		   	fecha: `${year}-01-01` }, // 1ro de Enero, Santa Maria Madre de Dios     
+    { nombre: "de Navidad, Semana I, 2 de Enero", 																				archivo: "/ev/tn/02-enero.mp3",	       	fecha: `${year}-01-02` }, // 2 de Enero Santisimo Nombre de nuestro Señor Jesucristo
     { nombre: "3 de Enero", 																				archivo: "/ev/tn/03-enero.mp3",			fecha: `${year}-01-03` }, // 3 de Enero Santisimo Nombre de nuestro Señor Jesucristo
     { nombre: "La Epifanía del Señor", 																		archivo: "/ev/tn/06-enero.mp3",			fecha: `${year}-01-06` }, // 6 de Enero, Epifanía del Señor
     
