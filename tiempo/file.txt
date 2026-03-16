@@ -1,0 +1,437 @@
+=======================================================
+     BUSCANDO COINCIDENCIAS EN ARCHIVOS HTM/HTML
+=======================================================
+Buscando: src="src/lecturas.mp3"
+Carpeta: C:\db\Github\salterios\tiempo
+-------------------------------------------------------
+[ENCONTRADO] C:\db\Github\salterios\tiempo\adviento\navidad\bautismo\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\adviento\navidad\bautismo\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\adviento\navidad\bautismo\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\adviento\navidad\bautismo\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\adviento\navidad\s01\sabado\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\adviento\navidad\s01\viernes\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\adviento\s01\lunes\oficio21.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\adviento\s01\lunes\oficio_.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\adviento\s04\sabado\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\cuaresma\s03\domingo\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\cuaresma\s03\lunes\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\ordinario\s01\domingo-bautismo\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\ordinario\s01\domingo-bautismo\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\ordinario\s09\lunes\storage\laudes - copia.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\ordinario\s09\lunes\storage\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\ordinario\s09\lunes\storage\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\ordinario\s09\lunes\storage\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\ordinario\s09\lunes\storage\oficioa.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\ordinario\s10\jueves\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\ordinario\s10\miercoles\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\ordinario\s12\domingo\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\ordinario\s12\lunes\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\ordinario\s13\martes\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\abril\11-SAN ESTANISLAO, Obispo y m†rtir\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\abril\25-SAN MARCOS, Evangelista\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\abril\27-SANTO TORIBIO DE MOGROVEJO, obispo\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\abril\27-SANTO TORIBIO DE MOGROVEJO, obispo\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\abril\27-SANTO TORIBIO DE MOGROVEJO, obispo\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\abril\29-SANTA CATALINA DE SIENA, virgen y doctora de la Iglesia\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\abril\29-SANTA CATALINA DE SIENA, virgen y doctora de la Iglesia\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\abril\29-SANTA CATALINA DE SIENA, virgen y doctora de la Iglesia\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\01-SAN ALFONSO MARIA DE LIGORIO\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\01-SAN ALFONSO MARIA DE LIGORIO\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\01-SAN ALFONSO MARIA DE LIGORIO\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\01-SAN ALFONSO MARIA DE LIGORIO\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\04-SAN JUAN MARIA VIANNEY, presb°tero\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\04-SAN JUAN MARIA VIANNEY, presb°tero\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\04-SAN JUAN MARIA VIANNEY, presb°tero\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\04-SAN JUAN MARIA VIANNEY, presb°tero\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\06-LA TRANSFIGURACION DEL SE•OR\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\06-LA TRANSFIGURACION DEL SE•OR\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\06-LA TRANSFIGURACION DEL SE•OR\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\06-LA TRANSFIGURACION DEL SE•OR\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\08-SANTO DOMINGO, presb°tero\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\08-SANTO DOMINGO, presb°tero\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\08-SANTO DOMINGO, presb°tero\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\08-SANTO DOMINGO, presb°tero\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\10-SAN LORENZO, di†cono y m†rtir\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\10-SAN LORENZO, di†cono y m†rtir\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\10-SAN LORENZO, di†cono y m†rtir\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\10-SAN LORENZO, di†cono y m†rtir\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\11-SANTA CLARA, v°rgen\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\11-SANTA CLARA, v°rgen\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\11-SANTA CLARA, v°rgen\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\11-SANTA CLARA, v°rgen\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\14-SAN MAXIMILIANO MARIA KOLBE, presb°tero y m†rtir\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\14-SAN MAXIMILIANO MARIA KOLBE, presb°tero y m†rtir\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\14-SAN MAXIMILIANO MARIA KOLBE, presb°tero y m†rtir\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\14-SAN MAXIMILIANO MARIA KOLBE, presb°tero y m†rtir\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\15-LA ASUNCION DE LA SANTISIMA VIRGEN MARIA\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\15-LA ASUNCION DE LA SANTISIMA VIRGEN MARIA\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\15-LA ASUNCION DE LA SANTISIMA VIRGEN MARIA\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\15-LA ASUNCION DE LA SANTISIMA VIRGEN MARIA\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\20-SAN BERNARDO, abad y doctor de la Iglesia\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\20-SAN BERNARDO, abad y doctor de la Iglesia\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\20-SAN BERNARDO, abad y doctor de la Iglesia\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\20-SAN BERNARDO, abad y doctor de la Iglesia\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\21-SAN PIO X, papa\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\21-SAN PIO X, papa\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\21-SAN PIO X, papa\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\21-SAN PIO X, papa\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\22-LA SANTISIMA VIRGEN MARIA, REINA\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\22-LA SANTISIMA VIRGEN MARIA, REINA\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\22-LA SANTISIMA VIRGEN MARIA, REINA\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\22-LA SANTISIMA VIRGEN MARIA, REINA\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\23-SANTA ROSA DE LIMA, virgen, Patrona de AmÇrica Latina\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\23-SANTA ROSA DE LIMA, virgen, Patrona de AmÇrica Latina\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\23-SANTA ROSA DE LIMA, virgen, Patrona de AmÇrica Latina\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\23-SANTA ROSA DE LIMA, virgen, Patrona de AmÇrica Latina\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\24-SAN BARTOLOMê, ap¢stol\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\24-SAN BARTOLOMê, ap¢stol\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\24-SAN BARTOLOMê, ap¢stol\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\24-SAN BARTOLOMê, ap¢stol\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\27-SANTA MONICA\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\27-SANTA MONICA\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\27-SANTA MONICA\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\27-SANTA MONICA\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\28-SAN AGUSTIN, obispo y doctor de la iglesia\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\29-EL MARTIRIO DE SAN JUAN BAUTISTA\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\29-EL MARTIRIO DE SAN JUAN BAUTISTA\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\29-EL MARTIRIO DE SAN JUAN BAUTISTA\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\29-EL MARTIRIO DE SAN JUAN BAUTISTA\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\30-SANTA ROSA DE LIMA, virgen, Patrona de AmÇrica Latina\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\30-SANTA ROSA DE LIMA, virgen, Patrona de AmÇrica Latina\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\30-SANTA ROSA DE LIMA, virgen, Patrona de AmÇrica Latina\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\agosto\30-SANTA ROSA DE LIMA, virgen, Patrona de AmÇrica Latina\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\07-SAN AMBROSIO\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\07-SAN AMBROSIO\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\07-SAN AMBROSIO\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\08-LA INMACULADA CONCEPCION DE LA SANTISIMA VIRGEN MARIA\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\08-LA INMACULADA CONCEPCION DE LA SANTISIMA VIRGEN MARIA\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\12-NUESTRA SE•ORA DE GUADALUPE\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\12-NUESTRA SE•ORA DE GUADALUPE\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\12-NUESTRA SE•ORA DE GUADALUPE\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\12-NUESTRA SE•ORA DE GUADALUPE\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\13-SANTA LUCIA\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\13-SANTA LUCIA\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\13-SANTA LUCIA\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\13-SANTA LUCIA\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\14-SAN JUAN DE LA CRUZ\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\14-SAN JUAN DE LA CRUZ\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\14-SAN JUAN DE LA CRUZ\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\14-SAN JUAN DE LA CRUZ\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\25-SOLEMNIDAD DE LA NATIVIDAD DEL SE•OR\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\25-SOLEMNIDAD DE LA NATIVIDAD DEL SE•OR\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\25-SOLEMNIDAD DE LA NATIVIDAD DEL SE•OR\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\25-SOLEMNIDAD DE LA NATIVIDAD DEL SE•OR\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\26-SAN ESTEBAN, protom†rtir (FIESTA)\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\27-SAN JUAN, ap¢stol y evangelista.(FIESTA)\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\27-SAN JUAN, ap¢stol y evangelista.(FIESTA)\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\27-SAN JUAN, ap¢stol y evangelista.(FIESTA)\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\27-SAN JUAN, ap¢stol y evangelista.(FIESTA)\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\28-LOS SANTOS INOCENTES, m†rtires. (FIESTA)\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\28-LOS SANTOS INOCENTES, m†rtires. (FIESTA)\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\28-LOS SANTOS INOCENTES, m†rtires. (FIESTA)\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\diciembre\28-LOS SANTOS INOCENTES, m†rtires. (FIESTA)\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\01-SANTAMARIAMADREDEDIOS\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\01-SANTA_MARIA_MADRE_DE_DIOS\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\17-SAN ANTONIO, ABAD\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\17-SAN ANTONIO, ABAD\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\21-SANTA INêS, virgen y m†rtir\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\21-SANTA INêS, virgen y m†rtir\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\24-SANTA MARIA, REINA DE LA PAZ-SAN FRANCISCO DE SALES-SAN FRANCISCO DE SALES\1\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\24-SANTA MARIA, REINA DE LA PAZ-SAN FRANCISCO DE SALES-SAN FRANCISCO DE SALES\1\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\24-SANTA MARIA, REINA DE LA PAZ-SAN FRANCISCO DE SALES-SAN FRANCISCO DE SALES\2\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\24-SANTA MARIA, REINA DE LA PAZ-SAN FRANCISCO DE SALES-SAN FRANCISCO DE SALES\2\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\24-SANTA MARIA, REINA DE LA PAZ-SAN FRANCISCO DE SALES-SAN FRANCISCO DE SALES\2\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\24-SANTA MARIA, REINA DE LA PAZ-SAN FRANCISCO DE SALES-SAN FRANCISCO DE SALES\3\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\24-SANTA MARIA, REINA DE LA PAZ-SAN FRANCISCO DE SALES-SAN FRANCISCO DE SALES\3\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\24-SANTA MARIA, REINA DE LA PAZ-SAN FRANCISCO DE SALES-SAN FRANCISCO DE SALES\3\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\25-LA CONVERSION DE SAN PABLO\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\25-LA CONVERSION DE SAN PABLO\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\25-LA CONVERSION DE SAN PABLO\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\25-LA CONVERSION DE SAN PABLO\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\26-SANTOS TIMOTEO Y TITO, obispos\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\26-SANTOS TIMOTEO Y TITO, obispos\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\26-SANTOS TIMOTEO Y TITO, obispos\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\26-SANTOS TIMOTEO Y TITO, obispos\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\28-SANTO TOMAS DE AQUINO\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\28-SANTO TOMAS DE AQUINO\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\28-SANTO TOMAS DE AQUINO\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\28-SANTO TOMAS DE AQUINO\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\31-SAN JUAN BOSCO\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\31-SAN JUAN BOSCO\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\31-SAN JUAN BOSCO\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\enero\31-SAN JUAN BOSCO\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\02-LA PRESENTACION DEL SE•OR\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\02-LA PRESENTACION DEL SE•OR\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\02-LA PRESENTACION DEL SE•OR\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\02-LA PRESENTACION DEL SE•OR\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\04-SANTA AGUEDA, virgen y m†rtir\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\04-SANTA AGUEDA, virgen y m†rtir\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\04-SANTA AGUEDA, virgen y m†rtir\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\04-SANTA AGUEDA, virgen y m†rtir\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\05-SAN FELIPE DE JESUS\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\05-SAN FELIPE DE JESUS\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\05-SAN FELIPE DE JESUS\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\05-SAN FELIPE DE JESUS\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\06-SANTOS PABLO MIKI Y COMPA•EROS\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\06-SANTOS PABLO MIKI Y COMPA•EROS\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\06-SANTOS PABLO MIKI Y COMPA•EROS\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\06-SANTOS PABLO MIKI Y COMPA•EROS\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\10-SANTA ESCOLASTICA, virgen\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\10-SANTA ESCOLASTICA, virgen\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\10-SANTA ESCOLASTICA, virgen\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\10-SANTA ESCOLASTICA, virgen\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\14-SANTOS CIRILO, monje y METODIO, obispo\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\14-SANTOS CIRILO, monje y METODIO, obispo\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\14-SANTOS CIRILO, monje y METODIO, obispo\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\14-SANTOS CIRILO, monje y METODIO, obispo\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\22-LA CATEDRA DE SAN PEDRO, APOSTOL\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\22-LA CATEDRA DE SAN PEDRO, APOSTOL\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\22-LA CATEDRA DE SAN PEDRO, APOSTOL\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\22-LA CATEDRA DE SAN PEDRO, APOSTOL\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\23-SAN POLICARPO, obispo y m†rtir\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\23-SAN POLICARPO, obispo y m†rtir\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\23-SAN POLICARPO, obispo y m†rtir\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\febrero\23-SAN POLICARPO, obispo y m†rtir\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\03-SANTO TOMAS, ap¢stol\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\03-SANTO TOMAS, ap¢stol\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\03-SANTO TOMAS, ap¢stol\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\03-SANTO TOMAS, ap¢stol\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\09-NUESTRA SE•ORA DE ITATI\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\09-NUESTRA SE•ORA DE ITATI\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\09-NUESTRA SE•ORA DE ITATI\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\09-NUESTRA SE•ORA DE ITATI\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\09-NUESTRA SE•ORA DEL ROSARIO DE CHIQUINQUIRA, patrona de Colombia\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\09-NUESTRA SE•ORA DEL ROSARIO DE CHIQUINQUIRA, patrona de Colombia\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\09-NUESTRA SE•ORA DEL ROSARIO DE CHIQUINQUIRA, patrona de Colombia\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\09-NUESTRA SE•ORA DEL ROSARIO DE CHIQUINQUIRA, patrona de Colombia\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\11-SAN BENITO ABAD, patrono de Europa\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\11-SAN BENITO ABAD, patrono de Europa\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\11-SAN BENITO ABAD, patrono de Europa\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\11-SAN BENITO ABAD, patrono de Europa\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\15-SAN BUENAVENTURA, obispo y doctor de la Iglesia\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\15-SAN BUENAVENTURA, obispo y doctor de la Iglesia\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\15-SAN BUENAVENTURA, obispo y doctor de la Iglesia\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\15-SAN BUENAVENTURA, obispo y doctor de la Iglesia\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\16-NUESTRA SE•ORA DEL CARMEN\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\16-NUESTRA SE•ORA DEL CARMEN\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\22-SANTA MARIA MAGDALENA\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\22-SANTA MARIA MAGDALENA\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\22-SANTA MARIA MAGDALENA\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\22-SANTA MARIA MAGDALENA\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\24-SAN FRANCISCO SOLANO, presb°tero\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\24-SAN FRANCISCO SOLANO, presb°tero\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\24-SAN FRANCISCO SOLANO, presb°tero\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\24-SAN FRANCISCO SOLANO, presb°tero\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\25-SANTIAGO, ap¢stol\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\25-SANTIAGO, ap¢stol\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\25-SANTIAGO, ap¢stol\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\25-SANTIAGO, ap¢stol\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\26-SANTOS JOAQUIN Y ANA, padres de la Sant°sima Virgen Mar°a\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\26-SANTOS JOAQUIN Y ANA, padres de la Sant°sima Virgen Mar°a\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\26-SANTOS JOAQUIN Y ANA, padres de la Sant°sima Virgen Mar°a\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\26-SANTOS JOAQUIN Y ANA, padres de la Sant°sima Virgen Mar°a\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\29-SANTA MARTA\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\29-SANTA MARTA\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\29-SANTA MARTA\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\29-SANTA MARTA\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\31-SAN IGNACIO DE LOYOLA, presb°tero\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\31-SAN IGNACIO DE LOYOLA, presb°tero\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\31-SAN IGNACIO DE LOYOLA, presb°tero\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\julio\31-SAN IGNACIO DE LOYOLA, presb°tero\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\01-MARIA, MADRE DE LA IGLESIA\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\01-MARIA, MADRE DE LA IGLESIA\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\01-MARIA, MADRE DE LA IGLESIA\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\01-MARIA, MADRE DE LA IGLESIA\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\01-SAN JUSTINO, m†rtir\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\01-SAN JUSTINO, m†rtir\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\01-SAN JUSTINO, m†rtir\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\01-SAN JUSTINO, m†rtir\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\03-SANTOS CARLOS LWANGA y COMPA•EROS, m†rtires\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\03-SANTOS CARLOS LWANGA y COMPA•EROS, m†rtires\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\03-SANTOS CARLOS LWANGA y COMPA•EROS, m†rtires\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\05-SAN BONIFACIO, obispo y m†rtir\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\05-SAN BONIFACIO, obispo y m†rtir\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\05-SAN BONIFACIO, obispo y m†rtir\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\05-SAN BONIFACIO, obispo y m†rtir\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\07-LA SANTISIMA TRINIDAD\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\07-LA SANTISIMA TRINIDAD\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\07-LA SANTISIMA TRINIDAD\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\07-LA SANTISIMA TRINIDAD\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\11-SAN BERNABê, ap¢stol\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\11-SAN BERNABê, ap¢stol\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\11-SAN BERNABê, ap¢stol\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\11-SAN BERNABê, ap¢stol\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\13-SAN ANTONIO DE PADUA, presb°tero y doctor de la Iglesia\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\14-EL SANTISIMO CUERPO Y SANGRE DE CRISTO\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\19-EL SAGRADO CORAZON DE JESUS\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\20-EL INMACULADO CORAZON DE LA SANTISIMA VIRGEN MARIA\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\21-SAN LUIS GONZAGA, religioso\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\24-EL NACIMIENTO DE SAN JUAN BAUTISTA\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\28-SAN IRENEO, obispo y m†rtir\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\junio\29-SANTOS PEDRO Y PABLO, APOSTOLES\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\marzo\19-SAN JOSE, ESPOSO DE LA BIENAVENTURADA VIRGEN MARIA\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\marzo\19-SAN JOSE, ESPOSO DE LA BIENAVENTURADA VIRGEN MARIA\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\marzo\19-SAN JOSE, ESPOSO DE LA BIENAVENTURADA VIRGEN MARIA\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\marzo\19-SAN JOSE, ESPOSO DE LA BIENAVENTURADA VIRGEN MARIA\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\marzo\25-LA ANUNCIACION DEL SE•OR\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\marzo\25-LA ANUNCIACION DEL SE•OR\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\marzo\25-LA ANUNCIACION DEL SE•OR\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\marzo\25-LA ANUNCIACION DEL SE•OR\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\mayo\03-EXALTACION DE LA SANTA CRUZ\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\mayo\03-SANTOS FELIPE Y SANTIAGO, ap¢stoles\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\mayo\08-NUESTRA SE•ORA DE LUJAN, Patrona de la Rep£blica Argentina\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\mayo\14-SAN MATIAS, ap¢stol\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\mayo\14-SAN MATIAS, ap¢stol\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\mayo\14-SAN MATIAS, ap¢stol\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\mayo\14-SAN MATIAS, ap¢stol\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\mayo\20-MARIA, MADRE DE LA IGLESIA\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\mayo\20-MARIA, MADRE DE LA IGLESIA\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\mayo\20-MARIA, MADRE DE LA IGLESIA\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\mayo\20-MARIA, MADRE DE LA IGLESIA\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\mayo\26-SAN FELIPE NERI, presb°tero\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\mayo\26-SANTA MARIANA DE JESUS PAREDES, virgen\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\01-TODOS LOS SANTOS\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\01-TODOS LOS SANTOS\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\01-TODOS LOS SANTOS\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\01-TODOS LOS SANTOS\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\02-TODOS LOS FIELES DIFUNTOS\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\02-TODOS LOS FIELES DIFUNTOS\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\02-TODOS LOS FIELES DIFUNTOS\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\02-TODOS LOS FIELES DIFUNTOS\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\03-SAN MARTIN DE PORRES, religioso\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\03-SAN MARTIN DE PORRES, religioso\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\03-SAN MARTIN DE PORRES, religioso\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\03-SAN MARTIN DE PORRES, religioso\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\04-SAN CARLOS BORROMEO, obispo\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\04-SAN CARLOS BORROMEO, obispo\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\04-SAN CARLOS BORROMEO, obispo\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\04-SAN CARLOS BORROMEO, obispo\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\07-MARIA, MEDIANERA DE TODAS LAS GRACIAS\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\07-MARIA, MEDIANERA DE TODAS LAS GRACIAS\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\07-MARIA, MEDIANERA DE TODAS LAS GRACIAS\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\07-MARIA, MEDIANERA DE TODAS LAS GRACIAS\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\09-LA DEDICACION DE LA BASILICA DE SAN JUAN DE LETRAN\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\09-LA DEDICACION DE LA BASILICA DE SAN JUAN DE LETRAN\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\09-LA DEDICACION DE LA BASILICA DE SAN JUAN DE LETRAN\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\09-LA DEDICACION DE LA BASILICA DE SAN JUAN DE LETRAN\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\10-SAN LEON MAGNO, papa y doctor de la Iglesia\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\10-SAN LEON MAGNO, papa y doctor de la Iglesia\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\10-SAN LEON MAGNO, papa y doctor de la Iglesia\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\10-SAN LEON MAGNO, papa y doctor de la Iglesia\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\11-SAN MARTIN DE TOURS, obispo\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\11-SAN MARTIN DE TOURS, obispo\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\11-SAN MARTIN DE TOURS, obispo\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\11-SAN MARTIN DE TOURS, obispo\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\12-SAN JOSAFAT, obispo y m†rtir\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\12-SAN JOSAFAT, obispo y m†rtir\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\12-SAN JOSAFAT, obispo y m†rtir\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\12-SAN JOSAFAT, obispo y m†rtir\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\19-SANTA ISABEL DE HUNGRIA\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\19-SANTA ISABEL DE HUNGRIA\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\19-SANTA ISABEL DE HUNGRIA\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\19-SANTA ISABEL DE HUNGRIA\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\19-SANTA MARIA VIRGEN, MADRE DE LA DIVINA PROVIDENCIA\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\19-SANTA MARIA VIRGEN, MADRE DE LA DIVINA PROVIDENCIA\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\19-SANTA MARIA VIRGEN, MADRE DE LA DIVINA PROVIDENCIA\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\19-SANTA MARIA VIRGEN, MADRE DE LA DIVINA PROVIDENCIA\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\21-LA PRESENTACION DE LA SANTISIMA VIRGEN MARIA\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\21-LA PRESENTACION DE LA SANTISIMA VIRGEN MARIA\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\21-LA PRESENTACION DE LA SANTISIMA VIRGEN MARIA\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\21-LA PRESENTACION DE LA SANTISIMA VIRGEN MARIA\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\22-SANTA CECILIA, virgen y m†rtir\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\22-SANTA CECILIA, virgen y m†rtir\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\22-SANTA CECILIA, virgen y m†rtir\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\22-SANTA CECILIA, virgen y m†rtir\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\24-SANTOS ANDRêS DUNG-LAC, presb°tero, y compa§eros, m†rtires\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\24-SANTOS ANDRêS DUNG-LAC, presb°tero, y compa§eros, m†rtires\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\24-SANTOS ANDRêS DUNG-LAC, presb°tero, y compa§eros, m†rtires\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\noviembre\24-SANTOS ANDRêS DUNG-LAC, presb°tero, y compa§eros, m†rtires\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\01-SANTA TERESA DEL NI•O JESUS\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\01-SANTA TERESA DEL NI•O JESUS\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\01-SANTA TERESA DEL NI•O JESUS\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\01-SANTA TERESA DEL NI•O JESUS\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\02-LOS SANTOS ANGELES CUSTODIOS\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\02-LOS SANTOS ANGELES CUSTODIOS\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\02-LOS SANTOS ANGELES CUSTODIOS\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\02-LOS SANTOS ANGELES CUSTODIOS\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\04-SAN FRANCISCO DE ASIS\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\04-SAN FRANCISCO DE ASIS\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\04-SAN FRANCISCO DE ASIS\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\04-SAN FRANCISCO DE ASIS\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\07-NUESTRA SE•ORA DEL ROSARIO\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\07-NUESTRA SE•ORA DEL ROSARIO\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\07-NUESTRA SE•ORA DEL ROSARIO\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\07-NUESTRA SE•ORA DEL ROSARIO\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\12-NUESTRA SE•ORA DEL PILAR\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\12-NUESTRA SE•ORA DEL PILAR\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\12-NUESTRA SE•ORA DEL PILAR\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\12-NUESTRA SE•ORA DEL PILAR\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\15-SANTA TERESA DE JESUS, virgen y doctora de la Iglesia\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\15-SANTA TERESA DE JESUS, virgen y doctora de la Iglesia\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\15-SANTA TERESA DE JESUS, virgen y doctora de la Iglesia\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\15-SANTA TERESA DE JESUS, virgen y doctora de la Iglesia\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\17-SAN IGNACIO DE ANTIOQUIA, obispo y m†rtir\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\17-SAN IGNACIO DE ANTIOQUIA, obispo y m†rtir\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\17-SAN IGNACIO DE ANTIOQUIA, obispo y m†rtir\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\17-SAN IGNACIO DE ANTIOQUIA, obispo y m†rtir\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\18-SAN LUCAS, evangelista\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\18-SAN LUCAS, evangelista\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\18-SAN LUCAS, evangelista\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\18-SAN LUCAS, evangelista\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\28-SANTOS SIMON Y JUDAS, ap¢stoles\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\28-SANTOS SIMON Y JUDAS, ap¢stoles\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\28-SANTOS SIMON Y JUDAS, ap¢stoles\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\octubre\28-SANTOS SIMON Y JUDAS, ap¢stoles\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\03-SAN GREGORIO MAGNO, papa y doctor de la Iglesia\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\03-SAN GREGORIO MAGNO, papa y doctor de la Iglesia\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\03-SAN GREGORIO MAGNO, papa y doctor de la Iglesia\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\03-SAN GREGORIO MAGNO, papa y doctor de la Iglesia\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\08-LA NATIVIDAD DE LA SANTISIMA VIRGEN MARIA\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\08-LA NATIVIDAD DE LA SANTISIMA VIRGEN MARIA\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\13-SAN JUAN CRISOSTOMO, obispo y doctor de la Iglesia\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\13-SAN JUAN CRISOSTOMO, obispo y doctor de la Iglesia\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\14-EXALTACION DE LA SANTA CRUZ\laudes - Copy.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\14-EXALTACION DE LA SANTA CRUZ\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\14-EXALTACION DE LA SANTA CRUZ\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\14-EXALTACION DE LA SANTA CRUZ\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\14-EXALTACION DE LA SANTA CRUZ\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\15-NUESTRA SE•ORA DE LOS DOLORES\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\15-NUESTRA SE•ORA DE LOS DOLORES\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\15-NUESTRA SE•ORA DE LOS DOLORES\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\15-NUESTRA SE•ORA DE LOS DOLORES\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\16-SANTOS CORNELIO, Papa, y CIPRIANO, obispo, m†rtires\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\16-SANTOS CORNELIO, Papa, y CIPRIANO, obispo, m†rtires\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\16-SANTOS CORNELIO, Papa, y CIPRIANO, obispo, m†rtires\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\16-SANTOS CORNELIO, Papa, y CIPRIANO, obispo, m†rtires\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\20-SANTOS ANDRêS KIM TAEGON, presb°tero, PABLO CHONG HASANG y compa§eros m†rtires\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\20-SANTOS ANDRêS KIM TAEGON, presb°tero, PABLO CHONG HASANG y compa§eros m†rtires\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\20-SANTOS ANDRêS KIM TAEGON, presb°tero, PABLO CHONG HASANG y compa§eros m†rtires\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\20-SANTOS ANDRêS KIM TAEGON, presb°tero, PABLO CHONG HASANG y compa§eros m†rtires\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\21-SAN MATEO, ap¢stol y evangelista\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\21-SAN MATEO, ap¢stol y evangelista\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\21-SAN MATEO, ap¢stol y evangelista\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\21-SAN MATEO, ap¢stol y evangelista\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\23-SAN PIO DE PIETRELCINA, presb°tero\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\23-SAN PIO DE PIETRELCINA, presb°tero\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\23-SAN PIO DE PIETRELCINA, presb°tero\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\23-SAN PIO DE PIETRELCINA, presb°tero\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\27-SAN VICENTE DE PAUL, presb°tero\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\27-SAN VICENTE DE PAUL, presb°tero\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\27-SAN VICENTE DE PAUL, presb°tero\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\27-SAN VICENTE DE PAUL, presb°tero\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\29-SANTOS ARCANGELES MIGUEL GABRIEL Y RAFAEL\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\29-SANTOS ARCANGELES MIGUEL GABRIEL Y RAFAEL\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\29-SANTOS ARCANGELES MIGUEL GABRIEL Y RAFAEL\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\29-SANTOS ARCANGELES MIGUEL GABRIEL Y RAFAEL\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\30-SAN JERONIMO, presb°tero y doctor de la iglesia\laudes.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\30-SAN JERONIMO, presb°tero y doctor de la iglesia\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\30-SAN JERONIMO, presb°tero y doctor de la iglesia\oficio1.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\santos\septiembre\30-SAN JERONIMO, presb°tero y doctor de la iglesia\oficio2.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\solemnidades\CorpusChristi\oficio.htm
+[ENCONTRADO] C:\db\Github\salterios\tiempo\solemnidades\SantisimaTrinidad\oficio.htm
+
+Total de archivos encontrados: 425
+-------------------------------------------------------
+Busqueda finalizada.
+=======================================================
+Press any key to continue . . . 
