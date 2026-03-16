@@ -1,5 +1,5 @@
 body {
-    background: url(/salterios/src/ima/BackGround.jpg);
+    background: url(../src/ima/BackGround.jpg);
     background-repeat: no-repeat;
     background-size: cover ; /* Asegura que la imagen cubra toda la pantalla */
     background-position: center;
