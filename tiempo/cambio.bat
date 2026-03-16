@@ -1,24 +1,33 @@
 @echo off
 setlocal enabledelayedexpansion
-title Monitor de Cambios (.htm / .html) - Proyecto Salterios
+
+:: ========================================================
+:: CONFIGURACIÓN
+set "BUSCAR=/https://tp.resucito.do//"
+set "REEMPLAZAR=https://tp.resucito.do/"
+:: ========================================================
+
+title Eliminando linea: %BUSCAR%
 
 echo =======================================================
-echo     MONITOR DE REEMPLAZO DE RUTAS EN CURSO
+echo      BORRADO DE LINEAS EN CURSO
 echo =======================================================
-echo Buscando: "/salterios/"  --^>  Reemplazando por: "/"
-echo Extensiones: .htm y .html
-echo Carpeta raiz: %cd%
+echo Buscando: "%BUSCAR%"
+echo Accion: ELIMINAR (reemplazar por nada)
 echo -------------------------------------------------------
 
-:: Buscamos archivos que terminen en .htm* (esto cubre .htm y .html)
+:: Usamos [Regex]::Escape para que los parentesis () y el punto . 
+:: se busquen como texto literal y no como comandos.
 powershell -Command ^
+    "$buscar = [Regex]::Escape('%BUSCAR%');" ^
+    "$reemplazar = '%REEMPLAZAR%';" ^
     "$archivos = Get-ChildItem -Path . -Include *.htm, *.html -Recurse -File;" ^
     "foreach ($f in $archivos) {" ^
     "    $content = Get-Content $f.FullName -Raw;" ^
-    "    if ($content -match '/salterios/') {" ^
-    "        $newContent = $content -replace '/salterios/', '/';" ^
+    "    if ($content -match $buscar) {" ^
+    "        $newContent = $content -replace $buscar, $reemplazar;" ^
     "        [System.IO.File]::WriteAllText($f.FullName, $newContent);" ^
-    "        Write-Host '[MODIFICADO] ' -NoNewline -ForegroundColor Green;" ^
+    "        Write-Host '[ELIMINADO]   ' -NoNewline -ForegroundColor Cyan;" ^
     "        Write-Host $f.FullName;" ^
     "    } else {" ^
     "        Write-Host '[OMITIDO]    ' -NoNewline -ForegroundColor Gray;" ^
@@ -27,6 +36,6 @@ powershell -Command ^
     "}"
 
 echo -------------------------------------------------------
-echo Proceso completado.
+echo Proceso de limpieza completado.
 echo =======================================================
 pause

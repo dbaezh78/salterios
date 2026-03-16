@@ -7,7 +7,7 @@
   <TITLE>Liturgia de las horas</TITLE>
   <LINK href="/css/mio.css" type=text/css rel=stylesheet>
   <LINK rel="icon" href="/css/ico-laudes.ico" type="image/x-icon">
-  <script src="//tordinario/s06/domingo/evan/evan-js.js"></script>
+  <script src="/https://to.resucito.do/s06/domingo/evan/evan-js.js"></script>
 
       <script>
         function ppjs() {
@@ -27,7 +27,7 @@
     <font color="#CC9933">
       tama&ntilde;o: </font>
 	<select id="tamanioFuente" onchange="document.getElementById('cuerpo').style.fontSize = this.value + 'em';">
-	  <option value="1.1">PequeÃ±o</option>
+	  <option value="1.1">PequeÃƒÆ’Ã‚Â±o</option>
 	  <option value="1.3">Mediano</option>
 	  <option value="1.5">Grande</option>
 	</select>
@@ -150,14 +150,14 @@
     var year = new Date().getFullYear();
     var audio = document.getElementById('audioPlayer');
     if (esPar(year)) { 
-		audio.src = '/tordinario/s06/domingo/lectura2.mp3';
+		audio.src = 'https://to.resucito.do/s06/domingo/lectura2.mp3';
     } else {
-		audio.src = '/tordinario/s06/domingo/lectura1.mp3';
+		audio.src = 'https://to.resucito.do/s06/domingo/lectura1.mp3';
     }
-    audio.play(off);
+    
   </script>
   <i><span style="color: #FF0000; font-size: 15px;"id="playLectura">2da Lectura</span></i>
-  <audio src="/tordinario/s06/domingo/lecturas.mp3" controls style="width: 100%;"> </audio>
+  <audio src="https://to.resucito.do/s06/domingo/lecturas.mp3" controls style="width: 100%;"> </audio>
 
 	<!-- Audio para el evangelio -->
   <i><span style="color: #FF0000; font-size: 15px;"id="playLectura">Evangelio</span></i>
