@@ -116,6 +116,7 @@
         }
         b,strong {
             font-weight:bolder;
+            cursor: pointer;
         }
         small {
             font-size:80%;

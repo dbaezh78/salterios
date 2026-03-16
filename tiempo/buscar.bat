@@ -4,7 +4,7 @@ title Buscador de Rutas - Proyecto Salterios
 
 :: ========================================================
 :: CONFIGURACIÓN
-set "BUSCAR=src="src/lecturas.mp3""
+set "BUSCAR=src="footnote1"
 :: ========================================================
 
 echo =======================================================

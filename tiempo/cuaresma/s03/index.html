@@ -1,103 +1,101 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liturgia de las Horas</title>
-	<LINK href="/css/boton.css" type=text/css rel=stylesheet>
-	<link rel="stylesheet" href="/css/bootstrap.min.css">
-	<link rel="icon" href="/css/ico-laudes.ico" type="image/x-icon">
-	<link href="/css/db.css" type=text/css rel=stylesheet>
-	
-		<script src="/css/jquery-3.2.1.slim.min.js"></script>
-		<script src="/css/popper.min.js"></script>
-		<script src="/css/bootstrap.min.js"></script>
+    <link href="/css/boton.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="icon" href="/css/ico-laudes.ico" type="image/x-icon">
+    <link href="/css/db.css" type="text/css" rel="stylesheet">
+    
+    <script src="/css/jquery-3.2.1.slim.min.js"></script>
+    <script src="/css/popper.min.js"></script>
+    <script src="/css/bootstrap.min.js"></script>
 </head>
-	<body>
+<body>
 
-<div id="inicio"/>
+<div id="inicio"></div>
+
 <div class="Tiempos-liturgicos">
-
-<h1>Liturgia de las Horas</h1>
+    <h1>Liturgia de las Horas</h1>
 </div>
 <hr>
-<!-- PublicaciÃ³n de imagen -->
-<a class="btn-inline btn-toolbar d-flex justify-content-center" href="/"/>
-	<img src="/css/lh.jpg" width="200px" height="200px"
-	class="btn-inline btn-toolbar d-flex justify-content-center rounded-circle"></a>
-<!-- PublicaciÃ³n de imagen -->
 
-<div class="container dc">
-<div class="tcfondo">	<!-- clases para fondos tofondo(Ordinario), tafondo(Adviento), tcfondo(Cuaresma), tpfondo(Pascual) tnfondo(Navidad) -->
-	<a class="tcfondo" href="/#Cuaresma">Tiempo de Cuaresma</a> 
-	</div><hr>
-	<div class="row">
-		<div class="col-md-12" style=padding:10px>
-			<div class="btn-inline btn-toolbar d-flex justify-content-center"> 
-				<a class="week-link" href="/#Ordinario">Semana 3</a>
-				<a class="sday-lnk" href="domingo/index.htm">Domingo</a>
-				<a class="day-link" href="lunes/index.htm">Lunes</a>
-				<a class="day-link" href="martes/index.htm">Martes</a>
-				<a class="day-link" href="miercoles/index.htm">MiÃ©rcoles</a>
-				<a class="day-link" href="jueves/index.htm">Jueves</a>
-				<a class="day-link" href="viernes/index.htm">Viernes</a>
-				<a class="day-link" href="sabado/index.htm">SÃ¡bado</a></div>
-			</div>
-		</div>
-	</div>
+<div class="d-flex justify-content-center">
+    <a href="/">
+        <img src="/css/lh.jpg" width="200" height="200" class="rounded-circle" alt="LH">
+    </a>
 </div>
 
-<script>
-    // JavaScript para manejar los clics en los enlaces de semanas
-    const numberLinks = document.querySelectorAll('.day-link' '.btn' '.dc' '.sday-lnk' '.week-link' 't-liturgico');
-    numberLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
-            const targetId = link.getAttribute('href'); // Obtener el ID del contenedor objetivo
-			const targetContainer = document.querySelector(targetId); // Seleccionar el contenedor objetivo
-            // Ocultar todos los contenedores de dÃ­as
-            document.querySelectorAll('.dc').forEach(container => {
-                container.style.display = 'none';
-            });
-            // Mostrar el contenedor de dÃ­as correspondiente al enlace clicado
-            targetContainer.style.display = 'flex';
-        });
-    });
-	
-</script>
-
- <hr>
-    <div class="footnote">
-	
-	<!-- 
-	href="https://hjg.com.ar/ssee/47_mt/c005.html#v44" target="_blank"
-	-->
-		<a data-toggle="modal" data-target="#imgx"><b> MT 5,44:</b></a>
-        <p class="right" id="footnote1"><a href="#inicio">â†‘</a> Amad a vuestros enemigos y rogad por los que os persigan.<sup>1</sup></p>
-		<b class="left1" id="footnote1">Vengo pronto!<a href="https://www.epifania.es/wp-content/uploads/9-Cristo-Pantocrator-05-2014web.jpg" target="_blank"><sup>2</sup></a></b>
+<div class="container dc" id="Ordinario">
+    <div class="tcfondo"> 
+        <a class="tcfondo" href="#Cuaresma">Tiempo de Cuaresma</a> 
     </div>
-	
-	<!-- Zona Modal -->
-	
-	<!-- Modal -->
-<div class="modal fade" id="imgx" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content" style="width:380px; height:600px">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Biblia</h4>
-      </div>
-      <div class="modal-body">
-        <iframe src="https://hjg.com.ar/ssee/47_mt/c005.html#v44" width="100%"; height="100%">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12" style="padding:10px">
+            <div class="btn-inline btn-toolbar d-flex justify-content-center"> 
+                <a class="week-link" href="/#Cuaresma">Semana 3</a>
+                <a class="sday-lnk" href="domingo/index.htm">Domingo</a>
+                <a class="day-link" href="lunes/index.htm">Lunes</a>
+                <a class="day-link" href="martes/index.htm">Martes</a>
+                <a class="day-link" href="miercoles/index.htm">Miércoles</a>
+                <a class="day-link" href="jueves/index.htm">Jueves</a>
+                <a class="day-link" href="viernes/index.htm">Viernes</a>
+                <a class="day-link" href="sabado/index.htm">Sábado</a>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
-	
+<hr>
+
+<div class="footnote">
+    <a href="#" data-toggle="modal" data-target="#modalBiblia"><b> MT 5,44:</b></a>
+    <p class="right" id="footnote1">
+        <a href="#inicio">↑</a> Amad a vuestros enemigos y rogad por los que os persigan.<sup>1</sup>
+    </p>
+    
+    <b class="left1" style="cursor:pointer" data-toggle="modal" data-target="#modalImagen">
+        Vengo pronto! <sup style="color: blue;">2</sup>
+    </b>
+</div>
+
+<div class="modal fade" id="modalBiblia" tabindex="-1" role="dialog" aria-labelledby="labelBiblia">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="width:380px; height:600px; margin: auto;">
+            <div class="modal-header">
+                <h4 class="modal-title" id="labelBiblia">Biblia</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="height: 450px; padding: 0;">
+                <iframe src="https://hjg.com.ar/ssee/47_mt/c005.html#v44" width="100%" height="100%" frameborder="0"></iframe>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalImagen" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content" style="background: transparent; border: none;">
+            <div class="modal-body text-center">
+                <button type="button" class="close" data-dismiss="modal" style="color:white; font-size:30px; opacity: 1;">&times;</button>
+                <img src="/src/ima/vengopronto.jpg" class="img-fluid rounded" style="box-shadow: 0 0 20px rgba(255,215,0,0.5);" alt="Vengo pronto">
+                <h3 style="color: gold; text-shadow: 2px 2px 5px black; margin-top: 15px;">¡Vengo pronto!</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/js/vpronto.js"></script>
+
+
+
 </body>
 </html>

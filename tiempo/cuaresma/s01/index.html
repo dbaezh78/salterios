@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -12,6 +12,7 @@
 		<script src="/css/jquery-3.2.1.slim.min.js"></script>
 		<script src="/css/popper.min.js"></script>
 		<script src="/css/bootstrap.min.js"></script>
+
 </head>
 	<body>
 
@@ -34,11 +35,11 @@
 	<div class="row">
 		<div class="col-md-12" style=padding:10px>
 			<div class="btn-inline btn-toolbar d-flex justify-content-center"> 
-				<a class="week-link" href="/#Ordinario">Semana 1</a>
+				<a class="week-link" href="/#Cuaresma">Semana 1</a>
 				<a class="sday-lnk" href="domingo/index.htm">Domingo</a>
 				<a class="day-link" href="lunes/index.htm">Lunes</a>
 				<a class="day-link" href="martes/index.htm">Martes</a>
-				<a class="day-link" href="miercoles/index.htm">MiÃ©rcoles</a>
+				<a class="day-link" href="miercoles/index.htm">Miércoles</a>
 				<a class="day-link" href="jueves/index.htm">Jueves</a>
 				<a class="day-link" href="viernes/index.htm">Viernes</a>
 				<a class="day-link" href="sabado/index.htm">SÃ¡bado</a></div>
@@ -47,9 +48,12 @@
 	</div>
 </div>
 
+
+
+
 <script>
     // JavaScript para manejar los clics en los enlaces de semanas
-    const numberLinks = document.querySelectorAll('.day-link' '.btn' '.dc' '.sday-lnk' '.week-link' 't-liturgico');
+    const numberLinks = document.querySelectorAll('.day-link, .btn, .dc, .sday-lnk, .week-link, .t-liturgico');
     numberLinks.forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
@@ -101,3 +105,4 @@
 	
 </body>
 </html>
+
