@@ -7,8 +7,8 @@ chcp 65001 > nul
 :: ========================================================
 :: CONFIGURACIÓN
 :: IMPORTANTE: Guarda este archivo como UTF-8
-set "BUSCAR=<option value="1.6">Grande</option>"
-set "REEMPLAZAR=<option value="1.6" selected>Grande</option>"
+set "BUSCAR=<option value="1">Pequeño</option>"
+set "REEMPLAZAR=<option value="1.1">Pequeño</option>"
 :: ========================================================
 
 title Monitor de Cambios - Proyecto Salterios
@@ -19,6 +19,12 @@ echo =======================================================
 echo Buscando: "%BUSCAR%"
 echo Reemplazar por: "%REEMPLAZAR%"
 echo -------------------------------------------------------
+
+echo =======================================================
+echo Se hara el siguiente cambio! si no quiere precioe CTRL+C
+pause
+echo =======================================================
+
 
 :: Usamos [System.Environment] para leer las variables de forma segura sin que los símbolos rompan el comando
 powershell -NoProfile -ExecutionPolicy Bypass -Command ^
