@@ -1,10 +1,14 @@
 @echo off
 setlocal enabledelayedexpansion
 
+:: 1. Cambiamos la consola a UTF-8
+chcp 65001 > nul
+
 :: ========================================================
 :: CONFIGURACIÓN
-set "BUSCAR=/s0"
-set "REEMPLAZAR=https://tc.resucito.do/s0"
+:: IMPORTANTE: Guarda este archivo como UTF-8
+set "BUSCAR=<option value="1.5">Grande</option>"
+set "REEMPLAZAR=<option value="1.1">Pequeño</option>"
 :: ========================================================
 
 title Monitor de Cambios - Proyecto Salterios
@@ -16,16 +20,16 @@ echo Buscando: "%BUSCAR%"
 echo Reemplazar por: "%REEMPLAZAR%"
 echo -------------------------------------------------------
 
-:: He cambiado .Contains por una comparacion que ignora mayusculas
-powershell -Command ^
-    "$buscar = '%BUSCAR%';" ^
-    "$reemplazar = '%REEMPLAZAR%';" ^
+:: Usamos [System.Environment] para leer las variables de forma segura sin que los símbolos rompan el comando
+powershell -NoProfile -ExecutionPolicy Bypass -Command ^
+    "$buscar = [System.Environment]::GetEnvironmentVariable('BUSCAR', 'Process');" ^
+    "$reemplazar = [System.Environment]::GetEnvironmentVariable('REEMPLAZAR', 'Process');" ^
     "$archivos = Get-ChildItem -Path . -Include *.htm, *.html -Recurse -File;" ^
     "foreach ($f in $archivos) {" ^
-    "    $content = Get-Content $f.FullName -Raw;" ^
-    "    if ($content -match $buscar) {" ^
-    "        $newContent = $content -replace $buscar, $reemplazar;" ^
-    "        [System.IO.File]::WriteAllText($f.FullName, $newContent);" ^
+    "    $content = Get-Content $f.FullName -Raw -Encoding UTF8;" ^
+    "    if ($content.Contains($buscar)) {" ^
+    "        $newContent = $content.Replace($buscar, $reemplazar);" ^
+    "        [System.IO.File]::WriteAllText($f.FullName, $newContent, [System.Text.Encoding]::UTF8);" ^
     "        Write-Host '[MODIFICADO] ' -NoNewline -ForegroundColor Green;" ^
     "        Write-Host $f.FullName;" ^
     "    } else {" ^
