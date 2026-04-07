@@ -1,6 +1,9 @@
 @echo off
 setlocal enabledelayedexpansion
 
+:: Cambiar la consola a UTF-8 para que entienda los caracteres especiales
+chcp 65001 > nul
+
 :: ========================================================
 :: CONFIGURACIÓN
 set "BUSCAR=PequeÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â±o"
