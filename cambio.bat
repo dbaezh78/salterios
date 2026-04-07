@@ -7,8 +7,8 @@ chcp 65001 > nul
 :: ========================================================
 :: CONFIGURACIÓN
 :: IMPORTANTE: Guarda este archivo como UTF-8
-set "BUSCAR=<option value="1.5">Grande</option>"
-set "REEMPLAZAR=<option value="1.1">Pequeño</option>"
+set "BUSCAR=<option value="1.6">Grande</option>"
+set "REEMPLAZAR=<option value="1.6" selected>Grande</option>"
 :: ========================================================
 
 title Monitor de Cambios - Proyecto Salterios
