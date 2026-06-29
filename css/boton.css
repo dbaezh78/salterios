@@ -390,7 +390,7 @@ db-center{
 		}
 		.pascualx-css:hover{
 			background:#00A2E8;
-			Color:white;
+			Color:white !important;
 		}
 		/* PASCUA */
 
@@ -850,8 +850,8 @@ db-center{
 		/* COLOR DE BOTON DE LA SALMODIA DEL DIA
 		*****************************************/
 		.bdia-css:hover{
-			/*	background:green;	/* cuando estemos en tiempo ORDINARIO */
-				background:purple;	/* cuando estemos en tiempo ADVIENTO y CUARESMA*/
+				background:green;	/* cuando estemos en tiempo ORDINARIO */
+			/*	background:purple;	/* cuando estemos en tiempo ADVIENTO y CUARESMA*/
 			/*	background:red;	/* cuando estemos en tiempo NAVIDAD */
 			/*	background:#00A2E8;	/* cuando estemos en tiempo PASCUA */
 			Color: white;
@@ -861,6 +861,8 @@ db-center{
 			/* cursor: Hand; /* Cambia el cursor a una mano */
 			cursor: pointer; /* Cambia el cursor a una mano */
 		}
+
+		
 
 	button {
          cursor: Hand;	/* Cambia el cursor a una mano */
