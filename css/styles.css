@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    text-align: center;
+    text-align: justify;
 }
 
 h1 {
@@ -20,4 +20,56 @@ select {
     padding: 20px;
     border: 1px solid #ccc;
     display: none; /* Ocultar el panel por defecto */
+}
+
+.dbplay {
+    width: 100%;
+    background-color: #f1f3f4;
+    height: 40px;
+}
+
+.audiotext {
+    color: #FF0000; 
+    font-size: 15px;
+    text-align: left;
+}
+
+
+/* Colores de la Liturgia */
+.rubrica {
+    color: #FF0000 !important; /* Rojo para instrucciones y etiquetas */
+    /*font-weight: bold;*/
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.Lect1Style {
+    font-size: 11px;
+    white-space: nowrap;
+    min-width: 69px;
+    background-color: #f1f3f4;
+    height: 40px;
+}
+
+.file-audio {
+    background-color: #fffcf5;
+}
+
+.maudio {
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f1f3f4;
+    border: 1px solid rgb(231, 228, 228);
+}
+
+.staudio {
+    display: flex; 
+    align-items: center; 
+    gap: 0px;
+    padding: 0 0 0 4px;
+    background: #f1f3f4;
+    height: 40px;
 }

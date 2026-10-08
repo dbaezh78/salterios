@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
   <TITLE>Liturgia de las horas</TITLE>
   <LINK href="/css/mio.css" type=text/css rel=stylesheet>
+  <LINK href="/css/styles.css" type=text/css rel=stylesheet>
   <LINK rel="icon" href="/css/ico-laudes.ico" type="image/x-icon">
       <script>
         function ppjs() {
@@ -135,25 +136,54 @@
       </FONT>
 <!-- ************************* Reproductor ************************* -->
 
-<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">1ra Lectura</span></i>
+<div class="maudio" style="flex-direction: column; align-items: stretch; gap: 0;">
+  <div class="staudio" style="height: 40px;">
+    <span class="Lect1Style rubrica" id="playLectura">1ra. Lectura</span>
+    <audio id="audioPlayer" controls class="dbplay"> </audio>
+  </div>
+  <div class="staudio" style="height: 40px;">
+    <span class="Lect1Style rubrica">2da. Lectura</span>
+    <audio id="audioPlayer2" src="https://tp.resucito.do/s05/lunes/lecturas.mp3" controls class="dbplay"> </audio>
+  </div>
+</div>
 
-  <audio id="audioPlayer" controls style="width: 100%;"> </audio>
-  <script>
+<script>
+  (function() {
     function esPar(year) {
       return year % 2 === 0;
     }
     var year = new Date().getFullYear();
-    var audio = document.getElementById('audioPlayer');
-    if (esPar(year)) { 
-		audio.src = 'https://tp.resucito.do/s05/lunes/lectura2.mp3';
-    } else {
-		audio.src = 'https://tp.resucito.do/s05/lunes/lectura1.mp3';
+    var audio1 = document.getElementById('audioPlayer');
+    var audio2 = document.getElementById('audioPlayer2');
+
+    if (audio1) {
+      if (esPar(year)) { 
+        audio1.src = 'https://tp.resucito.do/s05/lunes/lectura2.mp3';
+      } else {
+        audio1.src = 'https://tp.resucito.do/s05/lunes/lectura1.mp3';
+      }
+
+      audio1.addEventListener('play', function() {
+        if (audio2) audio2.load();
+      }, { once: true });
+
+      audio1.addEventListener('ended', function() {
+        if (audio2) audio2.play();
+      });
+
+      audio1.addEventListener('play', function() {
+        if (audio2 && !audio2.paused) audio2.pause();
+      });
     }
-    
-  </script>
-  <i><span style="color: #FF0000; font-size: 15px;"id="playLectura">2da Lectura</span></i>
-  <audio src="https://tp.resucito.do/s05/lunes/lecturas.mp3" controls style="width: 100%;"> </audio>
-   <BR><BR>
+
+    if (audio2) {
+      audio2.addEventListener('play', function() {
+        if (audio1 && !audio1.paused) audio1.pause();
+      });
+    }
+  })();
+</script>
+<BR><BR>
 
 <!-- ************************* Reproductor ************************* -->
       <FONT COLOR="#FF0000">

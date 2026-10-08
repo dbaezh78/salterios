@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
   <TITLE>Liturgia de las horas</TITLE>
   <LINK href="/css/mio.css" type=text/css rel=stylesheet>
+  <LINK href="/css/styles.css" type=text/css rel=stylesheet>
   <LINK rel="icon" href="/css/ico-laudes.ico" type="image/x-icon">
       <script>
         function ppjs() {
@@ -159,6 +160,38 @@
       <FONT COLOR="#FF0000">V. </FONT> Llevad una vida conforme al Evangelio de Cristo, a fin de que se&aacute;is irreprensibles y sencillos, hijos de Dios sin mancha; llevad bien en alto la palabra de vida.<BR>
       <FONT COLOR="#FF0000">R. </FONT> Que tiene poder para salvar vuestras almas.<BR><BR>
     </FONT>
+
+<!-- ************************ Reproductor de Audio para lecturas ************************ -->
+<div class="maudio">
+  <div class="staudio" style="width: 100%; height: 40px;">
+    <span class="Lect1Style rubrica">2da. Lectura</span>
+    <audio id="audioPlayer2" src="https://to.resucito.do/s08/sabado/lecturas.mp3" controls class="dbplay"> </audio>
+  </div>
+</div>
+<script>
+  (function() {
+    var audio1 = document.getElementById('audioPlayer');
+    var audio2 = document.getElementById('audioPlayer2');
+
+    if (audio1 && audio2) {
+      audio1.addEventListener('play', function() {
+        audio2.load();
+      }, { once: true });
+
+      audio1.addEventListener('ended', function() {
+        audio2.play();
+      });
+
+      audio1.addEventListener('play', function() {
+        if (!audio2.paused) audio2.pause();
+      });
+      audio2.addEventListener('play', function() {
+        if (!audio1.paused) audio1.pause();
+      });
+    }
+  })();
+</script>
+<!-- ************************ Reproductor de Audio para lecturas ************************ -->
 
     <FONT COLOR="#FF0000">
       SEGUNDA LECTURA<BR><BR>

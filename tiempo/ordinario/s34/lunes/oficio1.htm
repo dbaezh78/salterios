@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
   <TITLE>Liturgia de las horas</TITLE>
   <LINK href="/css/mio.css" type=text/css rel=stylesheet>
+  <LINK href="/css/styles.css" type=text/css rel=stylesheet>
   <LINK rel="icon" href="/css/ico-laudes.ico" type="image/x-icon">
       <script>
         function ppjs() {
@@ -115,22 +116,24 @@
     <BR><BR>
 <!-- ************************* Reproductor ************************* -->
 
-		<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">1ra Lectura</span></i>
-
-		  <audio id="audioPlayer" controls style="width: 100%;"> </audio>
-		  <script>
-			function esPar(year) {
-			  return year % 2 === 0;
-			}
-			var year = new Date().getFullYear();
-			var audio = document.getElementById('audioPlayer');
-			if (esPar(year)) { 
-				audio.src = 'https://to.resucito.do/s34/lunes/lectura2.mp3';
-			} else {
-				audio.src = 'https://to.resucito.do/s34/lunes/lectura1.mp3';
-			}
-			
-		  </script>
+<div class="maudio">
+  <div class="staudio" style="width: 100%; height: 40px;">
+    <span class="Lect1Style rubrica" id="playLectura">1ra. Lectura</span>
+    <audio id="audioPlayer" controls class="dbplay"> </audio>
+  </div>
+</div>
+<script>
+  function esPar(year) {
+    return year % 2 === 0;
+  }
+  var year = new Date().getFullYear();
+  var audio = document.getElementById('audioPlayer');
+  if (esPar(year)) { 
+    audio.src = 'https://to.resucito.do/s34/lunes/lectura2.mp3';
+  } else {
+    audio.src = 'https://to.resucito.do/s34/lunes/lectura1.mp3';
+  }
+</script>
 
 <!-- ************************* Reproductor ************************* -->
     <FONT COLOR="#FF0000">
@@ -168,9 +171,36 @@
       <FONT COLOR="#FF0000">R. </FONT> Para que sigan mis leyes, y as&iacute; sean ellos mi pueblo y yo sea su Dios.<BR><BR>
     </FONT>
 		<!-- ************************ Reproductor de Audio para lecturas ************************ -->
-		<i><span style="color: #FF0000; font-size: 15px;"id="playLectura">Audio 2da Lectura</span></i>
-		<audio src="https://to.resucito.do/s34/lunes/lecturas.mp3" controls style="width: 100%;"> </audio>
-		<!-- ************************ Reproductor de Audio para lecturas ************************ -->	
+<div class="maudio">
+  <div class="staudio" style="width: 100%; height: 40px;">
+    <span class="Lect1Style rubrica">2da. Lectura</span>
+    <audio id="audioPlayer2" src="https://to.resucito.do/s34/lunes/lecturas.mp3" controls class="dbplay"> </audio>
+  </div>
+</div>
+<script>
+  (function() {
+    var audio1 = document.getElementById('audioPlayer');
+    var audio2 = document.getElementById('audioPlayer2');
+
+    if (audio1 && audio2) {
+      audio1.addEventListener('play', function() {
+        audio2.load();
+      }, { once: true });
+
+      audio1.addEventListener('ended', function() {
+        audio2.play();
+      });
+
+      audio1.addEventListener('play', function() {
+        if (!audio2.paused) audio2.pause();
+      });
+      audio2.addEventListener('play', function() {
+        if (!audio1.paused) audio1.pause();
+      });
+    }
+  })();
+</script>
+<!-- ************************ Reproductor de Audio para lecturas ************************ -->	
     <FONT COLOR="#FF0000">
       SEGUNDA LECTURA<BR><BR>
     </FONT>
